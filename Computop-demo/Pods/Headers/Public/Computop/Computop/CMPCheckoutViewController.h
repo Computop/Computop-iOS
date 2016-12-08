@@ -1,0 +1,1 @@
+../../../../../../Computop/Computop/Computop.framework/Headers/CMPCheckoutViewController.h

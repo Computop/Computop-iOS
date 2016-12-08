@@ -1,0 +1,6 @@
+framework module Computop {
+  umbrella header "Computop.h"
+
+  export *
+  module * { export * }
+}

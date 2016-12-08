@@ -1,0 +1,27 @@
+{
+  "name": "Computop",
+  "version": "0.1.0",
+  "summary": "A short description of Computop.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Computop",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Thomas Segkoulis": "thomas.segkoulis@exozet.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Computop.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "vendored_frameworks": "Computop/Computop.framework",
+  "resource_bundles": {
+    "Computop": [
+      "Computop/**/*.strings"
+    ]
+  }
+}

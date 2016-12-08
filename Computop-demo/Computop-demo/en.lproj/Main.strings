@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Pay with Credit Card"; ObjectID = "DFv-Ey-m3A"; */
+"DFv-Ey-m3A.normalTitle" = "Pay with Credit Card";
+
+/* Class = "UIButton"; normalTitle = "Pay with PayPal"; ObjectID = "Y4N-pd-neV"; */
+"Y4N-pd-neV.normalTitle" = "Pay with PayPal";
+
+/* Class = "UIButton"; normalTitle = "Pay with Direct Debit"; ObjectID = "rwR-fJ-X0V"; */
+"rwR-fJ-X0V.normalTitle" = "Pay with Direct Debit";

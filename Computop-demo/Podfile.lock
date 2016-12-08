@@ -1,0 +1,16 @@
+PODS:
+  - Computop (0.1.0)
+
+DEPENDENCIES:
+  - Computop (from `../Computop`)
+
+EXTERNAL SOURCES:
+  Computop:
+    :path: ../Computop
+
+SPEC CHECKSUMS:
+  Computop: dcce076496a703b9ed3fc94a3f714397d5c15978
+
+PODFILE CHECKSUM: d87cb390f29a861f06d2b4d687bd32df96654eb1
+
+COCOAPODS: 1.1.1
