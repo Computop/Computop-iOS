@@ -317,30 +317,22 @@
 - (void)onApplePay
 {
     NSArray *supportedNetworks = @[PKPaymentNetworkVisa, PKPaymentNetworkMasterCard, PKPaymentNetworkAmex, PKPaymentNetworkDiscover];
-        
-    if( [self.applePay canMakePaymentsForSupportedNetworks:supportedNetworks])
-    {
-        [self.applePay instantiatePKPaymentAuthorizationViewControllerWithPaymentData:self.paymentData
-                                                              withPaymentSummaryItems:[self paymentSummaryItemsForItems:[[ItemsController sharedManager].selectedItems copy]]
-                                                                withSupportedNetworks:supportedNetworks
-                                                    withRequiredShippingAddressFields:self.selectedPKShipping
-                                                   paymentAuthorizationViewController:^(PKPaymentAuthorizationViewController *applePayViewController) {
-                                                       
-                                                       [self presentViewController:applePayViewController
-                                                                          animated:true
-                                                                        completion:nil];
-                                                       
-                                                   } onFailure:^(NSError *error) {
-                                                       
-                                                       [self presentAlertWithDescription:error.localizedDescription];
-                                                       
-                                                   }];
-
-    }
-    else
-    {
-        
-    }
+    
+    [self.applePay instantiatePKPaymentAuthorizationViewControllerWithPaymentData:self.paymentData
+                                                          withPaymentSummaryItems:[self paymentSummaryItemsForItems:[[ItemsController sharedManager].selectedItems copy]]
+                                                            withSupportedNetworks:supportedNetworks
+                                                withRequiredShippingAddressFields:self.selectedPKShipping
+                                               paymentAuthorizationViewController:^(PKPaymentAuthorizationViewController *applePayViewController) {
+                                                   
+                                                   [self presentViewController:applePayViewController
+                                                                      animated:true
+                                                                    completion:nil];
+                                                   
+                                               } onFailure:^(NSError *error) {
+                                                   
+                                                   [self presentAlertWithDescription:error.localizedDescription];
+                                                   
+                                               }];
 }
 
 - (void)onShipping
