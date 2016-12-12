@@ -94,29 +94,29 @@
     self.paymentData = [[CMPPaymentData alloc] init];
     
     // Mandatory params
-    self.paymentData.transID         = @"YOUR_TRANS_ID";
+    self.paymentData.transID         = @"c28e4434-20db-4518-9674-727c4c09f561";
     self.paymentData.Amount          = [[ItemsController sharedManager] totalItemsAmount];
-    self.paymentData.Currency        = @"CURRENCY";
-    self.paymentData.URLSuccess      = @"YOUR_URL";
-    self.paymentData.URLNotify       = @"YOUR_URL";
-    self.paymentData.URLFailure      = @"YOUR_URL";
-    self.paymentData.payID           = @"PAY_ID";
+    self.paymentData.Currency        = @"EUR";
+    self.paymentData.URLSuccess      = @"https://preview55.exozet.com/computop/index.php";
+    self.paymentData.URLNotify       = @"https://preview55.exozet.com/computop/index.php";
+    self.paymentData.URLFailure      = @"https://preview55.exozet.com/computop/index.php";
+    self.paymentData.payID           = @"";
     
     // Optional params
-    self.paymentData.RefNr           = @"YOUR_REFNR";
-    self.paymentData.OrderDesc       = @"YOUR_OrderDesc";
-    self.paymentData.AddrCity        = @"YOUR_AddrCity";
-    self.paymentData.FirstName       = @"YOUR_FirstName";
-    self.paymentData.LastName        = @"YOUR_LastName";
-    self.paymentData.AddrZip         = @"YOUR_AddrZip";
-    self.paymentData.AddrStreet      = @"YOUR_AddrStreet";
-    self.paymentData.AddrState       = @"YOUR_AddrState";
-    self.paymentData.AddrCountryCode = @"YOUR_AddrCountryCode";
-    self.paymentData.Phone           = @"YOUR_Phone";
-    self.paymentData.LandingPage     = @"YOUR_LandingPage";
-    self.paymentData.eMail           = @"YOUR_eMail";
-    self.paymentData.ShopID          = @"YOUR_ShopID";
-    self.paymentData.Subject         = @"YOUR_Subject";
+    self.paymentData.RefNr           = @"c28e4434-20db-4518";
+    self.paymentData.OrderDesc       = @"Test:0203";
+    self.paymentData.AddrCity        = @"Berlin";
+    self.paymentData.FirstName       = @"Lorem";
+    self.paymentData.LastName        = @"Ipsum";
+    self.paymentData.AddrZip         = @"12049";
+    self.paymentData.AddrStreet      = @"Berlin";
+    self.paymentData.AddrState       = @"AL";
+    self.paymentData.AddrCountryCode = @"US";
+    self.paymentData.Phone           = @"01775289124";
+    self.paymentData.LandingPage     = @"Login";
+    self.paymentData.eMail           = @"developer-test-accounts@exozet.com";
+    self.paymentData.ShopID          = @"1";
+    self.paymentData.Subject         = @"developer-test-accounts@exozet.com";
     
     
     /**
@@ -149,7 +149,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Navigation -
+#pragma mark - Button -
 
 - (void)doDismissViewController:(id)sender
 {
@@ -209,10 +209,10 @@
     switch (paymentMethod.type) {
         case PKPaymentMethodTypeCredit:
         {
-            ItemVO *discountItem = [[ItemVO alloc] initWithDescr:@"discount" withAmount:-500 withImg:nil];
+//            ItemVO *discountItem = [[ItemVO alloc] initWithDescr:@"discount" withAmount:-500 withImg:nil];
             
             NSMutableArray *selectedSummaryItems = [[NSMutableArray alloc] initWithArray:[[ItemsController sharedManager].selectedItems copy]];
-            [selectedSummaryItems addObject:discountItem];
+//            [selectedSummaryItems addObject:discountItem];
             
             NSArray *finalPaymentSummaryItems = [self paymentSummaryItemsForItems:[selectedSummaryItems copy]];
             
@@ -222,10 +222,10 @@
             
         case PKPaymentMethodTypeDebit:
         {
-            ItemVO *extraItem = [[ItemVO alloc] initWithDescr:@"extra" withAmount:300 withImg:nil];
+//            ItemVO *extraItem = [[ItemVO alloc] initWithDescr:@"extra" withAmount:300 withImg:nil];
             
             NSMutableArray *selectedSummaryItems = [[NSMutableArray alloc] initWithArray:[[ItemsController sharedManager].selectedItems copy]];
-            [selectedSummaryItems addObject:extraItem];
+//            [selectedSummaryItems addObject:extraItem];
             
             NSArray *finalPaymentSummaryItems = [self paymentSummaryItemsForItems:[selectedSummaryItems copy]];
             
@@ -238,6 +238,18 @@
 
             break;
     }
+}
+
+- (void)applePayPaymentDidSelectShippingContact:(PKContact *)contact completion:(void (^)(PKPaymentAuthorizationStatus, NSArray<PKPaymentSummaryItem *> *))completion
+{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+        
+        NSMutableArray *selectedSummaryItems = [[NSMutableArray alloc] initWithArray:[[ItemsController sharedManager].selectedItems copy]];
+        NSArray *finalPaymentSummaryItems = [self paymentSummaryItemsForItems:[selectedSummaryItems copy]];
+        
+        completion(PKPaymentAuthorizationStatusSuccess, finalPaymentSummaryItems);
+        
+    });
 }
 
 #pragma mark - UITableViewDataSource, UITableViewDelegate -
@@ -312,15 +324,13 @@
     }
 }
 
-#pragma mark - Button Interaction -
+#pragma mark - ApplePayTableViewCellDelegate -
 
 - (void)onApplePay
-{
-    NSArray *supportedNetworks = @[PKPaymentNetworkVisa, PKPaymentNetworkMasterCard, PKPaymentNetworkAmex, PKPaymentNetworkDiscover];
-    
+{    
     [self.applePay instantiatePKPaymentAuthorizationViewControllerWithPaymentData:self.paymentData
                                                           withPaymentSummaryItems:[self paymentSummaryItemsForItems:[[ItemsController sharedManager].selectedItems copy]]
-                                                            withSupportedNetworks:supportedNetworks
+                                                            withSupportedNetworks:@[PKPaymentNetworkVisa, PKPaymentNetworkMasterCard, PKPaymentNetworkAmex, PKPaymentNetworkDiscover]
                                                 withRequiredShippingAddressFields:self.selectedPKShipping
                                                paymentAuthorizationViewController:^(PKPaymentAuthorizationViewController *applePayViewController) {
                                                    
@@ -331,7 +341,7 @@
                                                } onFailure:^(NSError *error) {
                                                    
                                                    [self presentAlertWithDescription:error.localizedDescription];
-                                                   
+
                                                }];
 }
 
@@ -339,13 +349,6 @@
 {
     self.pickerView.hidden = false;
     self.tableView.userInteractionEnabled = false;
-}
-
-#pragma mark - Datasource -
-
-- (NSInteger)numberOfPaymentMethods
-{
-    return [self.paymentMethods count] + 1;
 }
 
 - (NSArray<PKPaymentSummaryItem *> *)paymentSummaryItemsForItems:(NSArray *)paymentItems
@@ -384,8 +387,16 @@
     totalPKPaymentSummaryItem.amount = totalAmount;
     
     [summaryItems addObject:totalPKPaymentSummaryItem];
-    
+        
     return [summaryItems copy];
+}
+
+
+#pragma mark - Datasource -
+
+- (NSInteger)numberOfPaymentMethods
+{
+    return [self.paymentMethods count] + 1;
 }
 
 #pragma mark - Validation error -

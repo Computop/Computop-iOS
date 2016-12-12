@@ -27,6 +27,7 @@
 
 /**
  Called after Apple Pay payment is authorized successfully.
+ All the shipping data entered are merged into the existing PaymentData.
  
  @param paymentData A paymentData object conforming to CMPPaymentDataProtocol
 
@@ -56,5 +57,15 @@
  */
 - (void)applePayPaymentDidSelectPaymentMethod:(PKPaymentMethod *)paymentMethod
                                    completion:(void (^)(NSArray<PKPaymentSummaryItem *> *summaryItems))completion NS_AVAILABLE_IOS(9_0);
+
+/**
+ Called when User changes shipping data.
+ 
+ @param contact A PKContact object containing details of the selected shipping data.
+ @param completion A block that is called to pass a PKPaymentAuthorizationStatus object and PKPaymentSummaryItem objects in order to update the summary items in response to the shipping data changing.
+ 
+ */
+- (void)applePayPaymentDidSelectShippingContact:(nonnull PKContact *)contact
+                                     completion:(nonnull void (^)(PKPaymentAuthorizationStatus authorizationStatus, NSArray<PKPaymentSummaryItem *> *summaryItems))completion NS_AVAILABLE_IOS(9_0);
 
 @end

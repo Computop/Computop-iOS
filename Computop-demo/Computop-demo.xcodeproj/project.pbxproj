@@ -26,6 +26,7 @@
 		9087DC291DBE48EC008C2EA6 /* ItemDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9087DC281DBE48EC008C2EA6 /* ItemDetailsViewController.m */; };
 		9087DC301DBE5C47008C2EA6 /* ItemVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 9087DC2F1DBE5C47008C2EA6 /* ItemVO.m */; };
 		9087DC341DBE5DAC008C2EA6 /* ItemsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9087DC331DBE5DAC008C2EA6 /* ItemsController.m */; };
+		909537881DFEBBCE00C536B4 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 909537871DFEBBCE00C536B4 /* PaymentViewController.m */; };
 		90E11A6A1D88447700BBFAE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E11A691D88447700BBFAE4 /* main.m */; };
 		90E11A6D1D88447700BBFAE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E11A6C1D88447700BBFAE4 /* AppDelegate.m */; };
 		90E11A731D88447700BBFAE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E11A711D88447700BBFAE4 /* Main.storyboard */; };
@@ -33,7 +34,6 @@
 		90E11A781D88447700BBFAE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E11A761D88447700BBFAE4 /* LaunchScreen.storyboard */; };
 		90E11A831D88447800BBFAE4 /* Computop_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E11A821D88447800BBFAE4 /* Computop_demoTests.m */; };
 		90E11A8E1D88447800BBFAE4 /* Computop_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E11A8D1D88447800BBFAE4 /* Computop_demoUITests.m */; };
-		90FE59BE1DF9D15A0080360C /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FE59BD1DF9D15A0080360C /* PaymentViewController.m */; };
 		A1CE7D9B0F8A56DC7E490646 /* libPods-Computop-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD41BF757028C2961ED9451 /* libPods-Computop-demo.a */; };
 		D470128BB65ACB6052FD0FBF /* libPods-Computop-demoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C87F885847F383BFEC97558 /* libPods-Computop-demoTests.a */; };
 		D710FC886D9C2921BD8ADD91 /* libPods-Computop-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD41BF757028C2961ED9451 /* libPods-Computop-demo.a */; };
@@ -88,6 +88,7 @@
 		9087DC2F1DBE5C47008C2EA6 /* ItemVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemVO.m; sourceTree = "<group>"; };
 		9087DC321DBE5DAC008C2EA6 /* ItemsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsController.h; sourceTree = "<group>"; };
 		9087DC331DBE5DAC008C2EA6 /* ItemsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsController.m; sourceTree = "<group>"; };
+		909537871DFEBBCE00C536B4 /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
 		90E11A651D88447700BBFAE4 /* Computop-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Computop-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E11A691D88447700BBFAE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90E11A6B1D88447700BBFAE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,7 +105,6 @@
 		90E11A8F1D88447800BBFAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90F427C01DB618E10049541E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		90FE59BC1DF9D15A0080360C /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
-		90FE59BD1DF9D15A0080360C /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
 		992926FD5F3DB2FD8495BC4A /* Pods-Computop-demoTests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Computop-demoTests.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-Computop-demoTests/Pods-Computop-demoTests.adhoc.xcconfig"; sourceTree = "<group>"; };
 		B0ED0A069873E4A7895BBBDD /* Pods-Computop-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Computop-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Computop-demo/Pods-Computop-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		D858B31E84018568C431F730 /* Pods-Computop-demoUITests.ad-hoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Computop-demoUITests.ad-hoc.xcconfig"; path = "Pods/Target Support Files/Pods-Computop-demoUITests/Pods-Computop-demoUITests.ad-hoc.xcconfig"; sourceTree = "<group>"; };
@@ -312,7 +312,7 @@
 			isa = PBXGroup;
 			children = (
 				90FE59BC1DF9D15A0080360C /* PaymentViewController.h */,
-				90FE59BD1DF9D15A0080360C /* PaymentViewController.m */,
+				909537871DFEBBCE00C536B4 /* PaymentViewController.m */,
 			);
 			path = PaymentViewController;
 			sourceTree = "<group>";
@@ -659,7 +659,7 @@
 				9087DC211DBE4648008C2EA6 /* ItemTableViewCell.m in Sources */,
 				9087DC341DBE5DAC008C2EA6 /* ItemsController.m in Sources */,
 				9012E9501DBF50AF00641F3E /* PaymentMethodTableViewCell.m in Sources */,
-				90FE59BE1DF9D15A0080360C /* PaymentViewController.m in Sources */,
+				909537881DFEBBCE00C536B4 /* PaymentViewController.m in Sources */,
 				9087DC301DBE5C47008C2EA6 /* ItemVO.m in Sources */,
 				9087DC291DBE48EC008C2EA6 /* ItemDetailsViewController.m in Sources */,
 				90E11A6D1D88447700BBFAE4 /* AppDelegate.m in Sources */,
