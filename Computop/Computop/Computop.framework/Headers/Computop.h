@@ -43,12 +43,12 @@ FOUNDATION_EXPORT const unsigned char ComputopVersionString[];
 /**
  Fetches and returns a list of available payment methods for the current Merchant.
  
- @param onSuccess   Returns an array of 'CMPPaymentMethod' objects.
+ @param onSuccess   Returns an array of CMPPaymentMethod objects.
  @param onFailure   Returns an error if the payment methods could not be retrieved.
  
  */
 - (void)paymentMethodsOnSuccess:(void (^)(NSArray<CMPPaymentMethod *> *paymentMethods))onSuccess
-                      onfailure:(void (^)(NSError *error))onFailure;
+                      onFailure:(void (^)(NSError *error))onFailure;
 
 @end
 

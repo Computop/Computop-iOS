@@ -10,9 +10,9 @@
 #import "CMPPaymentMethodProtocol.h"
 
 /**
- 'CMPPaymentMethod'
+ CMPPaymentMethod
  
- The 'CMPPaymentMethod' class constitutes the model that contains all the data for a Payment method.
+ The CMPPaymentMethod class constitutes the model that contains all the data for a Payment method.
  
  */
 @interface CMPPaymentMethod : NSObject <CMPPaymentMethodProtocol>

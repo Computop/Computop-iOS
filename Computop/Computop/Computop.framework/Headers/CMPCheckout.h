@@ -13,10 +13,10 @@
 #import "CMPPaymentMethod.h"
 
 /**
- 'CMPCheckout'
+ CMPCheckout
  
- The 'CMPCheckout' class is a top-level class that facilitates the payment procedure.
- It contains an instance of 'CMPCheckoutViewController' class and it presents it when a new payment is triggered by passing the respective paymentData and paymentMethod.
+ The CMPCheckout class is a top-level class that facilitates the payment procedure.
+ It is responsible for validating payment data and instantiating a CMPCheckoutViewController object.
  
  */
 
@@ -27,8 +27,8 @@
  
  @param paymentData            A model object that contains all the inserted Payment data.
  @param paymentMethod          A model object that contains all the Payment Method's related data.
- @param onSuccess              Returns an CMPCheckoutViewController object, if it could be instantiated
- @param onFailure              Returns and NSError object, if the CMPCheckoutViewController object could not be instantiated
+ @param onSuccess              Returns a CMPCheckoutViewController object, if it could be instantiated
+ @param onFailure              Returns an error, if the CMPCheckoutViewController object could not be instantiated
 
  @return Void
  */

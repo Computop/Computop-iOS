@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 /**
- 'CMPPaymentDataProtocol'
+ CMPPaymentDataProtocol
  
  Protocol that defines all payment data.
  

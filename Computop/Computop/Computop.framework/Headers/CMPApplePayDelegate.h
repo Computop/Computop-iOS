@@ -10,12 +10,12 @@
 #import "CMPPaymentDataProtocol.h"
 
 /**
- 'CMPApplePayDelegate'
+ CMPApplePayDelegate
  
- The 'CMPApplePayDelegate' protocol is used to return the navigation and payment results to the object conforming to it.
+ The CMPApplePayDelegate protocol is used to return the navigation and payment results to the object conforming to it.
  
  */
-@protocol CMPApplePayDelegate 
+@protocol CMPApplePayDelegate <NSObject>
 
 @required
 

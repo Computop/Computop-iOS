@@ -7,7 +7,7 @@
 //
 
 /**
- 'CMPPaymentMethodProtocol'
+ CMPPaymentMethodProtocol
  
  Protocol that defines all payment method data.
  

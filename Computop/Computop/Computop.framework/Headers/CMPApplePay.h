@@ -13,10 +13,10 @@
 #import "CMPPaymentData.h"
 
 /**
- 'CMPApplePay'
+ CMPApplePay
  
- The 'CMPApplePay' class is a top-level class that facilitates the Apple Pay payment procedure.
- It contains an instance of 'PKPaymentAuthorizationViewController' class and it presents it when a new payment is triggered by calling the "startWithPaymentData" method, along with the respective parameters.
+ The CMPApplePay class is a top-level class that facilitates the Apple Pay payment procedure.
+ It is responsible for validating payment data and instantiating a PKPaymentAuthorizationViewController object.
  
  */
 
@@ -26,17 +26,17 @@
  Delegate object conforming to CMPApplePayDelegate protocol in order to retrieve responses from payment.
  
  */
-@property (nonatomic, weak) id delegate;
+@property (nonatomic, weak) id <CMPApplePayDelegate> delegate;
 
 /**
- Validates parameters and instantiates an PKPaymentAuthorizationViewController object.
+ Validates parameters and instantiates a PKPaymentAuthorizationViewController object.
  
  @param paymentData                         A model object that contains all the inserted Payment data.
- @param paymentSummaryItems                 An array of 'PKPaymentSummaryItem' objects, defining a summary item in a payment request—for example, total, tax, discount, or grand total.
+ @param paymentSummaryItems                 An array of PKPaymentSummaryItem objects, defining a summary item in a payment request—for example, total, tax, discount, or grand total.
  @param supportedNetworks                   The payment networks supported by the merchant, for example @[ PKPaymentNetworkVisa, PKPaymentNetworkMasterCard ].  This property constrains payment cards that may fund the payment.
  @param requiredShippingAddressFields       The shipping address fields inside ApplePay UI (PKAddressFieldPostalAddress|PKAddressFieldPhone|PKAddressFieldEmail|PKAddressFieldName)
- @param onSuccess                           An PKPaymentAuthorizationViewController object.
- @param onFailure                           Returns and NSError object, if the PKPaymentAuthorizationViewController object could not be instantiated
+ @param onSuccess                           A PKPaymentAuthorizationViewController object.
+ @param onFailure                           Returns an error, if the PKPaymentAuthorizationViewController object could not be instantiated
 
  @return Void
  */

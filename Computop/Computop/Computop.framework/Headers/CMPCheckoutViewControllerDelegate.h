@@ -9,12 +9,12 @@
 #import <UIKit/UIKit.h>
 
 /**
- 'CMPCheckoutViewControllerDelegate'
+ CMPCheckoutViewControllerDelegate
  
- Protocol used by a 'CMPCheckoutViewController' object, in order to inform the conforming object regarding payment results.
+ Protocol used by a CMPCheckoutViewController object, in order to inform the conforming object regarding payment results.
  
  */
-@protocol CMPCheckoutViewControllerDelegate
+@protocol CMPCheckoutViewControllerDelegate <NSObject>
 
 @required
 

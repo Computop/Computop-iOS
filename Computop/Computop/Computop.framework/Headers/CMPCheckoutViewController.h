@@ -14,7 +14,7 @@
 #import "CMPPaymentMethodProtocol.h"
 
 /**
- 'CMPCheckoutViewController'
+ CMPCheckoutViewController
  
  This is the main UIViewController encapsulating all the views stack in order to proceed with the Payment and providing delegation as well.
  
@@ -22,7 +22,7 @@
 @interface CMPCheckoutViewController : UIViewController <WKScriptMessageHandler, WKNavigationDelegate>
 
 /**
- Delegate object conforming to 'CMPCheckoutViewControllerDelegate' protocol in order to be informed regarding payment results.
+ Delegate object conforming to CMPCheckoutViewControllerDelegate protocol in order to be informed regarding payment results.
  */
 @property (nonatomic, weak) id <CMPCheckoutViewControllerDelegate> delegate;
 
