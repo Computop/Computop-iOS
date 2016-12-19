@@ -137,7 +137,7 @@
         self.paymentMethods = paymentMethods;
         [self.tableView reloadData];
         
-    } onfailure:^(NSError *error) {
+    } onFailure:^(NSError *error) {
         
         self.paymentMethods = @[];
     }];
