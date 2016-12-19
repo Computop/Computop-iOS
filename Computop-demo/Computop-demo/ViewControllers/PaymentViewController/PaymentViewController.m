@@ -104,7 +104,7 @@
     
     // Optional params
     self.paymentData.RefNr           = @"c28e4434-20db-4518";
-    self.paymentData.OrderDesc       = @"Test:0203";
+    self.paymentData.OrderDesc       = @"Test:0003";
     self.paymentData.AddrCity        = @"Berlin";
     self.paymentData.FirstName       = @"Lorem";
     self.paymentData.LastName        = @"Ipsum";

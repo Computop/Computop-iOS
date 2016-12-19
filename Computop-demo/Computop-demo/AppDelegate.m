@@ -20,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    CMPConfiguration.merchantID      = @"YOUR_MERCHANT_ID";
+    CMPConfiguration.merchantID      = @"Exozet_test";
     CMPConfiguration.merchantAppleID = @"YOUR_MERCHANT_ID";
     CMPConfiguration.appID           = @"YOUR_APP_ID";
 
