@@ -47,6 +47,12 @@
                                     paymentAuthorizationViewController:(void (^)(PKPaymentAuthorizationViewController *applePayViewController))onSuccess
                                                              onFailure:(void (^)(NSError *error))onFailure;
 
+/**
+ Determine whether this device can process payment requests.
+ YES if the device is generally capable of making in-app payments.
+ NO if the device cannot make in-app payments or if the user is restricted from authorizing payments.
+ */
+- (BOOL)canMakePayments;
 
 /**
  Determine whether this device can process payment requests using specific payment network brands.
