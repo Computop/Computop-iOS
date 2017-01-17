@@ -1,5 +1,5 @@
 PODS:
-  - Computop (0.1.0)
+  - Computop (0.1.5)
 
 DEPENDENCIES:
   - Computop (from `../Computop`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../Computop
 
 SPEC CHECKSUMS:
-  Computop: dcce076496a703b9ed3fc94a3f714397d5c15978
+  Computop: 392cc83c95bccdace7831f612cf53f733e81096f
 
 PODFILE CHECKSUM: d87cb390f29a861f06d2b4d687bd32df96654eb1
 

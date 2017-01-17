@@ -19,10 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
-    CMPConfiguration.merchantID      = @"Exozet_test";
-    CMPConfiguration.merchantAppleID = @"YOUR_MERCHANT_ID";
+    CMPConfiguration.merchantID      = @"YOUR_MERCHANT_ID";
+    CMPConfiguration.merchantAppleID = @"YOUR_APPLE_MERCHANT_ID";
     CMPConfiguration.appID           = @"YOUR_APP_ID";
+    CMPConfiguration.authURL         = @"YOUR_AUTH_URL";
+    CMPConfiguration.encryptionKey   = @"YOUR_ENCRYPTION_KEY";
 
     return YES;
 }

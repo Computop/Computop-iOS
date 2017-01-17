@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "CMPPaymentMethodProtocol.h"
+#import <UIKit/UIKit.h>
 
 /**
  CMPPaymentMethod
@@ -28,9 +29,9 @@
 @property (nonatomic, strong) NSString *url;
 
 /**
- Payment method image string.
+ Payment method image.
  */
-@property (nonatomic, strong) NSString *imageStr;
+@property (nonatomic, strong) UIImage *image;
 
 /**
  Payment method template string.

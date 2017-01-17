@@ -6,6 +6,8 @@
 //  Copyright © 2016 Computop GmbH. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
+
 /**
  CMPPaymentMethodProtocol
  
@@ -27,9 +29,9 @@
 @property (nonatomic, strong) NSString *url;
 
 /**
- Payment method image string.
+ Payment method image.
  */
-@property (nonatomic, strong) NSString *imageStr;
+@property (nonatomic, strong) UIImage *image;
 
 /**
  Payment method template string.

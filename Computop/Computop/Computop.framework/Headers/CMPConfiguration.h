@@ -35,4 +35,16 @@
 + (NSString *)appID;
 + (void) setAppID: (NSString *)newAppID;
 
+/**
+ Merchant's auth request url
+ */
++ (NSString *)authURL;
++ (void) setAuthURL: (NSString *)newAuthURL;
+
+/**
+ Auth key
+ */
++ (NSString *)encryptionKey;
++ (void) setEncryptionKey: (NSString *)newEncryptionKey;
+
 @end

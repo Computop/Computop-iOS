@@ -94,29 +94,29 @@
     self.paymentData = [[CMPPaymentData alloc] init];
     
     // Mandatory params
-    self.paymentData.transID         = @"c28e4434-20db-4518-9674-727c4c09f561";
+    self.paymentData.transID         = @"YOUR_TRANS_ID";
     self.paymentData.Amount          = [[ItemsController sharedManager] totalItemsAmount];
-    self.paymentData.Currency        = @"EUR";
-    self.paymentData.URLSuccess      = @"https://preview55.exozet.com/computop/index.php";
-    self.paymentData.URLNotify       = @"https://preview55.exozet.com/computop/index.php";
-    self.paymentData.URLFailure      = @"https://preview55.exozet.com/computop/index.php";
-    self.paymentData.payID           = @"";
+    self.paymentData.Currency        = @"YOUR_CURRENCY";
+    self.paymentData.URLSuccess      = @"YOUR_URL_SUCCESS";
+    self.paymentData.URLNotify       = @"YOUR_URL_NOTIFY";
+    self.paymentData.URLFailure      = @"YOUR_URL_FAILURE";
+    self.paymentData.payID           = @"YOUR_PAY_ID";
     
     // Optional params
-    self.paymentData.RefNr           = @"c28e4434-20db-4518";
-    self.paymentData.OrderDesc       = @"Test:0003";
-    self.paymentData.AddrCity        = @"Berlin";
-    self.paymentData.FirstName       = @"Lorem";
-    self.paymentData.LastName        = @"Ipsum";
-    self.paymentData.AddrZip         = @"12049";
-    self.paymentData.AddrStreet      = @"Berlin";
-    self.paymentData.AddrState       = @"AL";
-    self.paymentData.AddrCountryCode = @"US";
-    self.paymentData.Phone           = @"01775289124";
-    self.paymentData.LandingPage     = @"Login";
-    self.paymentData.eMail           = @"developer-test-accounts@exozet.com";
-    self.paymentData.ShopID          = @"1";
-    self.paymentData.Subject         = @"developer-test-accounts@exozet.com";
+    self.paymentData.RefNr           = @"YOUR_REF_NR";
+    self.paymentData.OrderDesc       = @"YOUR_ORDER_DESC";
+    self.paymentData.AddrCity        = @"YOUR_ADDR_CITY";
+    self.paymentData.FirstName       = @"YOUR_FIRST_NAME";
+    self.paymentData.LastName        = @"YOUR_LAST_NAME";
+    self.paymentData.AddrZip         = @"YOUR_ADDR_ZIP";
+    self.paymentData.AddrStreet      = @"YOUR_ADDR_STREET";
+    self.paymentData.AddrState       = @"YOUR_ADDR_STATE";
+    self.paymentData.AddrCountryCode = @"YOUR_ADDR_COUNTRY_CODE";
+    self.paymentData.Phone           = @"YOUR_PHONE";
+    self.paymentData.LandingPage     = @"YOUR_LANDING_PAGE";
+    self.paymentData.eMail           = @"YOUR_EMAIL";
+    self.paymentData.ShopID          = @"YOUR_SHOP_ID";
+    self.paymentData.Subject         = @"YOUR_SUBJECT";
     
     
     /**
@@ -197,8 +197,6 @@
 
 - (void)applePayDidFailToAuthorizePaymentForPaymentData:(id<CMPPaymentDataProtocol>)paymentData withError:(NSError *)error
 {
-    [self presentAlertWithDescription:error.localizedDescription];
-    
     self.isPaymentFinished = true;
     self.paymentError      = error;
 }
@@ -273,7 +271,7 @@
         CMPPaymentMethod *paymentMethod = [[self paymentMethods] objectAtIndex:indexPath.row];
         
         cell.labelTitle.text = paymentMethod.pmID;
-        [cell.paymentImageView setImage:[UIImage imageNamed:paymentMethod.imageStr]];
+        [cell.paymentImageView setImage:paymentMethod.image];
         
         return cell;
     }

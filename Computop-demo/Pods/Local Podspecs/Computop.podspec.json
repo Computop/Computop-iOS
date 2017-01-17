@@ -1,9 +1,8 @@
 {
   "name": "Computop",
-  "version": "0.1.0",
-  "summary": "A short description of Computop.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/Computop",
+  "version": "0.1.5",
+  "summary": "Computop SDK for iOS",
+  "homepage": "https://github.com/computop/Computop-iOS.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +11,13 @@
     "Thomas Segkoulis": "thomas.segkoulis@exozet.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/Computop.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/computop/Computop-iOS.git",
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "vendored_frameworks": "Computop/Computop.framework",
+  "vendored_frameworks": "Computop/**/Computop.framework",
   "resource_bundles": {
     "Computop": [
       "Computop/**/*.strings"
