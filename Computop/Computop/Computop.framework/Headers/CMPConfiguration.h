@@ -47,4 +47,11 @@
 + (NSString *)encryptionKey;
 + (void) setEncryptionKey: (NSString *)newEncryptionKey;
 
+/**
+ HMAC key
+ */
++ (NSString *)hmacKey;
++ (void) setHmacKey: (NSString *)newHmacKey;
+
+
 @end
