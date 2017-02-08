@@ -74,13 +74,31 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "$PODS_CONFIGURATION_BUILD_DIR/Computop/Computop.bundle"
+  install_resource "../../Computop/Computop/Computop.framework/de.lproj/Localizable.strings"
+  install_resource "../../Computop/Computop/Computop.framework/de.lproj/PaygateError.strings"
+  install_resource "../../Computop/Computop/Computop.framework/en.lproj/Localizable.strings"
+  install_resource "../../Computop/Computop/Computop.framework/en.lproj/PaygateError.strings"
+  install_resource "../../Computop/Computop/Computop.framework/pmCC.png"
+  install_resource "../../Computop/Computop/Computop.framework/pmDD.png"
+  install_resource "../../Computop/Computop/Computop.framework/pmPayPal.png"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "$PODS_CONFIGURATION_BUILD_DIR/Computop/Computop.bundle"
+  install_resource "../../Computop/Computop/Computop.framework/de.lproj/Localizable.strings"
+  install_resource "../../Computop/Computop/Computop.framework/de.lproj/PaygateError.strings"
+  install_resource "../../Computop/Computop/Computop.framework/en.lproj/Localizable.strings"
+  install_resource "../../Computop/Computop/Computop.framework/en.lproj/PaygateError.strings"
+  install_resource "../../Computop/Computop/Computop.framework/pmCC.png"
+  install_resource "../../Computop/Computop/Computop.framework/pmDD.png"
+  install_resource "../../Computop/Computop/Computop.framework/pmPayPal.png"
 fi
 if [[ "$CONFIGURATION" == "AdHoc" ]]; then
-  install_resource "$PODS_CONFIGURATION_BUILD_DIR/Computop/Computop.bundle"
+  install_resource "../../Computop/Computop/Computop.framework/de.lproj/Localizable.strings"
+  install_resource "../../Computop/Computop/Computop.framework/de.lproj/PaygateError.strings"
+  install_resource "../../Computop/Computop/Computop.framework/en.lproj/Localizable.strings"
+  install_resource "../../Computop/Computop/Computop.framework/en.lproj/PaygateError.strings"
+  install_resource "../../Computop/Computop/Computop.framework/pmCC.png"
+  install_resource "../../Computop/Computop/Computop.framework/pmDD.png"
+  install_resource "../../Computop/Computop/Computop.framework/pmPayPal.png"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

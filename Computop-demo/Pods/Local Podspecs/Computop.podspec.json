@@ -1,6 +1,6 @@
 {
   "name": "Computop",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "summary": "Computop SDK for iOS",
   "homepage": "https://github.com/computop/Computop-iOS.git",
   "license": {
@@ -12,15 +12,15 @@
   },
   "source": {
     "git": "https://github.com/computop/Computop-iOS.git",
-    "tag": "0.1.7"
+    "tag": "0.1.8"
   },
   "platforms": {
     "ios": "8.0"
   },
   "vendored_frameworks": "Computop/**/Computop.framework",
-  "resource_bundles": {
-    "Computop": [
-      "Computop/**/*.strings"
-    ]
-  }
+  "resources": [
+    "Computop/**/*.strings",
+    "Computop/**/*.png",
+    "Computop/**/*.jpeg"
+  ]
 }

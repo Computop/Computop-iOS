@@ -7,86 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		292A02BE1DD002A60AA09AB73AB41709 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2AFD1A7743435DD8C365FC8E97AC4B02 /* Pods-Computop-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B550934CC661E331A5C0D5D52AF92E0 /* Pods-Computop-demo-dummy.m */; };
 		51021F084176A68A51031F3343B88ED7 /* Pods-Computop-demoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B138C6669B912047EAE18722AF626E /* Pods-Computop-demoUITests-dummy.m */; };
-		71261D5B5E7E75DB9EAFF6B9E8BDC19F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 044178E13B623776973C674421024C60 /* Localizable.strings */; };
+		5467B95FA6A345F9A8D993CDE72C817D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		7A801F0A7D72175542181B46FD9EA7B2 /* Pods-Computop-demoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 897DA9270CCAD88A870B54CBBE2F9FF3 /* Pods-Computop-demoTests-dummy.m */; };
-		836ADF6AC5D40A711A5AD07289686596 /* PaygateError.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24746DE828B147988C8F817D5CE95889 /* PaygateError.strings */; };
-		86516F153FD385D4DD41DDEDF0F402F9 /* Pods-Computop-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B550934CC661E331A5C0D5D52AF92E0 /* Pods-Computop-demo-dummy.m */; };
 		8D7944D5CD14E44CF01777C1E1DEC659 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		BCA8E94C2053FABCD4BBE3C94FF6CCB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C5439EC5D9E11A482F17F193ED04CAB3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 16AA4A682654C1FBD21C83124381305B;
-			remoteInfo = "Computop-Computop";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		091D7E7E98A6C2A988D106E9F3EC137E /* Computop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Computop.framework; path = Computop/Computop.framework; sourceTree = "<group>"; };
 		0B550934CC661E331A5C0D5D52AF92E0 /* Pods-Computop-demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Computop-demo-dummy.m"; sourceTree = "<group>"; };
 		0B5DE8325C5E789CBD51D1C6C8FC253B /* Pods-Computop-demoTests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demoTests.adhoc.xcconfig"; sourceTree = "<group>"; };
-		0C72212FE6CBB8D037C78EC50622200D /* Computop.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Computop.bundle; path = Computop.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB9188E622CA5AD0591A89A17B28D45 /* Pods-Computop-demoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Computop-demoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0EF9453EE3DC2836892393E282EE11EB /* Pods-Computop-demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Computop-demo-frameworks.sh"; sourceTree = "<group>"; };
 		0FAE9BB02025D4DEBF5DFD50CFDA7EC7 /* Pods-Computop-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demo.release.xcconfig"; sourceTree = "<group>"; };
 		151FE406803C31AE7F29BE5EFF11223C /* Pods-Computop-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A227A442BDC3BE40559850DEB99E237 /* pmDD.png */ = {isa = PBXFileReference; includeInIndex = 1; path = pmDD.png; sourceTree = "<group>"; };
+		1F75D849D738FD86B4EB0B0AA6CC5CB6 /* PaygateError.strings */ = {isa = PBXFileReference; includeInIndex = 1; name = PaygateError.strings; path = de.lproj/PaygateError.strings; sourceTree = "<group>"; };
 		1FDA5E5851D094EA34BFEA8909333619 /* Pods-Computop-demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Computop-demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		2951E0AFCFAF06AE17357D4E3A9D6103 /* libPods-Computop-demoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Computop-demoTests.a"; path = "libPods-Computop-demoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22EFD57BEA0F7A45E0D78E09BA22E63E /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2C5D877E9E3E2768B9D019AE8F239FBC /* Pods-Computop-demoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Computop-demoUITests-resources.sh"; sourceTree = "<group>"; };
 		2E021B1A39A5DE72E3FD329C17DE05B4 /* Pods-Computop-demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Computop-demo-resources.sh"; sourceTree = "<group>"; };
 		4D244A7113ED27FB0B85983A0FEA63A3 /* Pods-Computop-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		50387506B25852EB0ED282E786496BCD /* PaygateError.strings */ = {isa = PBXFileReference; includeInIndex = 1; name = PaygateError.strings; path = en.lproj/PaygateError.strings; sourceTree = "<group>"; };
-		53A1309756CA6AD37B2D09188C0E57FA /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5C154DD3EEA690BC2FCC3175A86FA5BE /* libPods-Computop-demoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Computop-demoUITests.a"; path = "libPods-Computop-demoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E4A845FF2A33F2F13E6B1E90CF543B2 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6409DB35585DBA2FDE6BCB72FBDB63F1 /* Pods-Computop-demoUITests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demoUITests.adhoc.xcconfig"; sourceTree = "<group>"; };
 		654C678B33D47D21CF1DFF70FA0B8713 /* Pods-Computop-demo.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demo.adhoc.xcconfig"; sourceTree = "<group>"; };
-		68A38CCE1DA9F3B5AE0D1867E8EF1879 /* libPods-Computop-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Computop-demo.a"; path = "libPods-Computop-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B869064D0BCA8F161C66D3E7754FDB8 /* PaygateError.strings */ = {isa = PBXFileReference; includeInIndex = 1; name = PaygateError.strings; path = de.lproj/PaygateError.strings; sourceTree = "<group>"; };
+		67F9C342C2D181F3DA5F28CE29BEA7E1 /* libPods-Computop-demoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Computop-demoUITests.a"; path = "libPods-Computop-demoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D49B44A097E7D5A84708E479D5CB48F /* Pods-Computop-demoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Computop-demoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		836F43F711B1A169662924F078E60E4D /* Pods-Computop-demoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Computop-demoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		84C5D3DAC17D316AE2BDEEC5B3291DC1 /* libPods-Computop-demoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Computop-demoTests.a"; path = "libPods-Computop-demoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87913AB79084F69F70BC282B58BD0696 /* Pods-Computop-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		897DA9270CCAD88A870B54CBBE2F9FF3 /* Pods-Computop-demoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Computop-demoTests-dummy.m"; sourceTree = "<group>"; };
+		89FCEAE66E7EA0820865B3DBF73D319C /* pmCC.png */ = {isa = PBXFileReference; includeInIndex = 1; path = pmCC.png; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95415F02EAE8DFBB705148F5284D4605 /* Pods-Computop-demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Computop-demo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		974DDC060F6BA47D6408BD7103BD842B /* ResourceBundle-Computop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Computop-Info.plist"; sourceTree = "<group>"; };
 		9EF52C2F75B7073D2FE1DD59C60567CD /* Pods-Computop-demoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Computop-demoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BDE29F706335D017BA872C7D42E2AF1A /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AA8E919C60665A2E07948DBF9E017F5A /* pmPayPal.png */ = {isa = PBXFileReference; includeInIndex = 1; path = pmPayPal.png; sourceTree = "<group>"; };
+		B35C4F8A4665291EA8ECE9D88B817059 /* Computop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Computop.framework; path = Computop/Computop.framework; sourceTree = "<group>"; };
 		C2B138C6669B912047EAE18722AF626E /* Pods-Computop-demoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Computop-demoUITests-dummy.m"; sourceTree = "<group>"; };
 		C74061B41F175EAA621E57A247CF9B2C /* Pods-Computop-demoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Computop-demoUITests-frameworks.sh"; sourceTree = "<group>"; };
 		C77A8CC13A195D568320FBCFE45997C6 /* Pods-Computop-demoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Computop-demoTests-frameworks.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CBC56F1AF159541D212066EC7801CE3E /* Pods-Computop-demoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Computop-demoTests-resources.sh"; sourceTree = "<group>"; };
+		DB7B48C35B4D9CD67E4DE7578B3BDD51 /* PaygateError.strings */ = {isa = PBXFileReference; includeInIndex = 1; name = PaygateError.strings; path = en.lproj/PaygateError.strings; sourceTree = "<group>"; };
 		DDA232329BA0CC4080578543BB987D2A /* Pods-Computop-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F023EE017B8533F751F14506958A474A /* libPods-Computop-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Computop-demo.a"; path = "libPods-Computop-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4588E5E3FB6FCCE4F41CF2D22D7D093 /* Pods-Computop-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1FFD4644306F312EA1B4D3280033194B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4596D52112FA372DF99A97A8318734EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BCA8E94C2053FABCD4BBE3C94FF6CCB9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50F9EE00595993D10075B3D8E43F92E3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				292A02BE1DD002A60AA09AB73AB41709 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,9 +72,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D4DB8CB18CBB28DD7BF5A2E32AFC0A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5467B95FA6A345F9A8D993CDE72C817D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08AD29E569005E8A041ABA31E722FA71 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF491148EC5C7876216CBE6A5CB033B9 /* Computop */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		0B709F1E8E2C09521FF613E6354D28D1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,14 +99,6 @@
 				FA7BC8D8AB0640B1DFC85E8A603961D6 /* Pods-Computop-demoUITests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		14741F45BB7CEB49F390C496B9C72567 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C4F00ED6861E7AA2D5CAB07FFB8084AC /* Computop */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		35BB4917F834756A0A1E888B453AEAD5 /* Pods-Computop-demoTests */ = {
@@ -135,32 +117,6 @@
 			path = "Target Support Files/Pods-Computop-demoTests";
 			sourceTree = "<group>";
 		};
-		3776A98FD45089813FFFC5FF9A8E6656 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F7A8CE191EDD4C025FAE8C510A9AB121 /* Computop */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		45FEC23B51782CDA7E082F4C783F6129 /* Computop.framework */ = {
-			isa = PBXGroup;
-			children = (
-				044178E13B623776973C674421024C60 /* Localizable.strings */,
-				24746DE828B147988C8F817D5CE95889 /* PaygateError.strings */,
-			);
-			name = Computop.framework;
-			path = Computop.framework;
-			sourceTree = "<group>";
-		};
-		6A392DD5058E511AC3AF8B297190E925 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				091D7E7E98A6C2A988D106E9F3EC137E /* Computop.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,22 +129,41 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3776A98FD45089813FFFC5FF9A8E6656 /* Development Pods */,
+				08AD29E569005E8A041ABA31E722FA71 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				A42E52430AC904931929A536BEA5EBAF /* Products */,
+				BF1111C9B1393723925D159B8EFD58B2 /* Products */,
 				0B709F1E8E2C09521FF613E6354D28D1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A42E52430AC904931929A536BEA5EBAF /* Products */ = {
+		A3C4011005CAD008976E8A599FE59AB5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0C72212FE6CBB8D037C78EC50622200D /* Computop.bundle */,
-				68A38CCE1DA9F3B5AE0D1867E8EF1879 /* libPods-Computop-demo.a */,
-				2951E0AFCFAF06AE17357D4E3A9D6103 /* libPods-Computop-demoTests.a */,
-				5C154DD3EEA690BC2FCC3175A86FA5BE /* libPods-Computop-demoUITests.a */,
+				B39409AB58DF43A897C46EC8339A9A1C /* Computop */,
 			);
-			name = Products;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AA8A292CB100BBDB408E5B4177740B1F /* Computop.framework */ = {
+			isa = PBXGroup;
+			children = (
+				7F562AAD4EE060A9B329C39758A85F5F /* Localizable.strings */,
+				644CB2E13331EA056EE32991DFBA7A84 /* PaygateError.strings */,
+				89FCEAE66E7EA0820865B3DBF73D319C /* pmCC.png */,
+				1A227A442BDC3BE40559850DEB99E237 /* pmDD.png */,
+				AA8E919C60665A2E07948DBF9E017F5A /* pmPayPal.png */,
+			);
+			name = Computop.framework;
+			path = Computop.framework;
+			sourceTree = "<group>";
+		};
+		B39409AB58DF43A897C46EC8339A9A1C /* Computop */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A292CB100BBDB408E5B4177740B1F /* Computop.framework */,
+			);
+			name = Computop;
+			path = Computop;
 			sourceTree = "<group>";
 		};
 		B405EBEB226ED5666FF9B3A7E86A96A9 /* Pods-Computop-demo */ = {
@@ -215,30 +190,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C4F00ED6861E7AA2D5CAB07FFB8084AC /* Computop */ = {
+		BF1111C9B1393723925D159B8EFD58B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45FEC23B51782CDA7E082F4C783F6129 /* Computop.framework */,
+				F023EE017B8533F751F14506958A474A /* libPods-Computop-demo.a */,
+				84C5D3DAC17D316AE2BDEEC5B3291DC1 /* libPods-Computop-demoTests.a */,
+				67F9C342C2D181F3DA5F28CE29BEA7E1 /* libPods-Computop-demoUITests.a */,
 			);
-			name = Computop;
-			path = Computop;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		CF7DEE97D0C97D0EF4135755E7C462E6 /* Support Files */ = {
+		DDEA7F71547AD866ACAED3C9DF207B24 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				974DDC060F6BA47D6408BD7103BD842B /* ResourceBundle-Computop-Info.plist */,
+				B35C4F8A4665291EA8ECE9D88B817059 /* Computop.framework */,
 			);
-			name = "Support Files";
-			path = "../Computop-demo/Pods/Target Support Files/Computop";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F7A8CE191EDD4C025FAE8C510A9AB121 /* Computop */ = {
+		DF491148EC5C7876216CBE6A5CB033B9 /* Computop */ = {
 			isa = PBXGroup;
 			children = (
-				6A392DD5058E511AC3AF8B297190E925 /* Frameworks */,
-				14741F45BB7CEB49F390C496B9C72567 /* Resources */,
-				CF7DEE97D0C97D0EF4135755E7C462E6 /* Support Files */,
+				DDEA7F71547AD866ACAED3C9DF207B24 /* Frameworks */,
+				A3C4011005CAD008976E8A599FE59AB5 /* Resources */,
 			);
 			name = Computop;
 			path = ../../Computop;
@@ -263,22 +237,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		16AA4A682654C1FBD21C83124381305B /* Computop-Computop */ = {
+		60677837EC8351DB76999EC7B8370AA9 /* Pods-Computop-demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00B83AEA7BEAD8DEB4A438E140612236 /* Build configuration list for PBXNativeTarget "Computop-Computop" */;
+			buildConfigurationList = 8AB751F5598B310F3DE4B7D7A99173BA /* Build configuration list for PBXNativeTarget "Pods-Computop-demo" */;
 			buildPhases = (
-				FE596156BA119158EA7031C00E2B96BE /* Sources */,
-				1FFD4644306F312EA1B4D3280033194B /* Frameworks */,
-				6A7EAD74DE96CE6BE7390FFA941DBF4C /* Resources */,
+				E606517F320FFECC5634E31053A0C3DD /* Sources */,
+				D4DB8CB18CBB28DD7BF5A2E32AFC0A99 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Computop-Computop";
-			productName = "Computop-Computop";
-			productReference = 0C72212FE6CBB8D037C78EC50622200D /* Computop.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = "Pods-Computop-demo";
+			productName = "Pods-Computop-demo";
+			productReference = F023EE017B8533F751F14506958A474A /* libPods-Computop-demo.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		75AAB5F97FDD1CE06E0F2ADCCE2A0CE7 /* Pods-Computop-demoUITests */ = {
 			isa = PBXNativeTarget;
@@ -293,24 +266,7 @@
 			);
 			name = "Pods-Computop-demoUITests";
 			productName = "Pods-Computop-demoUITests";
-			productReference = 5C154DD3EEA690BC2FCC3175A86FA5BE /* libPods-Computop-demoUITests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D7C41AC82C30297AAD020D74C1475803 /* Pods-Computop-demo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8D6C01FA6AF7AA0BF5D9654F26B0A31A /* Build configuration list for PBXNativeTarget "Pods-Computop-demo" */;
-			buildPhases = (
-				048219D26CD5D76EA9BA060ACCCEAC1E /* Sources */,
-				50F9EE00595993D10075B3D8E43F92E3 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				79444C63432B6DE27F1F911547AADAD1 /* PBXTargetDependency */,
-			);
-			name = "Pods-Computop-demo";
-			productName = "Pods-Computop-demo";
-			productReference = 68A38CCE1DA9F3B5AE0D1867E8EF1879 /* libPods-Computop-demo.a */;
+			productReference = 67F9C342C2D181F3DA5F28CE29BEA7E1 /* libPods-Computop-demoUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		E49A8A6C2831E70056BDC582C8A33F0D /* Pods-Computop-demoTests */ = {
@@ -326,7 +282,7 @@
 			);
 			name = "Pods-Computop-demoTests";
 			productName = "Pods-Computop-demoTests";
-			productReference = 2951E0AFCFAF06AE17357D4E3A9D6103 /* libPods-Computop-demoTests.a */;
+			productReference = 84C5D3DAC17D316AE2BDEEC5B3291DC1 /* libPods-Computop-demoTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -346,39 +302,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A42E52430AC904931929A536BEA5EBAF /* Products */;
+			productRefGroup = BF1111C9B1393723925D159B8EFD58B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16AA4A682654C1FBD21C83124381305B /* Computop-Computop */,
-				D7C41AC82C30297AAD020D74C1475803 /* Pods-Computop-demo */,
+				60677837EC8351DB76999EC7B8370AA9 /* Pods-Computop-demo */,
 				E49A8A6C2831E70056BDC582C8A33F0D /* Pods-Computop-demoTests */,
 				75AAB5F97FDD1CE06E0F2ADCCE2A0CE7 /* Pods-Computop-demoUITests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		6A7EAD74DE96CE6BE7390FFA941DBF4C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71261D5B5E7E75DB9EAFF6B9E8BDC19F /* Localizable.strings in Resources */,
-				836ADF6AC5D40A711A5AD07289686596 /* PaygateError.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		048219D26CD5D76EA9BA060ACCCEAC1E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86516F153FD385D4DD41DDEDF0F402F9 /* Pods-Computop-demo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		901AD3CE6B8C4DD5C20F0573406D9683 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,42 +330,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE596156BA119158EA7031C00E2B96BE /* Sources */ = {
+		E606517F320FFECC5634E31053A0C3DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AFD1A7743435DD8C365FC8E97AC4B02 /* Pods-Computop-demo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		79444C63432B6DE27F1F911547AADAD1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Computop-Computop";
-			target = 16AA4A682654C1FBD21C83124381305B /* Computop-Computop */;
-			targetProxy = C5439EC5D9E11A482F17F193ED04CAB3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		044178E13B623776973C674421024C60 /* Localizable.strings */ = {
+		644CB2E13331EA056EE32991DFBA7A84 /* PaygateError.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				53A1309756CA6AD37B2D09188C0E57FA /* Localizable.strings */,
-				BDE29F706335D017BA872C7D42E2AF1A /* Localizable.strings */,
+				1F75D849D738FD86B4EB0B0AA6CC5CB6 /* PaygateError.strings */,
+				DB7B48C35B4D9CD67E4DE7578B3BDD51 /* PaygateError.strings */,
 			);
-			name = Localizable.strings;
+			name = PaygateError.strings;
 			path = .;
 			sourceTree = "<group>";
 		};
-		24746DE828B147988C8F817D5CE95889 /* PaygateError.strings */ = {
+		7F562AAD4EE060A9B329C39758A85F5F /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6B869064D0BCA8F161C66D3E7754FDB8 /* PaygateError.strings */,
-				50387506B25852EB0ED282E786496BCD /* PaygateError.strings */,
+				4E4A845FF2A33F2F13E6B1E90CF543B2 /* Localizable.strings */,
+				22EFD57BEA0F7A45E0D78E09BA22E63E /* Localizable.strings */,
 			);
-			name = PaygateError.strings;
+			name = Localizable.strings;
 			path = .;
 			sourceTree = "<group>";
 		};
@@ -504,39 +431,28 @@
 			};
 			name = Debug;
 		};
-		095898690192495A61D43E6C5C600A2A /* AdHoc */ = {
+		0DF80AD92D20D55A67E5B5A2A0979647 /* AdHoc */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654C678B33D47D21CF1DFF70FA0B8713 /* Pods-Computop-demo.adhoc.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Computop";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Computop/ResourceBundle-Computop-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Computop;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = AdHoc;
-		};
-		1B417BCB1C0708A583966B8CA27CF841 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Computop";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Computop/ResourceBundle-Computop-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = Computop;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		24F6A90E7005AE833B073936C84839E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -686,7 +602,7 @@
 			};
 			name = Debug;
 		};
-		77CABB235AF555CEA7C844C4A7BD0A81 /* Release */ = {
+		7BD8448ABFEDA0F7B79F8809E52E1FEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0FAE9BB02025D4DEBF5DFD50CFDA7EC7 /* Pods-Computop-demo.release.xcconfig */;
 			buildSettings = {
@@ -709,21 +625,28 @@
 			};
 			name = Release;
 		};
-		8A6EE0E9FF5A1CA9E4674D24C1ED6FDB /* Release */ = {
+		9E03165EEBF16A35DDCDE3628478715A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4588E5E3FB6FCCE4F41CF2D22D7D093 /* Pods-Computop-demo.debug.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Computop";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Computop/ResourceBundle-Computop-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = Computop;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		B02380D1B1C5A3254F277C1E5CEB70F0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -747,52 +670,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
-		};
-		C347B7F878DE771254996DBD6791CD4F /* AdHoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 654C678B33D47D21CF1DFF70FA0B8713 /* Pods-Computop-demo.adhoc.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = AdHoc;
-		};
-		C9FB5B86D5A79EAA2FFFEAE7223A2850 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4588E5E3FB6FCCE4F41CF2D22D7D093 /* Pods-Computop-demo.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
 		};
 		E15569A24B3177843DF28842655432F5 /* AdHoc */ = {
 			isa = XCBuildConfiguration;
@@ -820,16 +697,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00B83AEA7BEAD8DEB4A438E140612236 /* Build configuration list for PBXNativeTarget "Computop-Computop" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				095898690192495A61D43E6C5C600A2A /* AdHoc */,
-				1B417BCB1C0708A583966B8CA27CF841 /* Debug */,
-				8A6EE0E9FF5A1CA9E4674D24C1ED6FDB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		158CB4E8062D6686B1A6DAE05FE9EC52 /* Build configuration list for PBXNativeTarget "Pods-Computop-demoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -860,12 +727,12 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D6C01FA6AF7AA0BF5D9654F26B0A31A /* Build configuration list for PBXNativeTarget "Pods-Computop-demo" */ = {
+		8AB751F5598B310F3DE4B7D7A99173BA /* Build configuration list for PBXNativeTarget "Pods-Computop-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C347B7F878DE771254996DBD6791CD4F /* AdHoc */,
-				C9FB5B86D5A79EAA2FFFEAE7223A2850 /* Debug */,
-				77CABB235AF555CEA7C844C4A7BD0A81 /* Release */,
+				0DF80AD92D20D55A67E5B5A2A0979647 /* AdHoc */,
+				9E03165EEBF16A35DDCDE3628478715A /* Debug */,
+				7BD8448ABFEDA0F7B79F8809E52E1FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

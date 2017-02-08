@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "CMPPaymentDataProtocol.h"
+#import "CMPPaymentRespose.h"
 
 /**
  CMPApplePayDelegate
@@ -29,20 +30,22 @@
  Called after Apple Pay payment is authorized successfully.
  All the shipping data entered are merged into the existing PaymentData.
  
- @param paymentData A paymentData object conforming to CMPPaymentDataProtocol
+ @param paymentData A paymentData object conforming to CMPPaymentDataProtocol.
+ @param response    Response received after exexuting payment request.
 
  */
-- (void)applePayDidAuthorizePaymentForPaymentData:(id <CMPPaymentDataProtocol>) paymentData;
+- (void)applePayDidAuthorizePaymentForPaymentData:(id <CMPPaymentDataProtocol>) paymentData withResponse: (CMPPaymentRespose *)response;
 
 
 /**
  Called after Apple Pay payment failed to be authorized.
  
- @param paymentData A paymentData object conforming to CMPPaymentDataProtocol
+ @param paymentData A paymentData object conforming to CMPPaymentDataProtocol.
  @param error Returns the error if the authorization was not successful.
- 
+ @param response    Response received after exexuting payment request.
+
  */
-- (void)applePayDidFailToAuthorizePaymentForPaymentData:(id <CMPPaymentDataProtocol>) paymentData withError:(NSError *)error;
+- (void)applePayDidFailToAuthorizePaymentForPaymentData:(id <CMPPaymentDataProtocol>) paymentData withError:(NSError *)error withResponse: (CMPPaymentRespose *)response;
 
 
 @optional

@@ -30,12 +30,6 @@
 + (void) setMerchantAppleID: (NSString *)newMerchandID;
 
 /**
- Alphanumerical value which uniquely identifies the merchant's App within the Paygate
-*/
-+ (NSString *)appID;
-+ (void) setAppID: (NSString *)newAppID;
-
-/**
  Merchant's auth request url
  */
 + (NSString *)authURL;

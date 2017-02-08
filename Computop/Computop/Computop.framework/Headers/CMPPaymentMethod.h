@@ -24,6 +24,12 @@
 @property (nonatomic, strong) NSString *pmID;
 
 /**
+ Payment method localized description.
+ */
+@property (nonatomic, strong) NSString *localizedDescription;
+
+
+/**
  Payment method url.
  */
 @property (nonatomic, strong) NSString *url;

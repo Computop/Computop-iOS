@@ -270,7 +270,7 @@
         
         CMPPaymentMethod *paymentMethod = [[self paymentMethods] objectAtIndex:indexPath.row];
         
-        cell.labelTitle.text = paymentMethod.pmID;
+        cell.labelTitle.text = paymentMethod.localizedDescription;
         [cell.paymentImageView setImage:paymentMethod.image];
         
         return cell;

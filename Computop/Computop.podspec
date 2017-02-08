@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'Computop/**/Computop.framework'
 
-
-   s.resource_bundles = {
-      'Computop' => ['Computop/**/*.strings']
- }
+  s.resources = ['Computop/**/*.strings', 'Computop/**/*.png', 'Computop/**/*.jpeg']
+ #   s.resource_bundles = {
+ #      'Computop1' => ['Computop/**/*.strings', 'Computop/**/*.png', 'Computop/**/*.jpeg'],
+ # }
 
 end
