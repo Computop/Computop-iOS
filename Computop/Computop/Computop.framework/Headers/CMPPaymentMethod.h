@@ -28,7 +28,6 @@
  */
 @property (nonatomic, strong) NSString *localizedDescription;
 
-
 /**
  Payment method url.
  */

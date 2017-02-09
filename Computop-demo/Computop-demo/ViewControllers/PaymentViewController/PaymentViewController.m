@@ -100,7 +100,6 @@
     self.paymentData.URLSuccess      = @"YOUR_URL_SUCCESS";
     self.paymentData.URLNotify       = @"YOUR_URL_NOTIFY";
     self.paymentData.URLFailure      = @"YOUR_URL_FAILURE";
-    self.paymentData.payID           = @"YOUR_PAY_ID";
     
     // Optional params
     self.paymentData.RefNr           = @"YOUR_REF_NR";

@@ -35,11 +35,6 @@
 @property (nonatomic, strong) NSString *transID;
 
 /**
- Payment ID assigned by Paygate. For example for referencing in batch files.
- */
-@property (nonatomic, strong) NSString *payID;
-
-/**
  Unique reference number which appears on your printed card account or in the EPA-file (Electronic Payment Advice). Format must be mutually agreed beforehand with Computop. For EVO Payments International Customers: compulsory field for unique numbers.
  Optional with Sabadell: If RefNr is to be used as the OrderID, the first four characters must be numerical. Only numbers and letters are permitted.
  */
