@@ -32,7 +32,7 @@
 // Helpers
 
 @property (assign, nonatomic) BOOL isPaymentFinished;
-@property (assign, nonatomic) NSError *paymentError;
+@property (strong, nonatomic) NSError *paymentError;
 
 
 /*
@@ -45,7 +45,7 @@
 /* Apple Pay */
 @property (strong, nonatomic) CMPApplePay *applePay;
 
- /* Payment Data */
+/* Payment Data */
 @property (strong, nonatomic) CMPPaymentData *paymentData;
 
 @end
@@ -66,7 +66,7 @@
     [self.navigationItem setLeftBarButtonItem:dismissButton];
     
     self.applePayShippingOptions   = [[NSArray alloc] initWithObjects: @"None", @"Postal Address", @"Phone", @"Email", @"Name", @"All", nil];
-
+    
     self.tableView.delegate   = self;
     self.tableView.dataSource = self;
     
@@ -202,14 +202,12 @@
 
 - (void)applePayPaymentDidSelectPaymentMethod:(PKPaymentMethod *)paymentMethod completion:(void (^)(NSArray<PKPaymentSummaryItem *> *))completion
 {
-
+    
     switch (paymentMethod.type) {
         case PKPaymentMethodTypeCredit:
         {
-//            ItemVO *discountItem = [[ItemVO alloc] initWithDescr:@"discount" withAmount:-500 withImg:nil];
             
             NSMutableArray *selectedSummaryItems = [[NSMutableArray alloc] initWithArray:[[ItemsController sharedManager].selectedItems copy]];
-//            [selectedSummaryItems addObject:discountItem];
             
             NSArray *finalPaymentSummaryItems = [self paymentSummaryItemsForItems:[selectedSummaryItems copy]];
             
@@ -219,10 +217,8 @@
             
         case PKPaymentMethodTypeDebit:
         {
-//            ItemVO *extraItem = [[ItemVO alloc] initWithDescr:@"extra" withAmount:300 withImg:nil];
             
             NSMutableArray *selectedSummaryItems = [[NSMutableArray alloc] initWithArray:[[ItemsController sharedManager].selectedItems copy]];
-//            [selectedSummaryItems addObject:extraItem];
             
             NSArray *finalPaymentSummaryItems = [self paymentSummaryItemsForItems:[selectedSummaryItems copy]];
             
@@ -232,7 +228,7 @@
             
         default:
             completion(@[]);
-
+            
             break;
     }
 }
@@ -255,7 +251,7 @@
 {
     if((indexPath.row == [self numberOfPaymentMethods] - 1))
     {
-       ApplePayTableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"ApplePayTableViewCell" forIndexPath:indexPath];
+        ApplePayTableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"ApplePayTableViewCell" forIndexPath:indexPath];
         
         cell.shippingLabel.text = [NSString stringWithFormat:@"shipping address fields - %@", [self.applePayShippingOptions objectAtIndex:self.selectedShipping]];
         
@@ -300,31 +296,31 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     CMPPaymentMethod *paymentMethod = [[self paymentMethods] objectAtIndex:indexPath.row];
-
+    
     if((indexPath.row != [self numberOfPaymentMethods] - 1))
     {
         
         [self.checkout instantiateCheckoutViewControllerWithPaymentData:self.paymentData
                                                       withPaymentMethod:paymentMethod
                                                               onSuccess:^(CMPCheckoutViewController *checkoutViewController) {
-                                                        
-                                                    checkoutViewController.delegate = self;
-                                                        
-                                                    [self.navigationController pushViewController:checkoutViewController animated:true];
-                                                        
-                                                }
+                                                                  
+                                                                  checkoutViewController.delegate = self;
+                                                                  
+                                                                  [self.navigationController pushViewController:checkoutViewController animated:true];
+                                                                  
+                                                              }
                                                               onFailure:^(NSError *error) {
-                                                                     
-                                                                    [self presentAlertWithDescription:error.localizedDescription];
-
-        }];
+                                                                  
+                                                                  [self presentAlertWithDescription:error.localizedDescription];
+                                                                  
+                                                              }];
     }
 }
 
 #pragma mark - ApplePayTableViewCellDelegate -
 
 - (void)onApplePay
-{    
+{
     [self.applePay instantiatePKPaymentAuthorizationViewControllerWithPaymentData:self.paymentData
                                                           withPaymentSummaryItems:[self paymentSummaryItemsForItems:[[ItemsController sharedManager].selectedItems copy]]
                                                             withSupportedNetworks:@[PKPaymentNetworkVisa, PKPaymentNetworkMasterCard, PKPaymentNetworkAmex, PKPaymentNetworkDiscover]
@@ -338,7 +334,7 @@
                                                } onFailure:^(NSError *error) {
                                                    
                                                    [self presentAlertWithDescription:error.localizedDescription];
-
+                                                   
                                                }];
 }
 
@@ -384,7 +380,7 @@
     totalPKPaymentSummaryItem.amount = totalAmount;
     
     [summaryItems addObject:totalPKPaymentSummaryItem];
-        
+    
     return [summaryItems copy];
 }
 
@@ -422,7 +418,7 @@
         [self presentViewController:alertController
                            animated:true
                          completion:nil];
-
+        
     });
     
 }
