@@ -7,22 +7,16 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Computop'
-  s.version          = '0.1.8'
-  s.summary          = 'Computop SDK for iOS'
-  # s.description      = 'Computop SDK for iOS'
-  s.homepage         = 'https://github.com/computop/Computop-iOS.git'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Thomas Segkoulis' => 'thomas.segkoulis@exozet.com' }
-  s.source           = { :git => 'https://github.com/computop/Computop-iOS.git', :tag => s.version.to_s }
-
+  s.name                  = 'Computop'
+  s.version               = '0.1.8'
+  s.summary               = 'Computop SDK for iOS'
+  # s.description         = 'Computop SDK for iOS'
+  s.homepage              = 'https://github.com/computop/Computop-iOS.git'
+  s.license               = { :type => 'MIT', :file => 'LICENSE' }
+  s.author                = { 'Thomas Segkoulis' => 'thomas.segkoulis@exozet.com' }
+  s.source                = { :git => 'https://github.com/computop/Computop-iOS.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
-
-  s.vendored_frameworks = 'Computop/**/Computop.framework'
-
-  s.resources = ['Computop/**/*.strings', 'Computop/**/*.png', 'Computop/**/*.jpeg']
- #   s.resource_bundles = {
- #      'Computop1' => ['Computop/**/*.strings', 'Computop/**/*.png', 'Computop/**/*.jpeg'],
- # }
+  s.vendored_frameworks   = 'Computop/**/Computop.framework'
+  s.resources             = ['Computop/**/*.strings', 'Computop/**/*.png', 'Computop/**/*.jpeg']
 
 end

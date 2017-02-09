@@ -157,13 +157,13 @@
 
 #pragma mark - CMPCheckoutViewControllerDelegate -
 
-- (void)checkoutDidAuthorizePaymentForPaymentData:(id<CMPPaymentDataProtocol>)paymentData
+- (void)checkoutDidAuthorizePaymentForPaymentData:(id<CMPPaymentDataProtocol>)paymentData withResponse:(CMPPaymentRespose *)response
 {
     [[ItemsController sharedManager].selectedItems removeAllObjects];
     [self doDismissViewController:self];
 }
 
-- (void)checkoutDidFailToAuthorizePaymentForPaymentData:(id<CMPPaymentDataProtocol>)paymentData withError:(NSError *)error
+- (void)checkoutDidFailToAuthorizePaymentForPaymentData:(id<CMPPaymentDataProtocol>)paymentData withError:(NSError *)error withResponse:(CMPPaymentRespose *)response
 {
     [self presentAlertWithDescription:error.localizedDescription];
 }
@@ -186,7 +186,7 @@
     }
 }
 
-- (void)applePayDidAuthorizePaymentForPaymentData:(id<CMPPaymentDataProtocol>)paymentData
+- (void)applePayDidAuthorizePaymentForPaymentData:(id<CMPPaymentDataProtocol>)paymentData withResponse:(CMPPaymentRespose *)response
 {
     [[ItemsController sharedManager].selectedItems removeAllObjects];
     
@@ -194,7 +194,7 @@
     self.paymentError      = nil;
 }
 
-- (void)applePayDidFailToAuthorizePaymentForPaymentData:(id<CMPPaymentDataProtocol>)paymentData withError:(NSError *)error
+- (void)applePayDidFailToAuthorizePaymentForPaymentData:(id<CMPPaymentDataProtocol>)paymentData withError:(NSError *)error withResponse:(CMPPaymentRespose *)response
 {
     self.isPaymentFinished = true;
     self.paymentError      = error;
