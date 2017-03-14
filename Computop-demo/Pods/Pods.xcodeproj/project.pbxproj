@@ -22,14 +22,10 @@
 		0EF9453EE3DC2836892393E282EE11EB /* Pods-Computop-demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Computop-demo-frameworks.sh"; sourceTree = "<group>"; };
 		0FAE9BB02025D4DEBF5DFD50CFDA7EC7 /* Pods-Computop-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demo.release.xcconfig"; sourceTree = "<group>"; };
 		151FE406803C31AE7F29BE5EFF11223C /* Pods-Computop-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demoTests.release.xcconfig"; sourceTree = "<group>"; };
-		1A227A442BDC3BE40559850DEB99E237 /* pmDD.png */ = {isa = PBXFileReference; includeInIndex = 1; path = pmDD.png; sourceTree = "<group>"; };
-		1F75D849D738FD86B4EB0B0AA6CC5CB6 /* PaygateError.strings */ = {isa = PBXFileReference; includeInIndex = 1; name = PaygateError.strings; path = de.lproj/PaygateError.strings; sourceTree = "<group>"; };
 		1FDA5E5851D094EA34BFEA8909333619 /* Pods-Computop-demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Computop-demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		22EFD57BEA0F7A45E0D78E09BA22E63E /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2C5D877E9E3E2768B9D019AE8F239FBC /* Pods-Computop-demoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Computop-demoUITests-resources.sh"; sourceTree = "<group>"; };
 		2E021B1A39A5DE72E3FD329C17DE05B4 /* Pods-Computop-demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Computop-demo-resources.sh"; sourceTree = "<group>"; };
 		4D244A7113ED27FB0B85983A0FEA63A3 /* Pods-Computop-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		4E4A845FF2A33F2F13E6B1E90CF543B2 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6409DB35585DBA2FDE6BCB72FBDB63F1 /* Pods-Computop-demoUITests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demoUITests.adhoc.xcconfig"; sourceTree = "<group>"; };
 		654C678B33D47D21CF1DFF70FA0B8713 /* Pods-Computop-demo.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demo.adhoc.xcconfig"; sourceTree = "<group>"; };
 		67F9C342C2D181F3DA5F28CE29BEA7E1 /* libPods-Computop-demoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Computop-demoUITests.a"; path = "libPods-Computop-demoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,18 +34,15 @@
 		84C5D3DAC17D316AE2BDEEC5B3291DC1 /* libPods-Computop-demoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Computop-demoTests.a"; path = "libPods-Computop-demoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87913AB79084F69F70BC282B58BD0696 /* Pods-Computop-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		897DA9270CCAD88A870B54CBBE2F9FF3 /* Pods-Computop-demoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Computop-demoTests-dummy.m"; sourceTree = "<group>"; };
-		89FCEAE66E7EA0820865B3DBF73D319C /* pmCC.png */ = {isa = PBXFileReference; includeInIndex = 1; path = pmCC.png; sourceTree = "<group>"; };
+		8DBC77E259493688BEF767FE29DC9931 /* Computop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Computop.framework; path = Computop/Computop.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95415F02EAE8DFBB705148F5284D4605 /* Pods-Computop-demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Computop-demo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9EF52C2F75B7073D2FE1DD59C60567CD /* Pods-Computop-demoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Computop-demoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AA8E919C60665A2E07948DBF9E017F5A /* pmPayPal.png */ = {isa = PBXFileReference; includeInIndex = 1; path = pmPayPal.png; sourceTree = "<group>"; };
-		B35C4F8A4665291EA8ECE9D88B817059 /* Computop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Computop.framework; path = Computop/Computop.framework; sourceTree = "<group>"; };
 		C2B138C6669B912047EAE18722AF626E /* Pods-Computop-demoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Computop-demoUITests-dummy.m"; sourceTree = "<group>"; };
 		C74061B41F175EAA621E57A247CF9B2C /* Pods-Computop-demoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Computop-demoUITests-frameworks.sh"; sourceTree = "<group>"; };
 		C77A8CC13A195D568320FBCFE45997C6 /* Pods-Computop-demoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Computop-demoTests-frameworks.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CBC56F1AF159541D212066EC7801CE3E /* Pods-Computop-demoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Computop-demoTests-resources.sh"; sourceTree = "<group>"; };
-		DB7B48C35B4D9CD67E4DE7578B3BDD51 /* PaygateError.strings */ = {isa = PBXFileReference; includeInIndex = 1; name = PaygateError.strings; path = en.lproj/PaygateError.strings; sourceTree = "<group>"; };
 		DDA232329BA0CC4080578543BB987D2A /* Pods-Computop-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F023EE017B8533F751F14506958A474A /* libPods-Computop-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Computop-demo.a"; path = "libPods-Computop-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4588E5E3FB6FCCE4F41CF2D22D7D093 /* Pods-Computop-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Computop-demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,14 +76,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08AD29E569005E8A041ABA31E722FA71 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DF491148EC5C7876216CBE6A5CB033B9 /* Computop */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		0B709F1E8E2C09521FF613E6354D28D1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +102,14 @@
 			path = "Target Support Files/Pods-Computop-demoTests";
 			sourceTree = "<group>";
 		};
+		39967724CC0923C153D270BD99A6E446 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC74CCE2679A576359D88BE7DAB3BE /* Computop */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,41 +122,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				08AD29E569005E8A041ABA31E722FA71 /* Development Pods */,
+				39967724CC0923C153D270BD99A6E446 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				BF1111C9B1393723925D159B8EFD58B2 /* Products */,
 				0B709F1E8E2C09521FF613E6354D28D1 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		A3C4011005CAD008976E8A599FE59AB5 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B39409AB58DF43A897C46EC8339A9A1C /* Computop */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		AA8A292CB100BBDB408E5B4177740B1F /* Computop.framework */ = {
-			isa = PBXGroup;
-			children = (
-				7F562AAD4EE060A9B329C39758A85F5F /* Localizable.strings */,
-				644CB2E13331EA056EE32991DFBA7A84 /* PaygateError.strings */,
-				89FCEAE66E7EA0820865B3DBF73D319C /* pmCC.png */,
-				1A227A442BDC3BE40559850DEB99E237 /* pmDD.png */,
-				AA8E919C60665A2E07948DBF9E017F5A /* pmPayPal.png */,
-			);
-			name = Computop.framework;
-			path = Computop.framework;
-			sourceTree = "<group>";
-		};
-		B39409AB58DF43A897C46EC8339A9A1C /* Computop */ = {
-			isa = PBXGroup;
-			children = (
-				AA8A292CB100BBDB408E5B4177740B1F /* Computop.framework */,
-			);
-			name = Computop;
-			path = Computop;
 			sourceTree = "<group>";
 		};
 		B405EBEB226ED5666FF9B3A7E86A96A9 /* Pods-Computop-demo */ = {
@@ -200,22 +163,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DDEA7F71547AD866ACAED3C9DF207B24 /* Frameworks */ = {
+		DCF934840E844DA844F1426FA02A1C14 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B35C4F8A4665291EA8ECE9D88B817059 /* Computop.framework */,
+				8DBC77E259493688BEF767FE29DC9931 /* Computop.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DF491148EC5C7876216CBE6A5CB033B9 /* Computop */ = {
-			isa = PBXGroup;
-			children = (
-				DDEA7F71547AD866ACAED3C9DF207B24 /* Frameworks */,
-				A3C4011005CAD008976E8A599FE59AB5 /* Resources */,
-			);
-			name = Computop;
-			path = ../../Computop;
 			sourceTree = "<group>";
 		};
 		FA7BC8D8AB0640B1DFC85E8A603961D6 /* Pods-Computop-demoUITests */ = {
@@ -232,6 +185,15 @@
 			);
 			name = "Pods-Computop-demoUITests";
 			path = "Target Support Files/Pods-Computop-demoUITests";
+			sourceTree = "<group>";
+		};
+		FDFC74CCE2679A576359D88BE7DAB3BE /* Computop */ = {
+			isa = PBXGroup;
+			children = (
+				DCF934840E844DA844F1426FA02A1C14 /* Frameworks */,
+			);
+			name = Computop;
+			path = ../../Computop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,29 +301,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		644CB2E13331EA056EE32991DFBA7A84 /* PaygateError.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F75D849D738FD86B4EB0B0AA6CC5CB6 /* PaygateError.strings */,
-				DB7B48C35B4D9CD67E4DE7578B3BDD51 /* PaygateError.strings */,
-			);
-			name = PaygateError.strings;
-			path = .;
-			sourceTree = "<group>";
-		};
-		7F562AAD4EE060A9B329C39758A85F5F /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4E4A845FF2A33F2F13E6B1E90CF543B2 /* Localizable.strings */,
-				22EFD57BEA0F7A45E0D78E09BA22E63E /* Localizable.strings */,
-			);
-			name = Localizable.strings;
-			path = .;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00A4E5C796D06A97788101E99A42B392 /* Release */ = {
