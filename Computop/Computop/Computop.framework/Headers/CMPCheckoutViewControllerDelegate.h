@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "CMPPaymentRespose.h"
+#import "CMPPaymentData.h"
 
 /**
  CMPCheckoutViewControllerDelegate
@@ -22,21 +23,29 @@
 /**
  Called after payment is authorized successfully.
  
- @param paymentData A paymentData object conforming to CMPPaymentDataProtocol
+ @param paymentData A paymentData object.
  @param response    Response received after exexuting payment request.
 
  */
-- (void)checkoutDidAuthorizePaymentForPaymentData:(id<CMPPaymentDataProtocol>)paymentData withResponse: (CMPPaymentRespose *)response;
+- (void)checkoutDidAuthorizePaymentForPaymentData:(CMPPaymentData *)paymentData withResponse: (CMPPaymentRespose *)response;
 
 
 /**
  Called after payment failed to be authorized.
  
- @param paymentData A paymentData object conforming to CMPPaymentDataProtocol
+ @param paymentData A paymentData object.
  @param error Returns the error if the authorization was not successful.
  @param response    Response received after exexuting payment request.
 
  */
-- (void)checkoutDidFailToAuthorizePaymentForPaymentData:(id<CMPPaymentDataProtocol>)paymentData withError:(NSError *)error withResponse: (CMPPaymentRespose *)response;
+- (void)checkoutDidFailToAuthorizePaymentForPaymentData:(CMPPaymentData *)paymentData withError:(NSError *)error withResponse: (CMPPaymentRespose *)response;
+
+/**
+ Called after payment has be cancelled by User.
+ 
+ @param paymentData A paymentData object.
+ 
+ */
+- (void)checkoutDidCancelForPaymentData:(CMPPaymentData *)paymentData;
 
 @end

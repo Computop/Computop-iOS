@@ -25,6 +25,8 @@ FOUNDATION_EXPORT const unsigned char ComputopVersionString[];
 #import <Computop/CMPPaymentDataProtocol.h>
 #import <Computop/CMPPaymentMethod.h>
 #import <Computop/CMPPaymentMethodProtocol.h>
+#import "Computop/CMPPaymentParam.h"
+
 
 /**
  'Computop'
@@ -49,6 +51,16 @@ FOUNDATION_EXPORT const unsigned char ComputopVersionString[];
  */
 - (void)paymentMethodsOnSuccess:(void (^)(NSArray<CMPPaymentMethod *> *paymentMethods))onSuccess
                       onFailure:(void (^)(NSError *error))onFailure;
+
+/**
+ Fetches and returns a payment method given its ID parameter.
+ 
+ @param pmID Payment method's ID parameter.
+ 
+ @return A CMPPaymentMethod object.
+ 
+ */
+- (CMPPaymentMethod *)paymentMethodForID:(NSString *)pmID;
 
 @end
 

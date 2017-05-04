@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name                  = 'Computop'
-  s.version               = '0.2.1'
+  s.version               = '0.3 beta'
   s.summary               = 'Computop SDK for iOS'
   # s.description         = 'Computop SDK for iOS'
   s.homepage              = 'https://github.com/computop/Computop-iOS.git'
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
-  s.author                = { 'Thomas Segkoulis' => 'thomas.segkoulis@exozet.com' }
+  s.author                = { 'Philipp Homann' => 'philipp.homann@exozet.com' }
   s.source                = { :git => 'https://github.com/computop/Computop-iOS.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.vendored_frameworks   = 'Computop/**/Computop.framework'

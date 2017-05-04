@@ -10,7 +10,7 @@
 #import <PassKit/PassKit.h>
 
 #import "CMPApplePayDelegate.h"
-#import "CMPPaymentData.h"
+#import "CMPPaymentMethod.h"
 
 /**
  CMPApplePay
@@ -31,7 +31,7 @@
 /**
  Validates parameters and instantiates a PKPaymentAuthorizationViewController object.
  
- @param paymentData                         A model object that contains all the inserted Payment data.
+ @param paymentMethod                       A model object that contains all the Payment Method's related data.
  @param paymentSummaryItems                 An array of PKPaymentSummaryItem objects, defining a summary item in a payment request—for example, total, tax, discount, or grand total.
  @param supportedNetworks                   The payment networks supported by the merchant, for example @[ PKPaymentNetworkVisa, PKPaymentNetworkMasterCard ].  This property constrains payment cards that may fund the payment.
  @param requiredShippingAddressFields       The shipping address fields inside ApplePay UI (PKAddressFieldPostalAddress|PKAddressFieldPhone|PKAddressFieldEmail|PKAddressFieldName)
@@ -40,7 +40,7 @@
 
  @return Void
  */
-- (void)instantiatePKPaymentAuthorizationViewControllerWithPaymentData:(CMPPaymentData *)paymentData
+- (void)instantiatePKPaymentAuthorizationViewControllerWithPaymentMethod:(CMPPaymentMethod *)paymentMethod
                                                withPaymentSummaryItems:(NSArray<PKPaymentSummaryItem *> *)paymentSummaryItems
                                                  withSupportedNetworks:(NSArray *)supportedNetworks
                                      withRequiredShippingAddressFields:(PKAddressField)requiredShippingAddressFields

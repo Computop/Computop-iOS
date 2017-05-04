@@ -11,7 +11,7 @@
 
 #import "CMPPaymentDataProtocol.h"
 #import "CMPCheckoutViewControllerDelegate.h"
-#import "CMPPaymentMethodProtocol.h"
+#import "CMPPaymentMethod.h"
 
 /**
  CMPCheckoutViewController
@@ -27,14 +27,9 @@
 @property (nonatomic, weak) id <CMPCheckoutViewControllerDelegate> delegate;
 
 /**
- An 'id <CMPPaymentDataProtocol>' object that contains all the, inserted by the User, Payment data.
+ An CMPPaymentMethod object that contains all the data for a Payment method.
  */
-@property (strong, nonatomic) id <CMPPaymentDataProtocol> paymentData;
-
-/**
- An 'id <CMPPaymentMethodProtocol>' object that contains all the data for a Payment method.
- */
-@property (strong, nonatomic) id <CMPPaymentMethodProtocol> paymentMethod;
+@property (strong, nonatomic) CMPPaymentMethod *paymentMethod;
 
 
 @end

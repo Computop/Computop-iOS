@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "CMPPaymentMethodProtocol.h"
+#import "CMPPaymentData.h"
 #import <UIKit/UIKit.h>
 
 /**
@@ -21,29 +22,43 @@
 /**
  Payment method id.
  */
-@property (nonatomic, strong) NSString *pmID;
+@property (nonatomic, strong, readonly) NSString *pmID;
 
 /**
  Payment method localized description.
  */
-@property (nonatomic, strong) NSString *localizedDescription;
+@property (nonatomic, strong, readonly) NSString *localizedDescription;
 
 /**
  Payment method url.
  */
-@property (nonatomic, strong) NSString *url;
+@property (nonatomic, strong, readonly) NSString *url;
 
 /**
  Payment method image.
  */
-@property (nonatomic, strong) UIImage *image;
+@property (nonatomic, strong, readonly) UIImage *image;
 
 /**
  Payment method template string.
  */
-@property (nonatomic, strong) NSString *templateStr;
+@property (nonatomic, strong, readonly) NSString *templateStr;
 
+/**
+ Payment data
+ */
+@property (nonatomic, strong, readonly) CMPPaymentData *paymentData;
 
-- (instancetype)initWithDictionary:(NSDictionary*)dictionary;
+/**
+ Init method.
+ 
+ @param dictionary A dictionary containing all payment method's data.
+ @param paramValidationDictionary A dictionary containing all validation information for the parameters.
+ 
+ @param instancetype
+ 
+ */
+- (instancetype)initWithDictionary:(NSDictionary*)dictionary
+     withParamValidationDictionary:(NSDictionary *)paramValidationDictionary;
 
 @end
