@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/Computop.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/Computop</TokenIdentifier>
+			<Abstract type="html">&apos;Computop&apos;</Abstract>
+			<DeclaredIn>Computop.h</DeclaredIn>
+            
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Computop/sharedInstance</TokenIdentifier>
+			<Abstract type="html">Singleton</Abstract>
+			<DeclaredIn>Computop.h</DeclaredIn>
+			
+			<Declaration>+ (Computop *)sharedInstance</Declaration>
+			
+			
+			<Anchor>//api/name/sharedInstance</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Computop/paymentMethodsOnSuccess:onFailure:</TokenIdentifier>
+			<Abstract type="html">Fetches and returns a list of available payment methods for the current Merchant.</Abstract>
+			<DeclaredIn>Computop.h</DeclaredIn>
+			
+			<Declaration>- (void)paymentMethodsOnSuccess:(void ( ^ ) ( NSArray&lt;CMPPaymentMethod*&gt; *paymentMethods ))onSuccess onFailure:(void ( ^ ) ( NSError *error ))onFailure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>onSuccess</Name>
+					<Abstract type="html">Returns an array of CMPPaymentMethod objects.</Abstract>
+				</Parameter><Parameter>
+					<Name>onFailure</Name>
+					<Abstract type="html">Returns an error if the payment methods could not be retrieved.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/paymentMethodsOnSuccess:onFailure:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Computop/paymentMethodForID:</TokenIdentifier>
+			<Abstract type="html">Fetches and returns a payment method given its ID parameter.</Abstract>
+			<DeclaredIn>Computop.h</DeclaredIn>
+			
+			<Declaration>- (CMPPaymentMethod *)paymentMethodForID:(NSString *)pmID</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>pmID</Name>
+					<Abstract type="html">Payment method&apos;s ID parameter.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A CMPPaymentMethod object.</Abstract></ReturnValue>
+			<Anchor>//api/name/paymentMethodForID:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

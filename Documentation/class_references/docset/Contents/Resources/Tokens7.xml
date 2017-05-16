@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMPEncryptor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMPEncryptor</TokenIdentifier>
+			<Abstract type="html">CMPEncryptor</Abstract>
+			<DeclaredIn>CMPEncryptor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMPEncryptor/encryptData:withKey:success:failure:</TokenIdentifier>
+			<Abstract type="html">Stateless, one-shot encrypt operation using Blowfish cipher.</Abstract>
+			<DeclaredIn>CMPEncryptor.h</DeclaredIn>
+			
+			<Declaration>+ (void)encryptData:(NSData *)data withKey:(NSData *)key success:(void ( ^ ) ( NSData *encryptedData ))onSuccess failure:(void ( ^ ) ( NSError *error ))onFailure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">Data to encrypt.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">Blowfish encryption key.</Abstract>
+				</Parameter><Parameter>
+					<Name>onSuccess</Name>
+					<Abstract type="html">Success completion block. It includes the encrypted Data as parameter.</Abstract>
+				</Parameter><Parameter>
+					<Name>onFailure</Name>
+					<Abstract type="html">Failure completion block. It includes the error as parameter.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/encryptData:withKey:success:failure:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMPEncryptor/decryptData:withKey:success:failure:</TokenIdentifier>
+			<Abstract type="html">Stateless, one-shot decrypt operation using Blowfish cipher.</Abstract>
+			<DeclaredIn>CMPEncryptor.h</DeclaredIn>
+			
+			<Declaration>+ (void)decryptData:(NSData *)data withKey:(NSData *)key success:(void ( ^ ) ( NSData *decryptedData ))onSuccess failure:(void ( ^ ) ( NSError *error ))onFailure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">Data to decrypt.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">Blowfish encryption key.</Abstract>
+				</Parameter><Parameter>
+					<Name>onSuccess</Name>
+					<Abstract type="html">Success completion block. It includes the decrypted Data as parameter.</Abstract>
+				</Parameter><Parameter>
+					<Name>onFailure</Name>
+					<Abstract type="html">Failure completion block. It includes the error as parameter.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/decryptData:withKey:success:failure:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMPEncryptor/generateHMACOnData:withKey:success:failure:</TokenIdentifier>
+			<Abstract type="html">Stateless, one-shot SHA256 HMAC function.</Abstract>
+			<DeclaredIn>CMPEncryptor.h</DeclaredIn>
+			
+			<Declaration>+ (void)generateHMACOnData:(NSString *)data withKey:(NSString *)key success:(void ( ^ ) ( NSString *dataOut ))onSuccess failure:(void ( ^ ) ( ))onFailure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">Message data.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">Cryptographic key.</Abstract>
+				</Parameter><Parameter>
+					<Name>onSuccess</Name>
+					<Abstract type="html">Success completion block. It includes the output Data as parameter.</Abstract>
+				</Parameter><Parameter>
+					<Name>onFailure</Name>
+					<Abstract type="html">Failure completion block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/generateHMACOnData:withKey:success:failure:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

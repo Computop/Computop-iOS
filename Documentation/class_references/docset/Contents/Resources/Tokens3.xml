@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMPCheckout.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMPCheckout</TokenIdentifier>
+			<Abstract type="html">CMPCheckout</Abstract>
+			<DeclaredIn>CMPCheckout.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPCheckout/instantiateCheckoutViewControllerWithPaymentMethod:onSuccess:onFailure:</TokenIdentifier>
+			<Abstract type="html">Validates parameters and instantiates an CMPCheckoutViewController object.</Abstract>
+			<DeclaredIn>CMPCheckout.h</DeclaredIn>
+			
+			<Declaration>- (void)instantiateCheckoutViewControllerWithPaymentMethod:(CMPPaymentMethod *)paymentMethod onSuccess:(void ( ^ ) ( CMPCheckoutViewController *checkoutViewController ))onSuccess onFailure:(void ( ^ ) ( NSError *error ))onFailure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>paymentMethod</Name>
+					<Abstract type="html">A model object that contains all the Payment Method&apos;s related data.</Abstract>
+				</Parameter><Parameter>
+					<Name>onSuccess</Name>
+					<Abstract type="html">Returns a CMPCheckoutViewController object, if it could be instantiated</Abstract>
+				</Parameter><Parameter>
+					<Name>onFailure</Name>
+					<Abstract type="html">Returns an error, if the CMPCheckoutViewController object could not be instantiated</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Void</Abstract></ReturnValue>
+			<Anchor>//api/name/instantiateCheckoutViewControllerWithPaymentMethod:onSuccess:onFailure:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

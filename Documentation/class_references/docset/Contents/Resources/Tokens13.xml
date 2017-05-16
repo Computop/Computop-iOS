@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMPServices.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMPServices</TokenIdentifier>
+			<Abstract type="html">&apos;CMPServices&apos;</Abstract>
+			<DeclaredIn>CMPServices.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMPServices/sharedInstance</TokenIdentifier>
+			<Abstract type="html">Singleton</Abstract>
+			<DeclaredIn>CMPServices.h</DeclaredIn>
+			
+			<Declaration>+ (CMPServices *)sharedInstance</Declaration>
+			
+			
+			<Anchor>//api/name/sharedInstance</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPServices/performRequest:success:failure:</TokenIdentifier>
+			<Abstract type="html">  Async request.</Abstract>
+			<DeclaredIn>CMPServices.h</DeclaredIn>
+			
+			<Declaration>- (void)performRequest:(NSURLRequest *)request success:(void ( ^ ) ( NSData *data ))onSuccess failure:(void ( ^ ) ( NSError *error ))onFailure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">An NSURLRequest object.</Abstract>
+				</Parameter><Parameter>
+					<Name>onSuccess</Name>
+					<Abstract type="html">Success completion block. It includes the response data as parameter.</Abstract>
+				</Parameter><Parameter>
+					<Name>onFailure</Name>
+					<Abstract type="html">Failure completion block. It includes the error as parameter.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/performRequest:success:failure:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPServices/performPostRequest:withData:success:failure:</TokenIdentifier>
+			<Abstract type="html">Async HTTP-POST request.</Abstract>
+			<DeclaredIn>CMPServices.h</DeclaredIn>
+			
+			<Declaration>- (void)performPostRequest:(NSMutableURLRequest *)request withData:(NSData *)bodyData success:(void ( ^ ) ( NSData *data ))onSuccess failure:(void ( ^ ) ( NSError *error ))onFailure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">An NSMutableURLRequest object.</Abstract>
+				</Parameter><Parameter>
+					<Name>bodyData</Name>
+					<Abstract type="html">Request data.</Abstract>
+				</Parameter><Parameter>
+					<Name>onSuccess</Name>
+					<Abstract type="html">Success completion block. It includes the response data as parameter.</Abstract>
+				</Parameter><Parameter>
+					<Name>onFailure</Name>
+					<Abstract type="html">Failure completion block. It includes the error as parameter.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/performPostRequest:withData:success:failure:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

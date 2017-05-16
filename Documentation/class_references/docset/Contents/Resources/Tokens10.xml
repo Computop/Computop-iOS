@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMPPaymentMethod.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMPPaymentMethod</TokenIdentifier>
+			<Abstract type="html">CMPPaymentMethod</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/setPmID:</TokenIdentifier>
+			<Abstract type="html">Payment method id.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *pmID</Declaration>
+			
+			
+			<Anchor>//api/name/pmID</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/pmID</TokenIdentifier>
+			<Abstract type="html">Payment method id.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *pmID</Declaration>
+			
+			
+			<Anchor>//api/name/pmID</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentMethod/pmID</TokenIdentifier>
+			<Abstract type="html">Payment method id.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *pmID</Declaration>
+			
+			
+			<Anchor>//api/name/pmID</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/setLocalizedDescription:</TokenIdentifier>
+			<Abstract type="html">Payment method localized description.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *localizedDescription</Declaration>
+			
+			
+			<Anchor>//api/name/localizedDescription</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/localizedDescription</TokenIdentifier>
+			<Abstract type="html">Payment method localized description.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *localizedDescription</Declaration>
+			
+			
+			<Anchor>//api/name/localizedDescription</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentMethod/localizedDescription</TokenIdentifier>
+			<Abstract type="html">Payment method localized description.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *localizedDescription</Declaration>
+			
+			
+			<Anchor>//api/name/localizedDescription</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/setUrl:</TokenIdentifier>
+			<Abstract type="html">Payment method url.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/url</TokenIdentifier>
+			<Abstract type="html">Payment method url.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentMethod/url</TokenIdentifier>
+			<Abstract type="html">Payment method url.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/setImage:</TokenIdentifier>
+			<Abstract type="html">Payment method image.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/image</TokenIdentifier>
+			<Abstract type="html">Payment method image.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentMethod/image</TokenIdentifier>
+			<Abstract type="html">Payment method image.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/setTemplateStr:</TokenIdentifier>
+			<Abstract type="html">Payment method template string.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *templateStr</Declaration>
+			
+			
+			<Anchor>//api/name/templateStr</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/templateStr</TokenIdentifier>
+			<Abstract type="html">Payment method template string.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *templateStr</Declaration>
+			
+			
+			<Anchor>//api/name/templateStr</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentMethod/templateStr</TokenIdentifier>
+			<Abstract type="html">Payment method template string.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *templateStr</Declaration>
+			
+			
+			<Anchor>//api/name/templateStr</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/setPaymentData:</TokenIdentifier>
+			<Abstract type="html">Payment data</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CMPPaymentData *paymentData</Declaration>
+			
+			
+			<Anchor>//api/name/paymentData</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/paymentData</TokenIdentifier>
+			<Abstract type="html">Payment data</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CMPPaymentData *paymentData</Declaration>
+			
+			
+			<Anchor>//api/name/paymentData</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentMethod/paymentData</TokenIdentifier>
+			<Abstract type="html">Payment data</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CMPPaymentData *paymentData</Declaration>
+			
+			
+			<Anchor>//api/name/paymentData</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/initWithDictionary:withParamValidationDictionary:</TokenIdentifier>
+			<Abstract type="html">Init method.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithDictionary:(NSDictionary *)dictionary withParamValidationDictionary:(NSDictionary *)paramValidationDictionary</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dictionary</Name>
+					<Abstract type="html">A dictionary containing all payment method&apos;s data.</Abstract>
+				</Parameter><Parameter>
+					<Name>paramValidationDictionary</Name>
+					<Abstract type="html">A dictionary containing all validation information for the parameters.
+
+@param instancetype</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithDictionary:withParamValidationDictionary:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

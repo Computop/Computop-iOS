@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMPConfiguration.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMPConfiguration</TokenIdentifier>
+			<Abstract type="html">CMPConfiguration</Abstract>
+			<DeclaredIn>CMPConfiguration.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMPConfiguration/merchantID</TokenIdentifier>
+			<Abstract type="html">Alphanumerical value which uniquely identifies the merchant within the Paygate</Abstract>
+			<DeclaredIn>CMPConfiguration.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)merchantID</Declaration>
+			
+			
+			<Anchor>//api/name/merchantID</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMPConfiguration/merchantAppleID</TokenIdentifier>
+			<Abstract type="html">Identifies the merchant, as previously agreed with Apple.  Must match one of the merchant
+identifiers in the application&apos;s entitlement.</Abstract>
+			<DeclaredIn>CMPConfiguration.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)merchantAppleID</Declaration>
+			
+			
+			<Anchor>//api/name/merchantAppleID</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMPConfiguration/authURL</TokenIdentifier>
+			<Abstract type="html">Merchant&apos;s auth request url</Abstract>
+			<DeclaredIn>CMPConfiguration.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)authURL</Declaration>
+			
+			
+			<Anchor>//api/name/authURL</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMPConfiguration/hmacKey</TokenIdentifier>
+			<Abstract type="html">HMAC key</Abstract>
+			<DeclaredIn>CMPConfiguration.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)hmacKey</Declaration>
+			
+			
+			<Anchor>//api/name/hmacKey</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

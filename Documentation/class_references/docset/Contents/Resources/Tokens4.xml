@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMPCheckoutViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMPCheckoutViewController</TokenIdentifier>
+			<Abstract type="html">CMPCheckoutViewController</Abstract>
+			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPCheckoutViewController/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Delegate object conforming to CMPCheckoutViewControllerDelegate protocol in order to be informed regarding payment results.</Abstract>
+			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;CMPCheckoutViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPCheckoutViewController/delegate</TokenIdentifier>
+			<Abstract type="html">Delegate object conforming to CMPCheckoutViewControllerDelegate protocol in order to be informed regarding payment results.</Abstract>
+			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;CMPCheckoutViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPCheckoutViewController/delegate</TokenIdentifier>
+			<Abstract type="html">Delegate object conforming to CMPCheckoutViewControllerDelegate protocol in order to be informed regarding payment results.</Abstract>
+			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;CMPCheckoutViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPCheckoutViewController/setPaymentMethod:</TokenIdentifier>
+			<Abstract type="html">An CMPPaymentMethod object that contains all the data for a Payment method.</Abstract>
+			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) CMPPaymentMethod *paymentMethod</Declaration>
+			
+			
+			<Anchor>//api/name/paymentMethod</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPCheckoutViewController/paymentMethod</TokenIdentifier>
+			<Abstract type="html">An CMPPaymentMethod object that contains all the data for a Payment method.</Abstract>
+			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) CMPPaymentMethod *paymentMethod</Declaration>
+			
+			
+			<Anchor>//api/name/paymentMethod</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPCheckoutViewController/paymentMethod</TokenIdentifier>
+			<Abstract type="html">An CMPPaymentMethod object that contains all the data for a Payment method.</Abstract>
+			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) CMPPaymentMethod *paymentMethod</Declaration>
+			
+			
+			<Anchor>//api/name/paymentMethod</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/philipp.homann/Library/Developer/Shared/Documentation/DocSets/com.Computop.Computop.docset
+Time: 2017-05-04 11:34:11 +0000

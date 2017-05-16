@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CMPPaymentMethodRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CMPPaymentMethodRequest</TokenIdentifier>
+			<Abstract type="html">CMPPaymentMethodRequest</Abstract>
+			<DeclaredIn>CMPPaymentMethodRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethodRequest/initWithPaymentMethod:</TokenIdentifier>
+			<Abstract type="html">Custom initialization method.</Abstract>
+			<DeclaredIn>CMPPaymentMethodRequest.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithPaymentMethod:(CMPPaymentMethod *)paymentMethod</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>paymentMethod</Name>
+					<Abstract type="html">A model object that contains all the Payment Method&apos;s related data.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">self</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithPaymentMethod:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethodRequest/paymentURLRequest:onFailure:</TokenIdentifier>
+			<Abstract type="html">Creates &amp;amp; encodes the NSURLRequest object used to load the Payment form inside the webview.</Abstract>
+			<DeclaredIn>CMPPaymentMethodRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)paymentURLRequest:(void ( ^ ) ( NSURLRequest *urlRequest , CMPAuthentication *authentication ))onSuccess onFailure:(void ( ^ ) ( NSError *error ))onFailure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>onSuccess</Name>
+					<Abstract type="html">Success completion block. It includes the NSURLRequest object &amp;amp; CMPAuthentication as parameters.</Abstract>
+				</Parameter><Parameter>
+					<Name>onFailure</Name>
+					<Abstract type="html">Failure completion block. It includes the error as parameter.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Void</Abstract></ReturnValue>
+			<Anchor>//api/name/paymentURLRequest:onFailure:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
