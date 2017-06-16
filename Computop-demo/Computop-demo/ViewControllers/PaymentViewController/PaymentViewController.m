@@ -135,7 +135,9 @@
              [method.paymentData setParamWithKey:@"eMail" withValue:@"YOUR_EMAIL"];
              [method.paymentData setParamWithKey:@"ShopID" withValue:@"YOUR_SHOP_ID"];
              [method.paymentData setParamWithKey:@"Subject" withValue:@"YOUR_SUBJECT"];
-         }
+             [method.paymentData setParamWithKey:@"DtOfSgntr" withValue:@"YOUR_DATE_DD.MM.YYYY"];
+             
+        }
          
          [self.tableView reloadData];
          
