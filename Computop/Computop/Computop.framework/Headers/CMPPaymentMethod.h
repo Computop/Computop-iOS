@@ -41,8 +41,10 @@
 
 /**
  Payment method template string.
+ deprecated, merchant developer should use instead of
+ [method.paymentData setParamWithKey:@"Template" withValue:@"ct_brasil"]';
  */
-@property (nonatomic, strong, readonly) NSString *templateStr;
+@property (nonatomic, strong, readonly) NSString *templateStr __deprecated_msg("merchant developer should use instead of '[method.paymentData setParamWithKey:@\"Template\" withValue:@\"ct_brasil\"]';");
 
 /**
  Payment data

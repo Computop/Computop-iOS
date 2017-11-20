@@ -14,7 +14,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentData/setData:</TokenIdentifier>
-			<Abstract type="html">Dictionary containing all payment data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
+			<Abstract type="html">Dictionary containing all payment related data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
 			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong, readonly) NSDictionary *data</Declaration>
@@ -26,7 +26,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentData/data</TokenIdentifier>
-			<Abstract type="html">Dictionary containing all payment data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
+			<Abstract type="html">Dictionary containing all payment related data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
 			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong, readonly) NSDictionary *data</Declaration>
@@ -38,7 +38,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentData/data</TokenIdentifier>
-			<Abstract type="html">Dictionary containing all payment data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
+			<Abstract type="html">Dictionary containing all payment related data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
 			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong, readonly) NSDictionary *data</Declaration>
@@ -49,24 +49,61 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentData/initWithDictionary:withParamValidationDictionary:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentData/setAdditionalURLParams:</TokenIdentifier>
+			<Abstract type="html">dictionary containing all additional URL params data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
+			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDictionary *additionalURLParams</Declaration>
+			
+			
+			<Anchor>//api/name/additionalURLParams</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentData/additionalURLParams</TokenIdentifier>
+			<Abstract type="html">dictionary containing all additional URL params data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
+			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDictionary *additionalURLParams</Declaration>
+			
+			
+			<Anchor>//api/name/additionalURLParams</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentData/additionalURLParams</TokenIdentifier>
+			<Abstract type="html">dictionary containing all additional URL params data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
+			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDictionary *additionalURLParams</Declaration>
+			
+			
+			<Anchor>//api/name/additionalURLParams</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentData/initWithDataElements:additionalURLParams:andParamValidationDictionary:</TokenIdentifier>
 			<Abstract type="html">Init method.</Abstract>
 			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
 			
-			<Declaration>- (instancetype)initWithDictionary:(NSDictionary *)dictionary withParamValidationDictionary:(NSDictionary *)paramValidationDictionary</Declaration>
+			<Declaration>- (instancetype)initWithDataElements:(NSDictionary *)dataElements additionalURLParams:(NSDictionary *)additionalURLParams andParamValidationDictionary:(NSDictionary *)paramValidationDictionary</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>dictionary</Name>
+					<Name>dataElements</Name>
 					<Abstract type="html">The &apos;dataElements&apos; dictionary as fetched from JSON.</Abstract>
 				</Parameter><Parameter>
+					<Name>additionalURLParams</Name>
+					<Abstract type="html">The additional URL Params as fethced from JSON</Abstract>
+				</Parameter><Parameter>
 					<Name>paramValidationDictionary</Name>
-					<Abstract type="html">The dictionary containing all validation information for all payment data parameters.
-
-  @param instancetype</Abstract>
+					<Abstract type="html">The dictionary containing all validation information for all payment data parameters.</Abstract>
 				</Parameter>
 			</Parameters>
 			
-			<Anchor>//api/name/initWithDictionary:withParamValidationDictionary:</Anchor>
+			<Anchor>//api/name/initWithDataElements:additionalURLParams:andParamValidationDictionary:</Anchor>
             <NodeRef refid="9"/>
 		</Token>
 		
@@ -82,7 +119,7 @@
 					<Abstract type="html">The name of payment data parameter.</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">A CMPPaymentParam object.</Abstract></ReturnValue>
+			<ReturnValue><Abstract type="html">A CMPPaymentParam object. if nil, data for given key doesn&apos;t exist.</Abstract></ReturnValue>
 			<Anchor>//api/name/paymentParamWithKey:</Anchor>
             <NodeRef refid="9"/>
 		</Token>
@@ -105,42 +142,6 @@
 			</Parameters>
 			
 			<Anchor>//api/name/setParamWithKey:withValue:</Anchor>
-            <NodeRef refid="9"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentData/setDataMutable:</TokenIdentifier>
-			<Abstract type="html">Mutable dictionary containing all payment data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
-			<DeclaredIn>CMPPaymentData.m</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSMutableDictionary *dataMutable</Declaration>
-			
-			
-			<Anchor>//api/name/dataMutable</Anchor>
-            <NodeRef refid="9"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentData/dataMutable</TokenIdentifier>
-			<Abstract type="html">Mutable dictionary containing all payment data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
-			<DeclaredIn>CMPPaymentData.m</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSMutableDictionary *dataMutable</Declaration>
-			
-			
-			<Anchor>//api/name/dataMutable</Anchor>
-            <NodeRef refid="9"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentData/dataMutable</TokenIdentifier>
-			<Abstract type="html">Mutable dictionary containing all payment data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
-			<DeclaredIn>CMPPaymentData.m</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSMutableDictionary *dataMutable</Declaration>
-			
-			
-			<Anchor>//api/name/dataMutable</Anchor>
             <NodeRef refid="9"/>
 		</Token>
 		

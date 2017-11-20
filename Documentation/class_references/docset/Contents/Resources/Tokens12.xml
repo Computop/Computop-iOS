@@ -196,6 +196,42 @@ The location of the range is the minimum number of digits &amp;amp; the length i
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentParam/setOptions:</TokenIdentifier>
+			<Abstract type="html">If not nil, here are possible value options.</Abstract>
+			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) NSArray *options</Declaration>
+			
+			
+			<Anchor>//api/name/options</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentParam/options</TokenIdentifier>
+			<Abstract type="html">If not nil, here are possible value options.</Abstract>
+			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) NSArray *options</Declaration>
+			
+			
+			<Anchor>//api/name/options</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentParam/options</TokenIdentifier>
+			<Abstract type="html">If not nil, here are possible value options.</Abstract>
+			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
+			
+			<Declaration>@property (assign, nonatomic) NSArray *options</Declaration>
+			
+			
+			<Anchor>//api/name/options</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentParam/initWithDictionary:withKey:withParamValidationArray:</TokenIdentifier>
 			<Abstract type="html">Init method.</Abstract>
 			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>

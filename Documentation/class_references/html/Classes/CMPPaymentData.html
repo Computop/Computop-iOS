@@ -56,9 +56,9 @@
 	
 	<optgroup label="Properties">
 		
-		<option value="//api/name/data">data</option>
+		<option value="//api/name/additionalURLParams">additionalURLParams</option>
 		
-		<option value="//api/name/dataMutable">dataMutable</option>
+		<option value="//api/name/data">data</option>
 		
 	</optgroup>
 	
@@ -68,7 +68,7 @@
 	
 	<optgroup label="Instance Methods">
 		
-		<option value="//api/name/initWithDictionary:withParamValidationDictionary:">- initWithDictionary:withParamValidationDictionary:</option>
+		<option value="//api/name/initWithDataElements:additionalURLParams:andParamValidationDictionary:">- initWithDataElements:additionalURLParams:andParamValidationDictionary:</option>
 		
 		<option value="//api/name/paymentParamWithKey:">- paymentParamWithKey:</option>
 		
@@ -125,7 +125,7 @@
 						
 
 						
-						<h2 class="task-title">Other Methods</h2>
+						
 
 						<div class="task-list">
 							<div class="section-method">
@@ -140,7 +140,7 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Dictionary containing all payment data, with parameter name as key and <a href="../Classes/CMPPaymentParam.html">CMPPaymentParam</a> object as value.</p>
+				<p>Dictionary containing all payment related data, with parameter name as key and <a href="../Classes/CMPPaymentParam.html">CMPPaymentParam</a> object as value.</p>
 			</div>
 			
 		    
@@ -170,8 +170,49 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/initWithDictionary:withParamValidationDictionary:" title="initWithDictionary:withParamValidationDictionary:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/initWithDictionary:withParamValidationDictionary:">&ndash;&nbsp;initWithDictionary:withParamValidationDictionary:</a></code>
+	<a name="//api/name/additionalURLParams" title="additionalURLParams"></a>
+	<h3 class="method-title"><code><a href="#//api/name/additionalURLParams">&nbsp;&nbsp;additionalURLParams</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>dictionary containing all additional URL params <a href="#//api/name/data">data</a>, with parameter name as key and <a href="../Classes/CMPPaymentParam.html">CMPPaymentParam</a> object as value.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) NSDictionary *additionalURLParams</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">CMPPaymentData.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithDataElements:additionalURLParams:andParamValidationDictionary:" title="initWithDataElements:additionalURLParams:andParamValidationDictionary:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithDataElements:additionalURLParams:andParamValidationDictionary:">&ndash;&nbsp;initWithDataElements:additionalURLParams:andParamValidationDictionary:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -186,7 +227,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (instancetype)initWithDictionary:(NSDictionary *)<em>dictionary</em> withParamValidationDictionary:(NSDictionary *)<em>paramValidationDictionary</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (instancetype)initWithDataElements:(NSDictionary *)<em>dataElements</em> additionalURLParams:(NSDictionary *)<em>additionalURLParams</em> andParamValidationDictionary:(NSDictionary *)<em>paramValidationDictionary</em></code></div>
 
 		    
 			
@@ -195,15 +236,18 @@
 				<table class="argument-def parameter-def">
 				
 					<tr>
-						<th scope="row" class="argument-name"><code>dictionary</code></th>
+						<th scope="row" class="argument-name"><code>dataElements</code></th>
 						<td><p>The &lsquo;dataElements&rsquo; dictionary as fetched from JSON.</p></td>
 					</tr>
 				
 					<tr>
+						<th scope="row" class="argument-name"><code>additionalURLParams</code></th>
+						<td><p>The additional URL Params as fethced from JSON</p></td>
+					</tr>
+				
+					<tr>
 						<th scope="row" class="argument-name"><code>paramValidationDictionary</code></th>
-						<td><p>The dictionary containing all validation information for all payment <a href="#//api/name/data">data</a> parameters.</p>
-
-<p>  @param instancetype</p></td>
+						<td><p>The dictionary containing all validation information for all payment <a href="#//api/name/data">data</a> parameters.</p></td>
 					</tr>
 				
 				</table>
@@ -266,7 +310,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>A <a href="../Classes/CMPPaymentParam.html">CMPPaymentParam</a> object.</p>
+				<p>A <a href="../Classes/CMPPaymentParam.html">CMPPaymentParam</a> object. if nil, <a href="#//api/name/data">data</a> for given key doesn&rsquo;t exist.</p>
 			</div>
 			
 
@@ -331,6 +375,11 @@
 			
 
 			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>If given key doesn&rsquo;t exist, the value will not be set.</p>
+			</div>
+			
 
 			
 
@@ -340,55 +389,6 @@
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
 				<p><code class="declared-in-ref">CMPPaymentData.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div>
-						</div>
-						
-
-						<a title="Extension Methods" name="task_Extension Methods"></a>
-						<h2 class="task-title">Extension Methods</h2>
-
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/dataMutable" title="dataMutable"></a>
-	<h3 class="method-title"><code><a href="#//api/name/dataMutable">&nbsp;&nbsp;dataMutable</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Mutable dictionary containing all payment <a href="#//api/name/data">data</a>, with parameter name as key and <a href="../Classes/CMPPaymentParam.html">CMPPaymentParam</a> object as value.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSMutableDictionary *dataMutable</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">CMPPaymentData.m</code></p>
 			</div>
 			
 			
@@ -409,7 +409,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2017 Computop. All rights reserved. Updated: 2017-06-20</p>
+						<p class="copyright">Copyright &copy; 2017 Computop. All rights reserved. Updated: 2017-11-20</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

@@ -62,6 +62,11 @@ typedef NS_ENUM(NSInteger, RegExPattern) {
 @property (assign, nonatomic) NSRange range;
 
 /**
+ If not nil, here are possible value options.
+ */
+@property (assign, nonatomic) NSArray* options;
+
+/**
  Init method.
  
  @param dictionary A dictionary containing all parameter's data.

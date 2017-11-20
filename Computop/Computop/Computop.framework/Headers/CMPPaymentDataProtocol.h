@@ -19,7 +19,7 @@
 
 @required
 
-@property (nonatomic, strong, readonly) NSDictionary *data;
+@property (nonatomic, strong, readonly) NSDictionary *dataThatNeedsToBeValidated;
 
 - (instancetype)initWithDictionary:(NSDictionary*)dictionary
      withParamValidationDictionary:(NSDictionary *)paramValidationDictionary;

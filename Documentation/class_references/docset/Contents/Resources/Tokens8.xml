@@ -69,6 +69,18 @@
             <NodeRef refid="8"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMPError/regExStringForRegExPattern:withRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CMPError.m</DeclaredIn>
+			
+			<Declaration>+ (NSString *)regExStringForRegExPattern:(RegExPattern)regExPattern withRange:(NSRange)range</Declaration>
+			
+			
+			<Anchor>//api/name/regExStringForRegExPattern:withRange:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
         
         
 	</File>

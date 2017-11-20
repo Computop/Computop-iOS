@@ -157,38 +157,44 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/setTemplateStr:</TokenIdentifier>
-			<Abstract type="html">Payment method template string.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/set:</TokenIdentifier>
+			<Abstract type="html">Payment method template string.
+deprecated, merchant developer should use instead of
+method.[paymentData setParamWithKey:@&quot;Template&quot; withValue:@&quot;ct_brasil&quot;]&apos;;</Abstract>
 			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *templateStr</Declaration>
+			<Declaration>@property (nonatomic, strong, readonly) NSString *__deprecated_msg ( &quot;merchant developer should use instead of &apos;[method.paymentData setParamWithKey:@\&quot;Template\&quot; withValue:@\&quot;ct_brasil\&quot;]&apos;;&quot; )</Declaration>
 			
 			
-			<Anchor>//api/name/templateStr</Anchor>
+			<Anchor>//api/name/)</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/templateStr</TokenIdentifier>
-			<Abstract type="html">Payment method template string.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/)</TokenIdentifier>
+			<Abstract type="html">Payment method template string.
+deprecated, merchant developer should use instead of
+method.[paymentData setParamWithKey:@&quot;Template&quot; withValue:@&quot;ct_brasil&quot;]&apos;;</Abstract>
 			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *templateStr</Declaration>
+			<Declaration>@property (nonatomic, strong, readonly) NSString *__deprecated_msg ( &quot;merchant developer should use instead of &apos;[method.paymentData setParamWithKey:@\&quot;Template\&quot; withValue:@\&quot;ct_brasil\&quot;]&apos;;&quot; )</Declaration>
 			
 			
-			<Anchor>//api/name/templateStr</Anchor>
+			<Anchor>//api/name/)</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentMethod/templateStr</TokenIdentifier>
-			<Abstract type="html">Payment method template string.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentMethod/)</TokenIdentifier>
+			<Abstract type="html">Payment method template string.
+deprecated, merchant developer should use instead of
+method.[paymentData setParamWithKey:@&quot;Template&quot; withValue:@&quot;ct_brasil&quot;]&apos;;</Abstract>
 			<DeclaredIn>CMPPaymentMethod.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *templateStr</Declaration>
+			<Declaration>@property (nonatomic, strong, readonly) NSString *__deprecated_msg ( &quot;merchant developer should use instead of &apos;[method.paymentData setParamWithKey:@\&quot;Template\&quot; withValue:@\&quot;ct_brasil\&quot;]&apos;;&quot; )</Declaration>
 			
 			
-			<Anchor>//api/name/templateStr</Anchor>
+			<Anchor>//api/name/)</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
@@ -247,6 +253,42 @@
 			</Parameters>
 			
 			<Anchor>//api/name/initWithDictionary:withParamValidationDictionary:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/setTemplateStr:</TokenIdentifier>
+			<Abstract type="html">Payment method template string.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *templateStr</Declaration>
+			
+			
+			<Anchor>//api/name/templateStr</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentMethod/templateStr</TokenIdentifier>
+			<Abstract type="html">Payment method template string.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *templateStr</Declaration>
+			
+			
+			<Anchor>//api/name/templateStr</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentMethod/templateStr</TokenIdentifier>
+			<Abstract type="html">Payment method template string.</Abstract>
+			<DeclaredIn>CMPPaymentMethod.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *templateStr</Declaration>
+			
+			
+			<Anchor>//api/name/templateStr</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
