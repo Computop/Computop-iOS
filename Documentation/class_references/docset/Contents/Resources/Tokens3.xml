@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/CMPCheckout.html">
+	<File path="Classes/BaseReq.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/CMPCheckout</TokenIdentifier>
-			<Abstract type="html">CMPCheckout</Abstract>
-			<DeclaredIn>CMPCheckout.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/BaseReq</TokenIdentifier>
+			<Abstract type="html">该类为微信终端SDK所有请求类的基类</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
             
 			
 			<NodeRef refid="3"/>
@@ -13,25 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPCheckout/instantiateCheckoutViewControllerWithPaymentMethod:onSuccess:onFailure:</TokenIdentifier>
-			<Abstract type="html">Validates parameters and instantiates an CMPCheckoutViewController object.</Abstract>
-			<DeclaredIn>CMPCheckout.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/BaseReq/setType:</TokenIdentifier>
+			<Abstract type="html">请求类型</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
 			
-			<Declaration>- (void)instantiateCheckoutViewControllerWithPaymentMethod:(CMPPaymentMethod *)paymentMethod onSuccess:(void ( ^ ) ( CMPCheckoutViewController *checkoutViewController ))onSuccess onFailure:(void ( ^ ) ( NSError *error ))onFailure</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>paymentMethod</Name>
-					<Abstract type="html">A model object that contains all the Payment Method&apos;s related data.</Abstract>
-				</Parameter><Parameter>
-					<Name>onSuccess</Name>
-					<Abstract type="html">Returns a CMPCheckoutViewController object, if it could be instantiated</Abstract>
-				</Parameter><Parameter>
-					<Name>onFailure</Name>
-					<Abstract type="html">Returns an error, if the CMPCheckoutViewController object could not be instantiated</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">Void</Abstract></ReturnValue>
-			<Anchor>//api/name/instantiateCheckoutViewControllerWithPaymentMethod:onSuccess:onFailure:</Anchor>
+			<Declaration>@property (nonatomic, assign) int type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BaseReq/type</TokenIdentifier>
+			<Abstract type="html">请求类型</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BaseReq/type</TokenIdentifier>
+			<Abstract type="html">请求类型</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BaseReq/setOpenID:</TokenIdentifier>
+			<Abstract type="html">由用户微信号和AppID组成的唯一标识，发送请求时第三方程序必须填写，用于校验微信用户是否换号登录</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *openID</Declaration>
+			
+			
+			<Anchor>//api/name/openID</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BaseReq/openID</TokenIdentifier>
+			<Abstract type="html">由用户微信号和AppID组成的唯一标识，发送请求时第三方程序必须填写，用于校验微信用户是否换号登录</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *openID</Declaration>
+			
+			
+			<Anchor>//api/name/openID</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BaseReq/openID</TokenIdentifier>
+			<Abstract type="html">由用户微信号和AppID组成的唯一标识，发送请求时第三方程序必须填写，用于校验微信用户是否换号登录</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *openID</Declaration>
+			
+			
+			<Anchor>//api/name/openID</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		

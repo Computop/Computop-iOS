@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/CMPError.html">
+	<File path="Classes/CMPCheckoutViewController.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/CMPError</TokenIdentifier>
-			<Abstract type="html">CMPError</Abstract>
-			<DeclaredIn>CMPError.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/CMPCheckoutViewController</TokenIdentifier>
+			<Abstract type="html">CMPCheckoutViewController</Abstract>
+			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
             
 			
 			<NodeRef refid="8"/>
@@ -13,71 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/CMPError/validatePaymentData:success:failure:</TokenIdentifier>
-			<Abstract type="html">Validates inserted payment data &amp;amp; Merchant configuration</Abstract>
-			<DeclaredIn>CMPError.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPCheckoutViewController/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Delegate object conforming to CMPCheckoutViewControllerDelegate protocol in order to be informed regarding payment results.</Abstract>
+			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
 			
-			<Declaration>+ (void)validatePaymentData:(id&lt;CMPPaymentDataProtocol&gt;)paymentData success:(void ( ^ ) ( ))onSuccess failure:(void ( ^ ) ( NSError *error ))onFailure</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>paymentData</Name>
-					<Abstract type="html">An CMPPaymentData instance, including all payment data.</Abstract>
-				</Parameter><Parameter>
-					<Name>onSuccess</Name>
-					<Abstract type="html">Success completion handler</Abstract>
-				</Parameter><Parameter>
-					<Name>onFailure</Name>
-					<Abstract type="html">Failure completion handler</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, weak) id&lt;CMPCheckoutViewControllerDelegate&gt; delegate</Declaration>
 			
-			<Anchor>//api/name/validatePaymentData:success:failure:</Anchor>
+			
+			<Anchor>//api/name/delegate</Anchor>
             <NodeRef refid="8"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/CMPError/errorForCode:</TokenIdentifier>
-			<Abstract type="html">Returns an Error instance from the given error code</Abstract>
-			<DeclaredIn>CMPError.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPCheckoutViewController/delegate</TokenIdentifier>
+			<Abstract type="html">Delegate object conforming to CMPCheckoutViewControllerDelegate protocol in order to be informed regarding payment results.</Abstract>
+			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
 			
-			<Declaration>+ (NSError *)errorForCode:(NSInteger)code</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>code</Name>
-					<Abstract type="html">An error code defined locally</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">NSError *</Abstract></ReturnValue>
-			<Anchor>//api/name/errorForCode:</Anchor>
+			<Declaration>@property (nonatomic, weak) id&lt;CMPCheckoutViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
             <NodeRef refid="8"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/CMPError/paygateErrorForCode:</TokenIdentifier>
-			<Abstract type="html">Returns an Error instance from the given computop&apos;s error code</Abstract>
-			<DeclaredIn>CMPError.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPCheckoutViewController/delegate</TokenIdentifier>
+			<Abstract type="html">Delegate object conforming to CMPCheckoutViewControllerDelegate protocol in order to be informed regarding payment results.</Abstract>
+			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
 			
-			<Declaration>+ (NSError *)paygateErrorForCode:(NSInteger)code</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>code</Name>
-					<Abstract type="html">An error code defined in Computop side</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">NSError *</Abstract></ReturnValue>
-			<Anchor>//api/name/paygateErrorForCode:</Anchor>
+			<Declaration>@property (nonatomic, weak) id&lt;CMPCheckoutViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
             <NodeRef refid="8"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/CMPError/regExStringForRegExPattern:withRange:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>CMPError.m</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPCheckoutViewController/setPaymentMethod:</TokenIdentifier>
+			<Abstract type="html">An CMPPaymentMethod object that contains all the data for a Payment method.</Abstract>
+			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
 			
-			<Declaration>+ (NSString *)regExStringForRegExPattern:(RegExPattern)regExPattern withRange:(NSRange)range</Declaration>
+			<Declaration>@property (strong, nonatomic) CMPPaymentMethod *paymentMethod</Declaration>
 			
 			
-			<Anchor>//api/name/regExStringForRegExPattern:withRange:</Anchor>
+			<Anchor>//api/name/paymentMethod</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPCheckoutViewController/paymentMethod</TokenIdentifier>
+			<Abstract type="html">An CMPPaymentMethod object that contains all the data for a Payment method.</Abstract>
+			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) CMPPaymentMethod *paymentMethod</Declaration>
+			
+			
+			<Anchor>//api/name/paymentMethod</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPCheckoutViewController/paymentMethod</TokenIdentifier>
+			<Abstract type="html">An CMPPaymentMethod object that contains all the data for a Payment method.</Abstract>
+			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) CMPPaymentMethod *paymentMethod</Declaration>
+			
+			
+			<Anchor>//api/name/paymentMethod</Anchor>
             <NodeRef refid="8"/>
 		</Token>
 		

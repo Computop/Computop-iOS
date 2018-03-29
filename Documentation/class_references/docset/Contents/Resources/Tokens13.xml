@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/CMPServices.html">
+	<File path="Classes/CMPPaymentData.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/CMPServices</TokenIdentifier>
-			<Abstract type="html">&apos;CMPServices&apos;</Abstract>
-			<DeclaredIn>CMPServices.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/CMPPaymentData</TokenIdentifier>
+			<Abstract type="html">CMPPaymentData</Abstract>
+			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
             
 			
 			<NodeRef refid="13"/>
@@ -13,63 +13,134 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/CMPServices/sharedInstance</TokenIdentifier>
-			<Abstract type="html">Singleton</Abstract>
-			<DeclaredIn>CMPServices.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentData/setData:</TokenIdentifier>
+			<Abstract type="html">Dictionary containing all payment related data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
+			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
 			
-			<Declaration>+ (CMPServices *)sharedInstance</Declaration>
+			<Declaration>@property (nonatomic, strong, readonly) NSDictionary *data</Declaration>
 			
 			
-			<Anchor>//api/name/sharedInstance</Anchor>
+			<Anchor>//api/name/data</Anchor>
             <NodeRef refid="13"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPServices/performRequest:success:failure:</TokenIdentifier>
-			<Abstract type="html">  Async request.</Abstract>
-			<DeclaredIn>CMPServices.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentData/data</TokenIdentifier>
+			<Abstract type="html">Dictionary containing all payment related data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
+			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
 			
-			<Declaration>- (void)performRequest:(NSURLRequest *)request success:(void ( ^ ) ( NSData *data ))onSuccess failure:(void ( ^ ) ( NSError *error ))onFailure</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">An NSURLRequest object.</Abstract>
-				</Parameter><Parameter>
-					<Name>onSuccess</Name>
-					<Abstract type="html">Success completion block. It includes the response data as parameter.</Abstract>
-				</Parameter><Parameter>
-					<Name>onFailure</Name>
-					<Abstract type="html">Failure completion block. It includes the error as parameter.</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, strong, readonly) NSDictionary *data</Declaration>
 			
-			<Anchor>//api/name/performRequest:success:failure:</Anchor>
+			
+			<Anchor>//api/name/data</Anchor>
             <NodeRef refid="13"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPServices/performPostRequest:withData:success:failure:</TokenIdentifier>
-			<Abstract type="html">Async HTTP-POST request.</Abstract>
-			<DeclaredIn>CMPServices.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentData/data</TokenIdentifier>
+			<Abstract type="html">Dictionary containing all payment related data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
+			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
 			
-			<Declaration>- (void)performPostRequest:(NSMutableURLRequest *)request withData:(NSData *)bodyData success:(void ( ^ ) ( NSData *data ))onSuccess failure:(void ( ^ ) ( NSError *error ))onFailure</Declaration>
+			<Declaration>@property (nonatomic, strong, readonly) NSDictionary *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentData/setAdditionalURLParams:</TokenIdentifier>
+			<Abstract type="html">dictionary containing all additional URL params data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
+			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDictionary *additionalURLParams</Declaration>
+			
+			
+			<Anchor>//api/name/additionalURLParams</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentData/additionalURLParams</TokenIdentifier>
+			<Abstract type="html">dictionary containing all additional URL params data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
+			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDictionary *additionalURLParams</Declaration>
+			
+			
+			<Anchor>//api/name/additionalURLParams</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentData/additionalURLParams</TokenIdentifier>
+			<Abstract type="html">dictionary containing all additional URL params data, with parameter name as key and CMPPaymentParam object as value.</Abstract>
+			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDictionary *additionalURLParams</Declaration>
+			
+			
+			<Anchor>//api/name/additionalURLParams</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentData/initWithDataElements:additionalURLParams:andParamValidationDictionary:</TokenIdentifier>
+			<Abstract type="html">Init method.</Abstract>
+			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithDataElements:(NSDictionary *)dataElements additionalURLParams:(NSDictionary *)additionalURLParams andParamValidationDictionary:(NSDictionary *)paramValidationDictionary</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">An NSMutableURLRequest object.</Abstract>
+					<Name>dataElements</Name>
+					<Abstract type="html">The &apos;dataElements&apos; dictionary as fetched from JSON.</Abstract>
 				</Parameter><Parameter>
-					<Name>bodyData</Name>
-					<Abstract type="html">Request data.</Abstract>
+					<Name>additionalURLParams</Name>
+					<Abstract type="html">The additional URL Params as fethced from JSON</Abstract>
 				</Parameter><Parameter>
-					<Name>onSuccess</Name>
-					<Abstract type="html">Success completion block. It includes the response data as parameter.</Abstract>
-				</Parameter><Parameter>
-					<Name>onFailure</Name>
-					<Abstract type="html">Failure completion block. It includes the error as parameter.</Abstract>
+					<Name>paramValidationDictionary</Name>
+					<Abstract type="html">The dictionary containing all validation information for all payment data parameters.</Abstract>
 				</Parameter>
 			</Parameters>
 			
-			<Anchor>//api/name/performPostRequest:withData:success:failure:</Anchor>
+			<Anchor>//api/name/initWithDataElements:additionalURLParams:andParamValidationDictionary:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentData/paymentParamWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns a payment data parameter&apos;s value given its key.</Abstract>
+			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
+			
+			<Declaration>- (CMPPaymentParam *)paymentParamWithKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The name of payment data parameter.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A CMPPaymentParam object. if nil, data for given key doesn&apos;t exist.</Abstract></ReturnValue>
+			<Anchor>//api/name/paymentParamWithKey:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentData/setParamWithKey:withValue:</TokenIdentifier>
+			<Abstract type="html">Sets a payment data parameter in the dictionary.</Abstract>
+			<DeclaredIn>CMPPaymentData.h</DeclaredIn>
+			
+			<Declaration>- (void)setParamWithKey:(NSString *)key withValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The name of payment data parameter.</Abstract>
+				</Parameter><Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The value for the payment data parameter.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setParamWithKey:withValue:</Anchor>
             <NodeRef refid="13"/>
 		</Token>
 		

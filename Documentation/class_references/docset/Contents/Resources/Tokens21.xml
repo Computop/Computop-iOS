@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Protocols/CMPPaymentMethodProtocol.html">
+	<File path="Classes/Computop.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intf/CMPPaymentMethodProtocol</TokenIdentifier>
-			<Abstract type="html">CMPPaymentMethodProtocol</Abstract>
-			<DeclaredIn>CMPPaymentMethodProtocol.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/Computop</TokenIdentifier>
+			<Abstract type="html">&apos;Computop&apos;</Abstract>
+			<DeclaredIn>Computop.h</DeclaredIn>
             
 			
 			<NodeRef refid="21"/>
@@ -13,146 +13,51 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/CMPPaymentMethodProtocol/setPmID:</TokenIdentifier>
-			<Abstract type="html">Payment method id.</Abstract>
-			<DeclaredIn>CMPPaymentMethodProtocol.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/clm/Computop/sharedInstance</TokenIdentifier>
+			<Abstract type="html">Singleton</Abstract>
+			<DeclaredIn>Computop.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *pmID</Declaration>
+			<Declaration>+ (instancetype)sharedInstance</Declaration>
 			
 			
-			<Anchor>//api/name/pmID</Anchor>
+			<Anchor>//api/name/sharedInstance</Anchor>
             <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/CMPPaymentMethodProtocol/pmID</TokenIdentifier>
-			<Abstract type="html">Payment method id.</Abstract>
-			<DeclaredIn>CMPPaymentMethodProtocol.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/Computop/paymentMethodsOnSuccess:onFailure:</TokenIdentifier>
+			<Abstract type="html">Fetches and returns a list of available payment methods for the current Merchant.</Abstract>
+			<DeclaredIn>Computop.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *pmID</Declaration>
+			<Declaration>- (void)paymentMethodsOnSuccess:(void ( ^ ) ( NSArray&lt;CMPPaymentMethod*&gt; *paymentMethods ))onSuccess onFailure:(void ( ^ ) ( NSError *error ))onFailure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>onSuccess</Name>
+					<Abstract type="html">Returns an array of CMPPaymentMethod objects.</Abstract>
+				</Parameter><Parameter>
+					<Name>onFailure</Name>
+					<Abstract type="html">Returns an error if the payment methods could not be retrieved.</Abstract>
+				</Parameter>
+			</Parameters>
 			
-			
-			<Anchor>//api/name/pmID</Anchor>
+			<Anchor>//api/name/paymentMethodsOnSuccess:onFailure:</Anchor>
             <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/CMPPaymentMethodProtocol/pmID</TokenIdentifier>
-			<Abstract type="html">Payment method id.</Abstract>
-			<DeclaredIn>CMPPaymentMethodProtocol.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/Computop/paymentMethodForID:</TokenIdentifier>
+			<Abstract type="html">Fetches and returns a payment method given its ID parameter.</Abstract>
+			<DeclaredIn>Computop.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *pmID</Declaration>
-			
-			
-			<Anchor>//api/name/pmID</Anchor>
-            <NodeRef refid="21"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/CMPPaymentMethodProtocol/setUrl:</TokenIdentifier>
-			<Abstract type="html">Payment method url.</Abstract>
-			<DeclaredIn>CMPPaymentMethodProtocol.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
-			
-			
-			<Anchor>//api/name/url</Anchor>
-            <NodeRef refid="21"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/CMPPaymentMethodProtocol/url</TokenIdentifier>
-			<Abstract type="html">Payment method url.</Abstract>
-			<DeclaredIn>CMPPaymentMethodProtocol.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
-			
-			
-			<Anchor>//api/name/url</Anchor>
-            <NodeRef refid="21"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/CMPPaymentMethodProtocol/url</TokenIdentifier>
-			<Abstract type="html">Payment method url.</Abstract>
-			<DeclaredIn>CMPPaymentMethodProtocol.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
-			
-			
-			<Anchor>//api/name/url</Anchor>
-            <NodeRef refid="21"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/CMPPaymentMethodProtocol/setImage:</TokenIdentifier>
-			<Abstract type="html">Payment method image.</Abstract>
-			<DeclaredIn>CMPPaymentMethodProtocol.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
-			
-			
-			<Anchor>//api/name/image</Anchor>
-            <NodeRef refid="21"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/CMPPaymentMethodProtocol/image</TokenIdentifier>
-			<Abstract type="html">Payment method image.</Abstract>
-			<DeclaredIn>CMPPaymentMethodProtocol.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
-			
-			
-			<Anchor>//api/name/image</Anchor>
-            <NodeRef refid="21"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/CMPPaymentMethodProtocol/image</TokenIdentifier>
-			<Abstract type="html">Payment method image.</Abstract>
-			<DeclaredIn>CMPPaymentMethodProtocol.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
-			
-			
-			<Anchor>//api/name/image</Anchor>
-            <NodeRef refid="21"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/CMPPaymentMethodProtocol/setTemplateStr:</TokenIdentifier>
-			<Abstract type="html">Payment method template string.</Abstract>
-			<DeclaredIn>CMPPaymentMethodProtocol.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *templateStr</Declaration>
-			
-			
-			<Anchor>//api/name/templateStr</Anchor>
-            <NodeRef refid="21"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/CMPPaymentMethodProtocol/templateStr</TokenIdentifier>
-			<Abstract type="html">Payment method template string.</Abstract>
-			<DeclaredIn>CMPPaymentMethodProtocol.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *templateStr</Declaration>
-			
-			
-			<Anchor>//api/name/templateStr</Anchor>
-            <NodeRef refid="21"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/CMPPaymentMethodProtocol/templateStr</TokenIdentifier>
-			<Abstract type="html">Payment method template string.</Abstract>
-			<DeclaredIn>CMPPaymentMethodProtocol.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *templateStr</Declaration>
-			
-			
-			<Anchor>//api/name/templateStr</Anchor>
+			<Declaration>- (CMPPaymentMethod *)paymentMethodForID:(NSString *)pmID</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>pmID</Name>
+					<Abstract type="html">Payment method&apos;s ID parameter.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A CMPPaymentMethod object.</Abstract></ReturnValue>
+			<Anchor>//api/name/paymentMethodForID:</Anchor>
             <NodeRef refid="21"/>
 		</Token>
 		

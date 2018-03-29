@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Categories/NSDictionary+JSONString.html">
+	<File path="Classes/CMPServices.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cat/NSDictionary(JSONString)</TokenIdentifier>
-			<Abstract type="html">NSDictionary</Abstract>
-			<DeclaredIn>NSDictionary+JSONString.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/CMPServices</TokenIdentifier>
+			<Abstract type="html">&apos;CMPServices&apos;</Abstract>
+			<DeclaredIn>CMPServices.h</DeclaredIn>
             
 			
 			<NodeRef refid="17"/>
@@ -13,19 +13,63 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/NSDictionary/jsonStringWithPrettyPrint:</TokenIdentifier>
-			<Abstract type="html">Converts an NSDictionary object into JSON String object.</Abstract>
-			<DeclaredIn>NSDictionary+JSONString.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/clm/CMPServices/sharedInstance</TokenIdentifier>
+			<Abstract type="html">Singleton</Abstract>
+			<DeclaredIn>CMPServices.h</DeclaredIn>
 			
-			<Declaration>- (NSString *)jsonStringWithPrettyPrint:(BOOL)prettyPrint</Declaration>
+			<Declaration>+ (CMPServices *)sharedInstance</Declaration>
+			
+			
+			<Anchor>//api/name/sharedInstance</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPServices/performRequest:success:failure:</TokenIdentifier>
+			<Abstract type="html">  Async request.</Abstract>
+			<DeclaredIn>CMPServices.h</DeclaredIn>
+			
+			<Declaration>- (void)performRequest:(NSURLRequest *)request success:(void ( ^ ) ( NSData *data ))onSuccess failure:(void ( ^ ) ( NSError *error ))onFailure</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>prettyPrint</Name>
-					<Abstract type="html">Specifies that the JSON data should be generated with whitespace designed to make the output more readable. If this option is not set, the most compact possible JSON representation is generated.</Abstract>
+					<Name>request</Name>
+					<Abstract type="html">An NSURLRequest object.</Abstract>
+				</Parameter><Parameter>
+					<Name>onSuccess</Name>
+					<Abstract type="html">Success completion block. It includes the response data as parameter.</Abstract>
+				</Parameter><Parameter>
+					<Name>onFailure</Name>
+					<Abstract type="html">Failure completion block. It includes the error as parameter.</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">NSString JSON representation of an NSDictionary object.</Abstract></ReturnValue>
-			<Anchor>//api/name/jsonStringWithPrettyPrint:</Anchor>
+			
+			<Anchor>//api/name/performRequest:success:failure:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPServices/performPostRequest:withData:success:failure:</TokenIdentifier>
+			<Abstract type="html">Async HTTP-POST request.</Abstract>
+			<DeclaredIn>CMPServices.h</DeclaredIn>
+			
+			<Declaration>- (void)performPostRequest:(NSMutableURLRequest *)request withData:(NSData *)bodyData success:(void ( ^ ) ( NSData *data ))onSuccess failure:(void ( ^ ) ( NSError *error ))onFailure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">An NSMutableURLRequest object.</Abstract>
+				</Parameter><Parameter>
+					<Name>bodyData</Name>
+					<Abstract type="html">Request data.</Abstract>
+				</Parameter><Parameter>
+					<Name>onSuccess</Name>
+					<Abstract type="html">Success completion block. It includes the response data as parameter.</Abstract>
+				</Parameter><Parameter>
+					<Name>onFailure</Name>
+					<Abstract type="html">Failure completion block. It includes the error as parameter.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/performPostRequest:withData:success:failure:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		

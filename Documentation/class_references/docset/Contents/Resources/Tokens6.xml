@@ -1,16 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/CMPContext.html">
+	<File path="Classes/CMPAuthentication.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/CMPContext</TokenIdentifier>
-			<Abstract type="html">CMPContext</Abstract>
-			<DeclaredIn>CMPContext.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/CMPAuthentication</TokenIdentifier>
+			<Abstract type="html">This class handles the authentication against a the configured CMPConfiguration.authURL.</Abstract>
+			<DeclaredIn>CMPAuthentication.h</DeclaredIn>
             
 			
 			<NodeRef refid="6"/>
 		</Token>
 		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPAuthentication/setAuthToken:</TokenIdentifier>
+			<Abstract type="html">Authentication token</Abstract>
+			<DeclaredIn>CMPAuthentication.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *authToken</Declaration>
+			
+			
+			<Anchor>//api/name/authToken</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPAuthentication/authToken</TokenIdentifier>
+			<Abstract type="html">Authentication token</Abstract>
+			<DeclaredIn>CMPAuthentication.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *authToken</Declaration>
+			
+			
+			<Anchor>//api/name/authToken</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPAuthentication/authToken</TokenIdentifier>
+			<Abstract type="html">Authentication token</Abstract>
+			<DeclaredIn>CMPAuthentication.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *authToken</Declaration>
+			
+			
+			<Anchor>//api/name/authToken</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPAuthentication/setAuthLabel:</TokenIdentifier>
+			<Abstract type="html">Authentication label</Abstract>
+			<DeclaredIn>CMPAuthentication.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *authLabel</Declaration>
+			
+			
+			<Anchor>//api/name/authLabel</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPAuthentication/authLabel</TokenIdentifier>
+			<Abstract type="html">Authentication label</Abstract>
+			<DeclaredIn>CMPAuthentication.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *authLabel</Declaration>
+			
+			
+			<Anchor>//api/name/authLabel</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CMPAuthentication/authLabel</TokenIdentifier>
+			<Abstract type="html">Authentication label</Abstract>
+			<DeclaredIn>CMPAuthentication.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *authLabel</Declaration>
+			
+			
+			<Anchor>//api/name/authLabel</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
 		
         
         

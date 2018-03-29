@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/CMPPaymentParam.html">
+	<File path="Classes/CMPError.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/CMPPaymentParam</TokenIdentifier>
-			<Abstract type="html">This class describes the payment method params.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/CMPError</TokenIdentifier>
+			<Abstract type="html">CMPError</Abstract>
+			<DeclaredIn>CMPError.h</DeclaredIn>
             
 			
 			<NodeRef refid="12"/>
@@ -13,246 +13,71 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentParam/setKey:</TokenIdentifier>
-			<Abstract type="html">Parameter&apos;s name.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/clm/CMPError/validatePaymentData:success:failure:</TokenIdentifier>
+			<Abstract type="html">Validates inserted payment data &amp;amp; Merchant configuration</Abstract>
+			<DeclaredIn>CMPError.h</DeclaredIn>
 			
-			<Declaration>@property (strong, nonatomic) NSString *key</Declaration>
-			
-			
-			<Anchor>//api/name/key</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentParam/key</TokenIdentifier>
-			<Abstract type="html">Parameter&apos;s name.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (strong, nonatomic) NSString *key</Declaration>
-			
-			
-			<Anchor>//api/name/key</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentParam/key</TokenIdentifier>
-			<Abstract type="html">Parameter&apos;s name.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (strong, nonatomic) NSString *key</Declaration>
-			
-			
-			<Anchor>//api/name/key</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentParam/setValue:</TokenIdentifier>
-			<Abstract type="html">Parameter&apos;s value.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (strong, nonatomic) NSString *value</Declaration>
-			
-			
-			<Anchor>//api/name/value</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentParam/value</TokenIdentifier>
-			<Abstract type="html">Parameter&apos;s value.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (strong, nonatomic) NSString *value</Declaration>
-			
-			
-			<Anchor>//api/name/value</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentParam/value</TokenIdentifier>
-			<Abstract type="html">Parameter&apos;s value.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (strong, nonatomic) NSString *value</Declaration>
-			
-			
-			<Anchor>//api/name/value</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentParam/setIsMandatory:</TokenIdentifier>
-			<Abstract type="html">Parameter&apos;s requirement.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (assign, nonatomic) BOOL isMandatory</Declaration>
-			
-			
-			<Anchor>//api/name/isMandatory</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentParam/isMandatory</TokenIdentifier>
-			<Abstract type="html">Parameter&apos;s requirement.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (assign, nonatomic) BOOL isMandatory</Declaration>
-			
-			
-			<Anchor>//api/name/isMandatory</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentParam/isMandatory</TokenIdentifier>
-			<Abstract type="html">Parameter&apos;s requirement.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (assign, nonatomic) BOOL isMandatory</Declaration>
-			
-			
-			<Anchor>//api/name/isMandatory</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentParam/setType:</TokenIdentifier>
-			<Abstract type="html">Parameter&apos;s type.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (assign, nonatomic) RegExPattern type</Declaration>
-			
-			
-			<Anchor>//api/name/type</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentParam/type</TokenIdentifier>
-			<Abstract type="html">Parameter&apos;s type.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (assign, nonatomic) RegExPattern type</Declaration>
-			
-			
-			<Anchor>//api/name/type</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentParam/type</TokenIdentifier>
-			<Abstract type="html">Parameter&apos;s type.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (assign, nonatomic) RegExPattern type</Declaration>
-			
-			
-			<Anchor>//api/name/type</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentParam/setRange:</TokenIdentifier>
-			<Abstract type="html">Parameter&apos;s value range. It is used for validation purposes.
-The location of the range is the minimum number of digits &amp;amp; the length is the maximum.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (assign, nonatomic) NSRange range</Declaration>
-			
-			
-			<Anchor>//api/name/range</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentParam/range</TokenIdentifier>
-			<Abstract type="html">Parameter&apos;s value range. It is used for validation purposes.
-The location of the range is the minimum number of digits &amp;amp; the length is the maximum.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (assign, nonatomic) NSRange range</Declaration>
-			
-			
-			<Anchor>//api/name/range</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentParam/range</TokenIdentifier>
-			<Abstract type="html">Parameter&apos;s value range. It is used for validation purposes.
-The location of the range is the minimum number of digits &amp;amp; the length is the maximum.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (assign, nonatomic) NSRange range</Declaration>
-			
-			
-			<Anchor>//api/name/range</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentParam/setOptions:</TokenIdentifier>
-			<Abstract type="html">If not nil, here are possible value options.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (assign, nonatomic) NSArray *options</Declaration>
-			
-			
-			<Anchor>//api/name/options</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentParam/options</TokenIdentifier>
-			<Abstract type="html">If not nil, here are possible value options.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (assign, nonatomic) NSArray *options</Declaration>
-			
-			
-			<Anchor>//api/name/options</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/CMPPaymentParam/options</TokenIdentifier>
-			<Abstract type="html">If not nil, here are possible value options.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>@property (assign, nonatomic) NSArray *options</Declaration>
-			
-			
-			<Anchor>//api/name/options</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPPaymentParam/initWithDictionary:withKey:withParamValidationArray:</TokenIdentifier>
-			<Abstract type="html">Init method.</Abstract>
-			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
-			
-			<Declaration>- (instancetype)initWithDictionary:(NSDictionary *)dictionary withKey:(NSString *)key withParamValidationArray:(NSArray *)paramValidationArray</Declaration>
+			<Declaration>+ (void)validatePaymentData:(id&lt;CMPPaymentDataProtocol&gt;)paymentData success:(void ( ^ ) ( ))onSuccess failure:(void ( ^ ) ( NSError *error ))onFailure</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>dictionary</Name>
-					<Abstract type="html">A dictionary containing all parameter&apos;s data.</Abstract>
+					<Name>paymentData</Name>
+					<Abstract type="html">An CMPPaymentData instance, including all payment data.</Abstract>
 				</Parameter><Parameter>
-					<Name>key</Name>
-					<Abstract type="html">Parameter&apos;s name.</Abstract>
+					<Name>onSuccess</Name>
+					<Abstract type="html">Success completion handler</Abstract>
 				</Parameter><Parameter>
-					<Name>paramValidationArray</Name>
-					<Abstract type="html">An array containing all validation information for the parameter.
-
-@param instancetype</Abstract>
+					<Name>onFailure</Name>
+					<Abstract type="html">Failure completion handler</Abstract>
 				</Parameter>
 			</Parameters>
 			
-			<Anchor>//api/name/initWithDictionary:withKey:withParamValidationArray:</Anchor>
+			<Anchor>//api/name/validatePaymentData:success:failure:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMPError/errorForCode:</TokenIdentifier>
+			<Abstract type="html">Returns an Error instance from the given error code</Abstract>
+			<DeclaredIn>CMPError.h</DeclaredIn>
+			
+			<Declaration>+ (NSError *)errorForCode:(NSInteger)code</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>code</Name>
+					<Abstract type="html">An error code defined locally</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSError *</Abstract></ReturnValue>
+			<Anchor>//api/name/errorForCode:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMPError/paygateErrorForCode:</TokenIdentifier>
+			<Abstract type="html">Returns an Error instance from the given computop&apos;s error code</Abstract>
+			<DeclaredIn>CMPError.h</DeclaredIn>
+			
+			<Declaration>+ (NSError *)paygateErrorForCode:(NSInteger)code</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>code</Name>
+					<Abstract type="html">An error code defined in Computop side</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSError *</Abstract></ReturnValue>
+			<Anchor>//api/name/paygateErrorForCode:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CMPError/regExStringForRegExPattern:withRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CMPError.m</DeclaredIn>
+			
+			<Declaration>+ (NSString *)regExStringForRegExPattern:(RegExPattern)regExPattern withRange:(NSRange)range</Declaration>
+			
+			
+			<Anchor>//api/name/regExStringForRegExPattern:withRange:</Anchor>
             <NodeRef refid="12"/>
 		</Token>
 		

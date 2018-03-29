@@ -1,77 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/CMPTransactionStatus.html">
+	<File path="Classes/GetMessageFromWXResp.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/CMPTransactionStatus</TokenIdentifier>
-			<Abstract type="html">Paygate action codes, retrieved after request status</Abstract>
-			<DeclaredIn>CMPError.m</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/GetMessageFromWXResp</TokenIdentifier>
+			<Abstract type="html">微信终端向第三方程序请求提供内容，第三方程序向微信终端返回的消息结构体。
+
+微信终端向第三方程序请求提供内容，第三方程序调用sendResp向微信终端返回一个GetMessageFromWXResp消息结构体。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
             
 			
 			<NodeRef refid="23"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/CMPTransactionOK</TokenIdentifier>
-            <Abstract type="html">The transaction was successful. The error code may contain information.</Abstract>
-            <Declaration>CMPTransactionOK</Declaration>
-            
-            <DeclaredIn>CMPError.m</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GetMessageFromWXResp/setText:</TokenIdentifier>
+			<Abstract type="html">向微信终端提供的文本内容</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
             <NodeRef refid="23"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/CMPTransactionWarning</TokenIdentifier>
-            <Abstract type="html">Currently not supported.</Abstract>
-            <Declaration>CMPTransactionWarning</Declaration>
-            
-            <DeclaredIn>CMPError.m</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GetMessageFromWXResp/text</TokenIdentifier>
+			<Abstract type="html">向微信终端提供的文本内容</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
             <NodeRef refid="23"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/CMPTransactionError</TokenIdentifier>
-            <Abstract type="html">The transaction failed.</Abstract>
-            <Declaration>CMPTransactionError</Declaration>
-            
-            <DeclaredIn>CMPError.m</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GetMessageFromWXResp/text</TokenIdentifier>
+			<Abstract type="html">向微信终端提供的文本内容</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
             <NodeRef refid="23"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/CMPTransactionFatal</TokenIdentifier>
-            <Abstract type="html">The transaction failed due to an error that could also affect the following transactions.</Abstract>
-            <Declaration>CMPTransactionFatal</Declaration>
-            
-            <DeclaredIn>CMPError.m</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GetMessageFromWXResp/setMessage:</TokenIdentifier>
+			<Abstract type="html">向微信终端提供的多媒体内容。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/WXMediaMessage</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) WXMediaMessage *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
             <NodeRef refid="23"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/CMPTransactionContinue</TokenIdentifier>
-            <Abstract type="html">Processing of the transaction has not yet been completed: as soon as processing has been completed, Paygate sends a Notify message with the final status.</Abstract>
-            <Declaration>CMPTransactionContinue</Declaration>
-            
-            <DeclaredIn>CMPError.m</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GetMessageFromWXResp/message</TokenIdentifier>
+			<Abstract type="html">向微信终端提供的多媒体内容。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/WXMediaMessage</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) WXMediaMessage *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
             <NodeRef refid="23"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/CMPTransactionRetry</TokenIdentifier>
-            <Abstract type="html">Currently not supported.</Abstract>
-            <Declaration>CMPTransactionRetry</Declaration>
-            
-            <DeclaredIn>CMPError.m</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GetMessageFromWXResp/message</TokenIdentifier>
+			<Abstract type="html">向微信终端提供的多媒体内容。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/WXMediaMessage</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) WXMediaMessage *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
             <NodeRef refid="23"/>
-        </Token>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GetMessageFromWXResp/setBText:</TokenIdentifier>
+			<Abstract type="html">向微信终端提供内容的消息类型，包括文本消息和多媒体消息两种，两者只能选择其一，不能同时发送文本和多媒体消息</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bText</Declaration>
+			
+			
+			<Anchor>//api/name/bText</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GetMessageFromWXResp/bText</TokenIdentifier>
+			<Abstract type="html">向微信终端提供内容的消息类型，包括文本消息和多媒体消息两种，两者只能选择其一，不能同时发送文本和多媒体消息</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bText</Declaration>
+			
+			
+			<Anchor>//api/name/bText</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GetMessageFromWXResp/bText</TokenIdentifier>
+			<Abstract type="html">向微信终端提供内容的消息类型，包括文本消息和多媒体消息两种，两者只能选择其一，不能同时发送文本和多媒体消息</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bText</Declaration>
+			
+			
+			<Anchor>//api/name/bText</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
         
         
 	</File>

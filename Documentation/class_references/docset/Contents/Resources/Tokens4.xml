@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/CMPCheckoutViewController.html">
+	<File path="Classes/BaseResp.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/CMPCheckoutViewController</TokenIdentifier>
-			<Abstract type="html">CMPCheckoutViewController</Abstract>
-			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/BaseResp</TokenIdentifier>
+			<Abstract type="html">该类为微信终端SDK所有响应类的基类</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
             
 			
 			<NodeRef refid="4"/>
@@ -13,74 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPCheckoutViewController/setDelegate:</TokenIdentifier>
-			<Abstract type="html">Delegate object conforming to CMPCheckoutViewControllerDelegate protocol in order to be informed regarding payment results.</Abstract>
-			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/BaseResp/setErrCode:</TokenIdentifier>
+			<Abstract type="html">错误码</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, weak) id&lt;CMPCheckoutViewControllerDelegate&gt; delegate</Declaration>
+			<Declaration>@property (nonatomic, assign) int errCode</Declaration>
 			
 			
-			<Anchor>//api/name/delegate</Anchor>
+			<Anchor>//api/name/errCode</Anchor>
             <NodeRef refid="4"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPCheckoutViewController/delegate</TokenIdentifier>
-			<Abstract type="html">Delegate object conforming to CMPCheckoutViewControllerDelegate protocol in order to be informed regarding payment results.</Abstract>
-			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/BaseResp/errCode</TokenIdentifier>
+			<Abstract type="html">错误码</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, weak) id&lt;CMPCheckoutViewControllerDelegate&gt; delegate</Declaration>
+			<Declaration>@property (nonatomic, assign) int errCode</Declaration>
 			
 			
-			<Anchor>//api/name/delegate</Anchor>
+			<Anchor>//api/name/errCode</Anchor>
             <NodeRef refid="4"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/CMPCheckoutViewController/delegate</TokenIdentifier>
-			<Abstract type="html">Delegate object conforming to CMPCheckoutViewControllerDelegate protocol in order to be informed regarding payment results.</Abstract>
-			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/BaseResp/errCode</TokenIdentifier>
+			<Abstract type="html">错误码</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, weak) id&lt;CMPCheckoutViewControllerDelegate&gt; delegate</Declaration>
+			<Declaration>@property (nonatomic, assign) int errCode</Declaration>
 			
 			
-			<Anchor>//api/name/delegate</Anchor>
+			<Anchor>//api/name/errCode</Anchor>
             <NodeRef refid="4"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPCheckoutViewController/setPaymentMethod:</TokenIdentifier>
-			<Abstract type="html">An CMPPaymentMethod object that contains all the data for a Payment method.</Abstract>
-			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/BaseResp/setErrStr:</TokenIdentifier>
+			<Abstract type="html">错误提示字符串</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
 			
-			<Declaration>@property (strong, nonatomic) CMPPaymentMethod *paymentMethod</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *errStr</Declaration>
 			
 			
-			<Anchor>//api/name/paymentMethod</Anchor>
+			<Anchor>//api/name/errStr</Anchor>
             <NodeRef refid="4"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/CMPCheckoutViewController/paymentMethod</TokenIdentifier>
-			<Abstract type="html">An CMPPaymentMethod object that contains all the data for a Payment method.</Abstract>
-			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/BaseResp/errStr</TokenIdentifier>
+			<Abstract type="html">错误提示字符串</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
 			
-			<Declaration>@property (strong, nonatomic) CMPPaymentMethod *paymentMethod</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *errStr</Declaration>
 			
 			
-			<Anchor>//api/name/paymentMethod</Anchor>
+			<Anchor>//api/name/errStr</Anchor>
             <NodeRef refid="4"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/CMPCheckoutViewController/paymentMethod</TokenIdentifier>
-			<Abstract type="html">An CMPPaymentMethod object that contains all the data for a Payment method.</Abstract>
-			<DeclaredIn>CMPCheckoutViewController.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/BaseResp/errStr</TokenIdentifier>
+			<Abstract type="html">错误提示字符串</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
 			
-			<Declaration>@property (strong, nonatomic) CMPPaymentMethod *paymentMethod</Declaration>
+			<Declaration>@property (nonatomic, retain) NSString *errStr</Declaration>
 			
 			
-			<Anchor>//api/name/paymentMethod</Anchor>
+			<Anchor>//api/name/errStr</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BaseResp/setType:</TokenIdentifier>
+			<Abstract type="html">响应类型</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BaseResp/type</TokenIdentifier>
+			<Abstract type="html">响应类型</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BaseResp/type</TokenIdentifier>
+			<Abstract type="html">响应类型</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
             <NodeRef refid="4"/>
 		</Token>
 		

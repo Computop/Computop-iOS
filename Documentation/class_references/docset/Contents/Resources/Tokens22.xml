@@ -1,107 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/CMPErrorCode.html">
+	<File path="Classes/GetMessageFromWXReq.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/CMPErrorCode</TokenIdentifier>
-			<Abstract type="html">All Internal paygate errors will be under this domain.</Abstract>
-			<DeclaredIn>CMPError.m</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/GetMessageFromWXReq</TokenIdentifier>
+			<Abstract type="html">微信终端向第三方程序请求提供内容的消息结构体。
+
+微信终端向第三方程序请求提供内容，微信终端会向第三方程序发送GetMessageFromWXReq消息结构体，
+需要第三方程序调用sendResp返回一个GetMessageFromWXResp消息结构体。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
             
 			
 			<NodeRef refid="22"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/CMPErrorUndefined</TokenIdentifier>
-            <Abstract type="html">Currently not supported.</Abstract>
-            <Declaration>CMPErrorUndefined</Declaration>
-            
-            <DeclaredIn>CMPError.m</DeclaredIn>
-            
-            <NodeRef refid="22"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/CMPEmptyMerchantID</TokenIdentifier>
-            <Abstract type="html">MerchantID is missing.</Abstract>
-            <Declaration>CMPEmptyMerchantID</Declaration>
-            
-            <DeclaredIn>CMPError.m</DeclaredIn>
-            
-            <NodeRef refid="22"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/CMPEmptyTransID</TokenIdentifier>
-            <Abstract type="html">TransID is missing.</Abstract>
-            <Declaration>CMPEmptyTransID</Declaration>
-            
-            <DeclaredIn>CMPError.m</DeclaredIn>
-            
-            <NodeRef refid="22"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/CMPEmptyAmount</TokenIdentifier>
-            <Abstract type="html">Amount is missing.</Abstract>
-            <Declaration>CMPEmptyAmount</Declaration>
-            
-            <DeclaredIn>CMPError.m</DeclaredIn>
-            
-            <NodeRef refid="22"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/CMPEmptyCurrency</TokenIdentifier>
-            <Abstract type="html">Currency is missing.</Abstract>
-            <Declaration>CMPEmptyCurrency</Declaration>
-            
-            <DeclaredIn>CMPError.m</DeclaredIn>
-            
-            <NodeRef refid="22"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/CMPEmptyURLSuccess</TokenIdentifier>
-            <Abstract type="html">URLSuccess is missing.</Abstract>
-            <Declaration>CMPEmptyURLSuccess</Declaration>
-            
-            <DeclaredIn>CMPError.m</DeclaredIn>
-            
-            <NodeRef refid="22"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/CMPEmptyURLFailure</TokenIdentifier>
-            <Abstract type="html">URLFailure is missing.</Abstract>
-            <Declaration>CMPEmptyURLFailure</Declaration>
-            
-            <DeclaredIn>CMPError.m</DeclaredIn>
-            
-            <NodeRef refid="22"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/CMPEmptyURLNotify</TokenIdentifier>
-            <Abstract type="html">URLNotify is missing.</Abstract>
-            <Declaration>CMPEmptyURLNotify</Declaration>
-            
-            <DeclaredIn>CMPError.m</DeclaredIn>
-            
-            <NodeRef refid="22"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/CMPEmptyAddrCountryCode</TokenIdentifier>
-            <Abstract type="html">AddrCountryCode is missing.</Abstract>
-            <Declaration>CMPEmptyAddrCountryCode</Declaration>
-            
-            <DeclaredIn>CMPError.m</DeclaredIn>
-            
-            <NodeRef refid="22"/>
-        </Token>
         
         
 	</File>

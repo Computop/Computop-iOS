@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Protocols/CMPApplePayDelegate.html">
+	<File path="Classes/CMPTokenRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intf/CMPApplePayDelegate</TokenIdentifier>
-			<Abstract type="html">CMPApplePayDelegate</Abstract>
-			<DeclaredIn>CMPApplePayDelegate.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/CMPTokenRequest</TokenIdentifier>
+			<Abstract type="html">CMPTokenRequest</Abstract>
+			<DeclaredIn>CMPTokenRequest.h</DeclaredIn>
             
 			
 			<NodeRef refid="18"/>
@@ -13,99 +13,22 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/CMPApplePayDelegate/applePayDidDismiss</TokenIdentifier>
-			<Abstract type="html">Called when PKPaymentAuthorizationViewController is dismissed.</Abstract>
-			<DeclaredIn>CMPApplePayDelegate.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/CMPTokenRequest/authentication:onFailure:</TokenIdentifier>
+			<Abstract type="html">Performs authentication request, by passing the encryption-key, used to encrypt payment data, as parameter.</Abstract>
+			<DeclaredIn>CMPTokenRequest.h</DeclaredIn>
 			
-			<Declaration>- (void)applePayDidDismiss</Declaration>
-			
-			
-			<Anchor>//api/name/applePayDidDismiss</Anchor>
-            <NodeRef refid="18"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/CMPApplePayDelegate/applePayDidAuthorizePaymentForPaymentData:withResponse:</TokenIdentifier>
-			<Abstract type="html">Called after Apple Pay payment is authorized successfully.
-All the shipping data entered are merged into the existing PaymentData.</Abstract>
-			<DeclaredIn>CMPApplePayDelegate.h</DeclaredIn>
-			
-			<Declaration>- (void)applePayDidAuthorizePaymentForPaymentData:(id&lt;CMPPaymentDataProtocol&gt;)paymentData withResponse:(CMPPaymentRespose *)response</Declaration>
+			<Declaration>- (void)authentication:(void ( ^ ) ( CMPAuthentication *authentication ))onSuccess onFailure:(void ( ^ ) ( NSError *error ))onFailure</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>paymentData</Name>
-					<Abstract type="html">A paymentData object conforming to CMPPaymentDataProtocol.</Abstract>
+					<Name>onSuccess</Name>
+					<Abstract type="html">Success completion block. It includes the CMPAuthentication object as parameter, which contains all the auth info that will be injected inside the payment request.</Abstract>
 				</Parameter><Parameter>
-					<Name>response</Name>
-					<Abstract type="html">Response received after exexuting payment request.</Abstract>
+					<Name>onFailure</Name>
+					<Abstract type="html">Failure completion block. It includes the error as parameter.</Abstract>
 				</Parameter>
 			</Parameters>
-			
-			<Anchor>//api/name/applePayDidAuthorizePaymentForPaymentData:withResponse:</Anchor>
-            <NodeRef refid="18"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/CMPApplePayDelegate/applePayDidFailToAuthorizePaymentForPaymentData:withError:withResponse:</TokenIdentifier>
-			<Abstract type="html">Called after Apple Pay payment failed to be authorized.</Abstract>
-			<DeclaredIn>CMPApplePayDelegate.h</DeclaredIn>
-			
-			<Declaration>- (void)applePayDidFailToAuthorizePaymentForPaymentData:(id&lt;CMPPaymentDataProtocol&gt;)paymentData withError:(NSError *)error withResponse:(CMPPaymentRespose *)response</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>paymentData</Name>
-					<Abstract type="html">A paymentData object conforming to CMPPaymentDataProtocol.</Abstract>
-				</Parameter><Parameter>
-					<Name>error</Name>
-					<Abstract type="html">Returns the error if the authorization was not successful.</Abstract>
-				</Parameter><Parameter>
-					<Name>response</Name>
-					<Abstract type="html">Response received after exexuting payment request.</Abstract>
-				</Parameter>
-			</Parameters>
-			
-			<Anchor>//api/name/applePayDidFailToAuthorizePaymentForPaymentData:withError:withResponse:</Anchor>
-            <NodeRef refid="18"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/CMPApplePayDelegate/applePayPaymentDidSelectPaymentMethod:completion:</TokenIdentifier>
-			<Abstract type="html">Called when User has selected a new payment card. Use this delegate callback if you need to
-update the summary items in response to the card type changing (for example, applying credit card surcharges).</Abstract>
-			<DeclaredIn>CMPApplePayDelegate.h</DeclaredIn>
-			
-			<Declaration>- (void)applePayPaymentDidSelectPaymentMethod:(PKPaymentMethod *)paymentMethod completion:(void ( ^ ) ( NSArray&lt;PKPaymentSummaryItem*&gt; *summaryItems ))completion</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>paymentMethod</Name>
-					<Abstract type="html">A PKPaymentMethod object containing details of the selected payment method.</Abstract>
-				</Parameter><Parameter>
-					<Name>completion</Name>
-					<Abstract type="html">A block that is called to pass PKPaymentSummaryItem objects in order to update the summary items in response to the card type changing.</Abstract>
-				</Parameter>
-			</Parameters>
-			
-			<Anchor>//api/name/applePayPaymentDidSelectPaymentMethod:completion:</Anchor>
-            <NodeRef refid="18"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/CMPApplePayDelegate/applePayPaymentDidSelectShippingContact:completion:</TokenIdentifier>
-			<Abstract type="html">Called when User changes shipping data.</Abstract>
-			<DeclaredIn>CMPApplePayDelegate.h</DeclaredIn>
-			
-			<Declaration>- (void)applePayPaymentDidSelectShippingContact:(nonnull PKContact *)contact completion:(nonnull void ( ^ ) ( PKPaymentAuthorizationStatus authorizationStatus , NSArray&lt;PKPaymentSummaryItem*&gt; *summaryItems ))completion</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>contact</Name>
-					<Abstract type="html">A PKContact object containing details of the selected shipping data.</Abstract>
-				</Parameter><Parameter>
-					<Name>completion</Name>
-					<Abstract type="html">A block that is called to pass a PKPaymentAuthorizationStatus object and PKPaymentSummaryItem objects in order to update the summary items in response to the shipping data changing.</Abstract>
-				</Parameter>
-			</Parameters>
-			
-			<Anchor>//api/name/applePayPaymentDidSelectShippingContact:completion:</Anchor>
+			<ReturnValue><Abstract type="html">Void</Abstract></ReturnValue>
+			<Anchor>//api/name/authentication:onFailure:</Anchor>
             <NodeRef refid="18"/>
 		</Token>
 		
