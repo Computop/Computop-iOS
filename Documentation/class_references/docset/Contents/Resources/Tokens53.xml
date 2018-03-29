@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/WXVideoObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/WXVideoObject</TokenIdentifier>
+			<Abstract type="html">多媒体消息中包含的视频数据对象
+
+微信终端和第三方程序之间传递消息中包含的视频数据对象。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/WXMediaMessage</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="53"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/WXVideoObject/object</TokenIdentifier>
+			<Abstract type="html">返回一个WXVideoObject对象</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>+ (WXVideoObject *)object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXVideoObject/setVideoUrl:</TokenIdentifier>
+			<Abstract type="html">视频网页的url地址</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *videoUrl</Declaration>
+			
+			
+			<Anchor>//api/name/videoUrl</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXVideoObject/videoUrl</TokenIdentifier>
+			<Abstract type="html">视频网页的url地址</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *videoUrl</Declaration>
+			
+			
+			<Anchor>//api/name/videoUrl</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WXVideoObject/videoUrl</TokenIdentifier>
+			<Abstract type="html">视频网页的url地址</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *videoUrl</Declaration>
+			
+			
+			<Anchor>//api/name/videoUrl</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXVideoObject/setVideoLowBandUrl:</TokenIdentifier>
+			<Abstract type="html">视频lowband网页的url地址</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *videoLowBandUrl</Declaration>
+			
+			
+			<Anchor>//api/name/videoLowBandUrl</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXVideoObject/videoLowBandUrl</TokenIdentifier>
+			<Abstract type="html">视频lowband网页的url地址</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *videoLowBandUrl</Declaration>
+			
+			
+			<Anchor>//api/name/videoLowBandUrl</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WXVideoObject/videoLowBandUrl</TokenIdentifier>
+			<Abstract type="html">视频lowband网页的url地址</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *videoLowBandUrl</Declaration>
+			
+			
+			<Anchor>//api/name/videoLowBandUrl</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

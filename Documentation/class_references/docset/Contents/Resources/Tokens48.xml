@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/WXImageObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/WXImageObject</TokenIdentifier>
+			<Abstract type="html">多媒体消息中包含的图片数据对象
+
+微信终端和第三方程序之间传递消息中包含的图片数据对象。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/WXMediaMessage</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/WXImageObject/object</TokenIdentifier>
+			<Abstract type="html">返回一个WXImageObject对象</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>+ (WXImageObject *)object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXImageObject/setImageData:</TokenIdentifier>
+			<Abstract type="html">图片真实数据内容</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSData *imageData</Declaration>
+			
+			
+			<Anchor>//api/name/imageData</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXImageObject/imageData</TokenIdentifier>
+			<Abstract type="html">图片真实数据内容</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSData *imageData</Declaration>
+			
+			
+			<Anchor>//api/name/imageData</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WXImageObject/imageData</TokenIdentifier>
+			<Abstract type="html">图片真实数据内容</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSData *imageData</Declaration>
+			
+			
+			<Anchor>//api/name/imageData</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

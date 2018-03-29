@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OpenRankListResp.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OpenRankListResp</TokenIdentifier>
+			<Abstract type="html">微信终端向第三方程序返回的OpenRankListReq处理结果。
+
+第三方程序向微信终端发送OpenRankListReq后，微信发送回来的处理结果，该结果用OpenRankListResp表示。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/WXCardItem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/WXCardItem</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="44"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXCardItem/setCardId:</TokenIdentifier>
+			<Abstract type="html">卡id
+@attention 长度不能超过1024字节</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *cardId</Declaration>
+			
+			
+			<Anchor>//api/name/cardId</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXCardItem/cardId</TokenIdentifier>
+			<Abstract type="html">卡id
+@attention 长度不能超过1024字节</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *cardId</Declaration>
+			
+			
+			<Anchor>//api/name/cardId</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WXCardItem/cardId</TokenIdentifier>
+			<Abstract type="html">卡id
+@attention 长度不能超过1024字节</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *cardId</Declaration>
+			
+			
+			<Anchor>//api/name/cardId</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXCardItem/setExtMsg:</TokenIdentifier>
+			<Abstract type="html">ext信息
+@attention 长度不能超过2024字节</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *extMsg</Declaration>
+			
+			
+			<Anchor>//api/name/extMsg</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXCardItem/extMsg</TokenIdentifier>
+			<Abstract type="html">ext信息
+@attention 长度不能超过2024字节</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *extMsg</Declaration>
+			
+			
+			<Anchor>//api/name/extMsg</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WXCardItem/extMsg</TokenIdentifier>
+			<Abstract type="html">ext信息
+@attention 长度不能超过2024字节</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *extMsg</Declaration>
+			
+			
+			<Anchor>//api/name/extMsg</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXCardItem/setCardState:</TokenIdentifier>
+			<Abstract type="html">@attention 卡的状态,req不需要填。resp:0为未添加，1为已添加。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UInt32 cardState</Declaration>
+			
+			
+			<Anchor>//api/name/cardState</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXCardItem/cardState</TokenIdentifier>
+			<Abstract type="html">@attention 卡的状态,req不需要填。resp:0为未添加，1为已添加。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UInt32 cardState</Declaration>
+			
+			
+			<Anchor>//api/name/cardState</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WXCardItem/cardState</TokenIdentifier>
+			<Abstract type="html">@attention 卡的状态,req不需要填。resp:0为未添加，1为已添加。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UInt32 cardState</Declaration>
+			
+			
+			<Anchor>//api/name/cardState</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXCardItem/setEncryptCode:</TokenIdentifier>
+			<Abstract type="html">@attention req不需要填，chooseCard返回的。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *encryptCode</Declaration>
+			
+			
+			<Anchor>//api/name/encryptCode</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXCardItem/encryptCode</TokenIdentifier>
+			<Abstract type="html">@attention req不需要填，chooseCard返回的。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *encryptCode</Declaration>
+			
+			
+			<Anchor>//api/name/encryptCode</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WXCardItem/encryptCode</TokenIdentifier>
+			<Abstract type="html">@attention req不需要填，chooseCard返回的。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *encryptCode</Declaration>
+			
+			
+			<Anchor>//api/name/encryptCode</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXCardItem/setAppID:</TokenIdentifier>
+			<Abstract type="html">@attention req不需要填，chooseCard返回的。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *appID</Declaration>
+			
+			
+			<Anchor>//api/name/appID</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXCardItem/appID</TokenIdentifier>
+			<Abstract type="html">@attention req不需要填，chooseCard返回的。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *appID</Declaration>
+			
+			
+			<Anchor>//api/name/appID</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WXCardItem/appID</TokenIdentifier>
+			<Abstract type="html">@attention req不需要填，chooseCard返回的。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *appID</Declaration>
+			
+			
+			<Anchor>//api/name/appID</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

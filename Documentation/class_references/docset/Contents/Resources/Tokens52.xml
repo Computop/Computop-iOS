@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/WXTextObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/WXTextObject</TokenIdentifier>
+			<Abstract type="html">多媒体消息中包含的文本数据对象
+
+微信终端和第三方程序之间传递消息中包含的文本数据对象。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/WXMediaMessage</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="52"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/WXTextObject/object</TokenIdentifier>
+			<Abstract type="html">返回一个WXTextObject对象</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>+ (WXTextObject *)object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXTextObject/setContentText:</TokenIdentifier>
+			<Abstract type="html">地理位置信息</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *contentText</Declaration>
+			
+			
+			<Anchor>//api/name/contentText</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXTextObject/contentText</TokenIdentifier>
+			<Abstract type="html">地理位置信息</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *contentText</Declaration>
+			
+			
+			<Anchor>//api/name/contentText</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WXTextObject/contentText</TokenIdentifier>
+			<Abstract type="html">地理位置信息</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *contentText</Declaration>
+			
+			
+			<Anchor>//api/name/contentText</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

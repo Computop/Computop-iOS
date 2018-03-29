@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/enAppSupportContentFlag.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/enAppSupportContentFlag</TokenIdentifier>
+			<Abstract type="html">应用支持接收微信的文件类型</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="66"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MMAPP_SUPPORT_NOCONTENT</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>MMAPP_SUPPORT_NOCONTENT</Declaration>
+            
+            <DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MMAPP_SUPPORT_TEXT</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>MMAPP_SUPPORT_TEXT</Declaration>
+            
+            <DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MMAPP_SUPPORT_PICTURE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>MMAPP_SUPPORT_PICTURE</Declaration>
+            
+            <DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MMAPP_SUPPORT_LOCATION</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>MMAPP_SUPPORT_LOCATION</Declaration>
+            
+            <DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MMAPP_SUPPORT_VIDEO</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>MMAPP_SUPPORT_VIDEO</Declaration>
+            
+            <DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MMAPP_SUPPORT_AUDIO</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>MMAPP_SUPPORT_AUDIO</Declaration>
+            
+            <DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MMAPP_SUPPORT_WEBPAGE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>MMAPP_SUPPORT_WEBPAGE</Declaration>
+            
+            <DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MMAPP_SUPPORT_DOC</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>MMAPP_SUPPORT_DOC</Declaration>
+            
+            <DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MMAPP_SUPPORT_DOCX</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>MMAPP_SUPPORT_DOCX</Declaration>
+            
+            <DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MMAPP_SUPPORT_PPT</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>MMAPP_SUPPORT_PPT</Declaration>
+            
+            <DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MMAPP_SUPPORT_PPTX</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>MMAPP_SUPPORT_PPTX</Declaration>
+            
+            <DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MMAPP_SUPPORT_XLS</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>MMAPP_SUPPORT_XLS</Declaration>
+            
+            <DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MMAPP_SUPPORT_XLSX</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>MMAPP_SUPPORT_XLSX</Declaration>
+            
+            <DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/MMAPP_SUPPORT_PDF</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>MMAPP_SUPPORT_PDF</Declaration>
+            
+            <DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

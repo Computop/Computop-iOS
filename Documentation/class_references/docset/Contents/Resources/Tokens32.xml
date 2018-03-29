@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OpenWebviewReq.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OpenWebviewReq</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OpenWebviewReq/setUrl:</TokenIdentifier>
+			<Abstract type="html">需要打开的网页对应的Url
+@attention 长度不能超过1024</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OpenWebviewReq/url</TokenIdentifier>
+			<Abstract type="html">需要打开的网页对应的Url
+@attention 长度不能超过1024</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OpenWebviewReq/url</TokenIdentifier>
+			<Abstract type="html">需要打开的网页对应的Url
+@attention 长度不能超过1024</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

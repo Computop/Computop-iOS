@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/HBResp.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/HBResp</TokenIdentifier>
+			<Abstract type="html">微信终端返回给第三方的关于拆企业红包结果的结构体
+
+微信终端返回给第三方的关于拆企业红包结果的结构体</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

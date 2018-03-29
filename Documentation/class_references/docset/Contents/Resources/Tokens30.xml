@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OpenTempSessionReq.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OpenTempSessionReq</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OpenTempSessionReq/setUsername:</TokenIdentifier>
+			<Abstract type="html">需要打开的用户名
+@attention 长度不能超过512字节</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *username</Declaration>
+			
+			
+			<Anchor>//api/name/username</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OpenTempSessionReq/username</TokenIdentifier>
+			<Abstract type="html">需要打开的用户名
+@attention 长度不能超过512字节</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *username</Declaration>
+			
+			
+			<Anchor>//api/name/username</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OpenTempSessionReq/username</TokenIdentifier>
+			<Abstract type="html">需要打开的用户名
+@attention 长度不能超过512字节</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *username</Declaration>
+			
+			
+			<Anchor>//api/name/username</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OpenTempSessionReq/setSessionFrom:</TokenIdentifier>
+			<Abstract type="html">开发者自定义参数，拉起临时会话后会发给开发者后台，可以用于识别场景
+@attention 长度不能超过32位</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *sessionFrom</Declaration>
+			
+			
+			<Anchor>//api/name/sessionFrom</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OpenTempSessionReq/sessionFrom</TokenIdentifier>
+			<Abstract type="html">开发者自定义参数，拉起临时会话后会发给开发者后台，可以用于识别场景
+@attention 长度不能超过32位</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *sessionFrom</Declaration>
+			
+			
+			<Anchor>//api/name/sessionFrom</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OpenTempSessionReq/sessionFrom</TokenIdentifier>
+			<Abstract type="html">开发者自定义参数，拉起临时会话后会发给开发者后台，可以用于识别场景
+@attention 长度不能超过32位</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *sessionFrom</Declaration>
+			
+			
+			<Anchor>//api/name/sessionFrom</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

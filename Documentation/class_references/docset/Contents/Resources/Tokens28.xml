@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LaunchFromWXReq.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LaunchFromWXReq</TokenIdentifier>
+			<Abstract type="html">微信终端打开第三方程序携带的消息结构体
+
+微信向第三方发送的结构体，第三方不需要返回</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

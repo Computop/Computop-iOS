@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSDictionary+DictionaryWithObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSDictionary(DictionaryWithObject)</TokenIdentifier>
+			<Abstract type="html">&apos;NSDictionary&apos;</Abstract>
+			<DeclaredIn>NSDictionary+DictionaryWithObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="56"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDictionary/dictionaryWithPropertiesOfObject:</TokenIdentifier>
+			<Abstract type="html">Transforms an object&apos;s properties into a NSDictionary.</Abstract>
+			<DeclaredIn>NSDictionary+DictionaryWithObject.h</DeclaredIn>
+			
+			<Declaration>+ (NSDictionary *)dictionaryWithPropertiesOfObject:(id)obj</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>obj</Name>
+					<Abstract type="html">Object of any type to transform into NSDictionary.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSDictionary Dictionary representing object;s parameters.</Abstract></ReturnValue>
+			<Anchor>//api/name/dictionaryWithPropertiesOfObject:</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
