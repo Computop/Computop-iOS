@@ -59,7 +59,7 @@
  
  @param key The name of payment data parameter.
  @param value  The value for the payment data parameter.
-  
+ 
  */
 - (void)setParamWithKey:(NSString *)key withValue:(NSString *)value;
 

@@ -36,6 +36,37 @@
 + (void) setAuthURL: (NSString *)newAuthURL;
 
 /**
+ Specifies Official Account ID assigned by WeChat
+ */
++ (NSString *)appID;
+
+/**
+ Specifies vendor ID assigned by WeChat Payment
+ */
++ (NSString *)WeChatmchID;
+
+/**
+ Specifies payment assigned sub-business number
+ */
++ (NSString *)WeChatsubMchID;
+
+/**
+ Empty description
+ */
++ (NSString *)WeChatkey;
+
+// TODO: add description
++ (void)setAppID:(NSString *)newAppID
+           WeChatmchID:(NSString *)newMchID
+        WeChatsubMchID:(NSString *)newSubMchID
+             WeChatkey:(NSString *)newKey;
+
++ (void)registerApp: (NSString *)app;
+
++ (BOOL)handleOpenURL:(NSURL *) url;
+
+
+/**
  HMAC key
  */
 + (NSString *)hmacKey;

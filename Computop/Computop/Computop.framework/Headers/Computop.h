@@ -25,7 +25,7 @@ FOUNDATION_EXPORT const unsigned char ComputopVersionString[];
 #import <Computop/CMPPaymentDataProtocol.h>
 #import <Computop/CMPPaymentMethod.h>
 #import <Computop/CMPPaymentMethodProtocol.h>
-#import "Computop/CMPPaymentParam.h"
+#import <Computop/CMPWeChat.h>
 
 
 /**
