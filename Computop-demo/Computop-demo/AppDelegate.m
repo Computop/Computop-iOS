@@ -36,8 +36,7 @@
 {
     self = [super init];
     if (!self) return nil;
-    
-    // set up other stuff here
+
     
     return self;
 }
