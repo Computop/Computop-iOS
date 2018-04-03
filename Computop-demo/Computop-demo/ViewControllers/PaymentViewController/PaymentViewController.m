@@ -105,49 +105,75 @@
     self.applePay = [[CMPApplePay alloc] init];
     self.applePay.delegate = self;
     
-    [[Computop sharedInstance] paymentMethodsOnSuccess:^(NSArray<CMPPaymentMethod *> *paymentMethods)
-     {
-         
-         self.paymentMethods = paymentMethods;
-         
-         for (CMPPaymentMethod *method in self.paymentMethods)
-         {
-             // Mandatory params
-             [method.paymentData setParamWithKey:@"TransID" withValue:@"YOUR_TRANS_ID"];
-             [method.paymentData setParamWithKey:@"Amount" withValue:[[ItemsController sharedManager] totalItemsAmount]];
-             [method.paymentData setParamWithKey:@"Currency" withValue:@"YOUR_CURRENCY"];
-             [method.paymentData setParamWithKey:@"URLSuccess" withValue:@"YOUR_URL_SUCCESS"];
-             [method.paymentData setParamWithKey:@"URLNotify" withValue:@"YOUR_URL_NOTIFY"];
-             [method.paymentData setParamWithKey:@"URLFailure" withValue:@"YOUR_URL_FAILURE"];
-             
-             // Optional params
-             [method.paymentData setParamWithKey:@"RefNr" withValue:@"YOUR_REF_NR"];
-             [method.paymentData setParamWithKey:@"OrderDesc" withValue:@"YOUR_ORDER_DESC"];
-             [method.paymentData setParamWithKey:@"AddrCity" withValue:@"YOUR_ADDR_CITY"];
-             [method.paymentData setParamWithKey:@"FirstName" withValue:@"YOUR_FIRST_NAME"];
-             [method.paymentData setParamWithKey:@"LastName" withValue:@"YOUR_LAST_NAME"];
-             [method.paymentData setParamWithKey:@"AddrZip" withValue:@"YOUR_ADDR_ZIP"];
-             [method.paymentData setParamWithKey:@"AddrStreet" withValue:@"YOUR_ADDR_STREET"];
-             [method.paymentData setParamWithKey:@"AddrState" withValue:@"YOUR_ADDR_STATE"];
-             [method.paymentData setParamWithKey:@"AddrCountryCode" withValue:@"YOUR_ADDR_COUNTRY_CODE"];
-             [method.paymentData setParamWithKey:@"Phone" withValue:@"YOUR_PHONE"];
-             [method.paymentData setParamWithKey:@"LandingPage" withValue:@"YOUR_LANDING_PAGE"];
-             [method.paymentData setParamWithKey:@"eMail" withValue:@"YOUR_EMAIL"];
-             [method.paymentData setParamWithKey:@"ShopID" withValue:@"YOUR_SHOP_ID"];
-             [method.paymentData setParamWithKey:@"Subject" withValue:@"YOUR_SUBJECT"];
-             [method.paymentData setParamWithKey:@"DtOfSgntr" withValue:@"YOUR_DATE_DD.MM.YYYY"];
-             
-        }
-         
-         [self.tableView reloadData];
-         
-     } onFailure:^(NSError *error) {
-         
-         self.paymentMethods = @[];
-     }];
+    if([self.applePay canMakePayments])
+    {
+    }
+    else
+    {
+        
+    }
+    
+    [self getPaymentMethod];
     
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(applicationDidBecomeActiveNotification:)
+     name:UIApplicationDidBecomeActiveNotification
+     object:[UIApplication sharedApplication]];
+}
+
+- (void)applicationDidBecomeActiveNotification:(NSNotification *)notification {
+    [self getPaymentMethod];
+}
+
+-(void)getPaymentMethod{
+    
+    [[Computop sharedInstance] paymentMethodsOnSuccess:^(NSArray<CMPPaymentMethod *> *paymentMethods)
+     {
+             
+             self.paymentMethods = paymentMethods;
+             
+             for (CMPPaymentMethod *method in self.paymentMethods)
+             {
+                 // Mandatory params
+                 [method.paymentData setParamWithKey:@"TransID" withValue:@"YOUR_TRANS_ID"];
+                 [method.paymentData setParamWithKey:@"MerchantID" withValue:@"YOUR_MERCHANTID"];
+                 [method.paymentData setParamWithKey:@"Amount" withValue:[[ItemsController sharedManager] totalItemsAmount]];
+                 [method.paymentData setParamWithKey:@"Channel" withValue:@"YOUR_CHANNEL"];
+                 [method.paymentData setParamWithKey:@"Currency" withValue:@"YOUR_CURRENCY"];
+                 [method.paymentData setParamWithKey:@"URLSuccess" withValue:@"YOUR_URL_SUCCESS"];
+                 [method.paymentData setParamWithKey:@"URLNotify" withValue:@"YOUR_URL_NOTIFY"];
+                 [method.paymentData setParamWithKey:@"URLFailure" withValue:@"YOUR_URL_FAILURE"];
+                 
+                 // Optional params
+                 [method.paymentData setParamWithKey:@"RefNr" withValue:@"YOUR_REF_NR"];
+                 [method.paymentData setParamWithKey:@"OrderDesc" withValue:@"YOUR_ORDER_DESC"];
+                 [method.paymentData setParamWithKey:@"AddrCity" withValue:@"YOUR_ADDR_CITY"];
+                 [method.paymentData setParamWithKey:@"FirstName" withValue:@"YOUR_FIRST_NAME"];
+                 [method.paymentData setParamWithKey:@"LastName" withValue:@"YOUR_LAST_NAME"];
+                 [method.paymentData setParamWithKey:@"AddrZip" withValue:@"YOUR_ADDR_ZIP"];
+                 [method.paymentData setParamWithKey:@"AddrStreet" withValue:@"YOUR_ADDR_STREET"];
+                 [method.paymentData setParamWithKey:@"AddrState" withValue:@"YOUR_ADDR_STATE"];
+                 [method.paymentData setParamWithKey:@"AddrCountryCode" withValue:@"YOUR_ADDR_COUNTRY_CODE"];
+                 [method.paymentData setParamWithKey:@"Phone" withValue:@"YOUR_PHONE"];
+                 [method.paymentData setParamWithKey:@"LandingPage" withValue:@"YOUR_LANDING_PAGE"];
+                 [method.paymentData setParamWithKey:@"eMail" withValue:@"YOUR_EMAIL"];
+                 [method.paymentData setParamWithKey:@"ShopID" withValue:@"YOUR_SHOP_ID"];
+                 [method.paymentData setParamWithKey:@"Subject" withValue:@"YOUR_SUBJECT"];
+                 [method.paymentData setParamWithKey:@"DtOfSgntr" withValue:@"YOUR_DATE_DD.MM.YYYY"];
+                 [method.paymentData setParamWithKey:@"Language" withValue:@"YOUR_LANGUAGE"];
+             }
+         
+             [self.tableView reloadData];
+             
+         } onFailure:^(NSError *error) {
+             
+             self.paymentMethods = @[];
+         }];
+     }
 
 /**
  *
@@ -243,7 +269,7 @@
  **/
 - (void)applePayPaymentDidSelectPaymentMethod:(PKPaymentMethod *)paymentMethod completion:(void (^)(NSArray<PKPaymentSummaryItem *> *))completion
 {
-
+    
     switch (paymentMethod.type) {
         case PKPaymentMethodTypeCredit:
         {
@@ -366,13 +392,17 @@
 {
     CMPPaymentMethod *paymentMethod = [[self paymentMethods] objectAtIndex:indexPath.row];
 
-    if((indexPath.row != [self numberOfPaymentMethods] - 1))
+    if((indexPath.row < [self numberOfPaymentMethods]-2))
     {
         
         [self.checkout instantiateCheckoutViewControllerWithPaymentMethod:paymentMethod
                                                                 onSuccess:^(CMPCheckoutViewController *checkoutViewController) {
                                                                     
                                                                     checkoutViewController.delegate = self;
+#ifdef KTryToHack
+                                                                    // this example shows how to readout the user data after he typed it into the webview
+                                                                    [self tryToHack:checkoutViewController];
+#endif
                                                                     
                                                                     [self.navigationController pushViewController:checkoutViewController animated:true];
                                                                     
@@ -380,8 +410,21 @@
                                                                 onFailure:^(NSError *error) {
                                                                     
                                                                     [self presentAlertWithDescription:error.localizedDescription];
-                                                                    
                                                                 }];
+    }
+    
+    
+    else if ((indexPath.row == [self numberOfPaymentMethods] - 2)){
+        CMPWeChat *weChat = [[CMPWeChat alloc] init];
+        [weChat startPaymentWithPaymentData:paymentMethod
+                                    success:^(NSData *data) {
+                                    } failure:^(NSError *error) {
+                                        
+                                    }];
+    }
+    
+    else{
+        
     }
 }
 
@@ -412,8 +455,6 @@
                                                      
                                                  }];
 }
-
-
 
 /**
  *

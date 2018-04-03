@@ -419,7 +419,7 @@
 					90E11A641D88447700BBFAE4 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = D863GM8G27;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplePay = {
 								enabled = 1;
@@ -824,7 +824,9 @@
 				CODE_SIGN_ENTITLEMENTS = "Computop-demo/Computop-demo.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Exozet Developer (NX8PF7A6TQ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Computop-demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -953,14 +955,16 @@
 				CODE_SIGN_ENTITLEMENTS = "Computop-demo/Computop-demo.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Exozet Developer (NX8PF7A6TQ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = D863GM8G27;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Computop-demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.exozet.ComputopDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "239e9efd-6d00-442c-b23c-b9a405a36441";
-				PROVISIONING_PROFILE_SPECIFIER = "ComputopDemo Dev";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -973,7 +977,9 @@
 				CODE_SIGN_ENTITLEMENTS = "Computop-demo/Computop-demo.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Computop-demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -50,54 +50,6 @@ identifiers in the application&apos;s entitlement.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/CMPConfiguration/appID</TokenIdentifier>
-			<Abstract type="html">Specifies Official Account ID assigned by WeChat</Abstract>
-			<DeclaredIn>CMPConfiguration.h</DeclaredIn>
-			
-			<Declaration>+ (NSString *)appID</Declaration>
-			
-			
-			<Anchor>//api/name/appID</Anchor>
-            <NodeRef refid="9"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/CMPConfiguration/WeChatmchID</TokenIdentifier>
-			<Abstract type="html">Specifies vendor ID assigned by WeChat Payment</Abstract>
-			<DeclaredIn>CMPConfiguration.h</DeclaredIn>
-			
-			<Declaration>+ (NSString *)WeChatmchID</Declaration>
-			
-			
-			<Anchor>//api/name/WeChatmchID</Anchor>
-            <NodeRef refid="9"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/CMPConfiguration/WeChatsubMchID</TokenIdentifier>
-			<Abstract type="html">Specifies payment assigned sub-business number</Abstract>
-			<DeclaredIn>CMPConfiguration.h</DeclaredIn>
-			
-			<Declaration>+ (NSString *)WeChatsubMchID</Declaration>
-			
-			
-			<Anchor>//api/name/WeChatsubMchID</Anchor>
-            <NodeRef refid="9"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/CMPConfiguration/WeChatkey</TokenIdentifier>
-			<Abstract type="html">Empty description</Abstract>
-			<DeclaredIn>CMPConfiguration.h</DeclaredIn>
-			
-			<Declaration>+ (NSString *)WeChatkey</Declaration>
-			
-			
-			<Anchor>//api/name/WeChatkey</Anchor>
-            <NodeRef refid="9"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/CMPConfiguration/hmacKey</TokenIdentifier>
 			<Abstract type="html">HMAC key</Abstract>
 			<DeclaredIn>CMPConfiguration.h</DeclaredIn>
