@@ -46,9 +46,27 @@
     return  [CMPConfiguration handleOpenURL: url];
 }
 
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
-{
-    return  [CMPConfiguration handleOpenURL: url];
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    [CMPConfiguration handleOpenURL: url];
+    if ([url.scheme localizedCaseInsensitiveCompare:@"YOUR_URL_SCHEME"] == NSOrderedSame) {
+        if([url.host localizedCaseInsensitiveCompare:@"return"] == NSOrderedSame) {
+            NSNotificationCenter* nc = [NSNotificationCenter defaultCenter];
+            //completePayPalCheckout and cancelPayPalCheckout keys should be used by the developer since thy are called in Computop framework
+            [nc postNotificationName:@"completePayPalCheckout" object: self userInfo: nil];
+        }
+        else {
+            NSNotificationCenter* nc = [NSNotificationCenter defaultCenter];
+            [nc postNotificationName:@"cancelPayPalCheckout" object: self userInfo: nil];
+        }
+        return YES;
+    }
+    
+    return NO;
+    
+    
 }
 
 

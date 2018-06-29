@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PPRiskComponent.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PPRiskComponent</TokenIdentifier>
+			<Abstract type="html">    PPRiskComponent.h
+    PayPal
+    Created by Matt Giger on 5/24/12.
+    Copyright (c) 2015 PayPal, Inc. All rights reserved.</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+            
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PPRiskComponent/setLinkerID:</TokenIdentifier>
+			<Abstract type="html">the linkerID</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *linkerID</Declaration>
+			
+			
+			<Anchor>//api/name/linkerID</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PPRiskComponent/linkerID</TokenIdentifier>
+			<Abstract type="html">the linkerID</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *linkerID</Declaration>
+			
+			
+			<Anchor>//api/name/linkerID</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PPRiskComponent/linkerID</TokenIdentifier>
+			<Abstract type="html">the linkerID</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *linkerID</Declaration>
+			
+			
+			<Anchor>//api/name/linkerID</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PPRiskComponent/setCompletionBlock:</TokenIdentifier>
+			<Abstract type="html">the network infra</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) void ( ^ ) ( NSMutableURLRequest *request , void ( ^ ) ( NSHTTPURLResponse *response , NSData *) ) completionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/completionBlock</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PPRiskComponent/completionBlock</TokenIdentifier>
+			<Abstract type="html">the network infra</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) void ( ^ ) ( NSMutableURLRequest *request , void ( ^ ) ( NSHTTPURLResponse *response , NSData *) ) completionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/completionBlock</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PPRiskComponent/completionBlock</TokenIdentifier>
+			<Abstract type="html">the network infra</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) void ( ^ ) ( NSMutableURLRequest *request , void ( ^ ) ( NSHTTPURLResponse *response , NSData *) ) completionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/completionBlock</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PPRiskComponent/initWithAppGuid:withAPNSToken:withConfigurationURL:withSourceApp:withSourceAppVersion:withStartAsyncServiceFlag:withPairingId:withAdId:</TokenIdentifier>
+			<Abstract type="html">This initilization method is deprecated.
+Please use the new initilization method.</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>+ (PPRiskComponent *)initWithAppGuid:(NSString *)appGuid withAPNSToken:(NSString *)aPNSToken withConfigurationURL:(NSString *)confURL withSourceApp:(PPRiskSourceApp)sourceApp withSourceAppVersion:(NSString *)sourceAppVersion withStartAsyncServiceFlag:(BOOL)isStartAsyncService withPairingId:(NSString *)pairingId withAdId:(NSString *)adId</Declaration>
+			
+			
+			<Anchor>//api/name/initWithAppGuid:withAPNSToken:withConfigurationURL:withSourceApp:withSourceAppVersion:withStartAsyncServiceFlag:withPairingId:withAdId:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PPRiskComponent/initWithAppGuid:withAPNSToken:withConfigurationURL:withSourceApp:withSourceAppVersion:withStartAsyncServiceFlag:withPairingId:withAdId:withNetworkAdapterBlock:</TokenIdentifier>
+			<Abstract type="html">This initilization method is deprecated.
+Please use the new initilization method.</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>+ (PPRiskComponent *)initWithAppGuid:(NSString *)appGuid withAPNSToken:(NSString *)aPNSToken withConfigurationURL:(NSString *)confURL withSourceApp:(PPRiskSourceApp)sourceApp withSourceAppVersion:(NSString *)sourceAppVersion withStartAsyncServiceFlag:(BOOL)isStartAsyncService withPairingId:(NSString *)pairingId withAdId:(NSString *)adId withNetworkAdapterBlock:(void ( ^ ) ( NSMutableURLRequest *request , void ( ^ completionBlock ) ( NSHTTPURLResponse *response , NSData *data ) ))networkBlock</Declaration>
+			
+			
+			<Anchor>//api/name/initWithAppGuid:withAPNSToken:withConfigurationURL:withSourceApp:withSourceAppVersion:withStartAsyncServiceFlag:withPairingId:withAdId:withNetworkAdapterBlock:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PPRiskComponent/initWithAppGuid:withSourceApp:withSourceAppVersion:withAdditionalParams:</TokenIdentifier>
+			<Abstract type="html">Initialize the PPRiskComponent Library
+appGuid: source app&apos;s app guid
+sourceApp: source app enum, please refer to top of file
+sourceAppVersion: version of source app
+addtionalParams: addtional parameters in an NSDictionary</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>+ (PPRiskComponent *)initWithAppGuid:(NSString *)appGuid withSourceApp:(PPRiskSourceApp)sourceApp withSourceAppVersion:(NSString *)sourceAppVersion withAdditionalParams:(NSDictionary *)additionalParams</Declaration>
+			
+			
+			<Anchor>//api/name/initWithAppGuid:withSourceApp:withSourceAppVersion:withAdditionalParams:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PPRiskComponent/initWithSourceApp:withSourceAppVersion:withAdditionalParams:</TokenIdentifier>
+			<Abstract type="html">Initialize the PPRiskComponent Library
+sourceApp: source app enum, please refer to top of file
+sourceAppVersion: version of source app
+addtionalParams: addtional parameters in an NSDictionary</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>+ (PPRiskComponent *)initWithSourceApp:(PPRiskSourceApp)sourceApp withSourceAppVersion:(NSString *)sourceAppVersion withAdditionalParams:(NSDictionary *)additionalParams</Declaration>
+			
+			
+			<Anchor>//api/name/initWithSourceApp:withSourceAppVersion:withAdditionalParams:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PPRiskComponent/sharedComponent</TokenIdentifier>
+			<Abstract type="html">Returns the instance of the PPRiskComponent Library</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>+ (PPRiskComponent *)sharedComponent</Declaration>
+			
+			
+			<Anchor>//api/name/sharedComponent</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PPRiskComponent/dysonPayload</TokenIdentifier>
+			<Abstract type="html">Returns the PPRiskComponent payload as an NSDictionary</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dysonPayload</Declaration>
+			
+			
+			<Anchor>//api/name/dysonPayload</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PPRiskComponent/riskPayload</TokenIdentifier>
+			<Abstract type="html">Returns the PPRiskComponent payload as an NSString</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)riskPayload</Declaration>
+			
+			
+			<Anchor>//api/name/riskPayload</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PPRiskComponent/sendImmediateUpdate</TokenIdentifier>
+			<Abstract type="html">Sends an asynchornous PPRiskComponent payload</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>- (void)sendImmediateUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/sendImmediateUpdate</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PPRiskComponent/startAsyncService</TokenIdentifier>
+			<Abstract type="html">startAsyncService
+sends a first update to the server immediately and then sets up a repeating timer to periodically
+update going forward.  Frequency is defined in configuration file.</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>- (void)startAsyncService</Declaration>
+			
+			
+			<Anchor>//api/name/startAsyncService</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PPRiskComponent/stopAsyncService</TokenIdentifier>
+			<Abstract type="html">stops the async service</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>- (void)stopAsyncService</Declaration>
+			
+			
+			<Anchor>//api/name/stopAsyncService</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PPRiskComponent/setLocation:</TokenIdentifier>
+			<Abstract type="html">sets the location of PPRiskComponent</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>- (void)setLocation:(CLLocation *)location</Declaration>
+			
+			
+			<Anchor>//api/name/setLocation:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PPRiskComponent/getLocation</TokenIdentifier>
+			<Abstract type="html">returns the location of PPRiskComponent</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>- (CLLocation *)getLocation</Declaration>
+			
+			
+			<Anchor>//api/name/getLocation</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PPRiskComponent/getPairingId</TokenIdentifier>
+			<Abstract type="html">get risk pairing id.</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)getPairingId</Declaration>
+			
+			
+			<Anchor>//api/name/getPairingId</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PPRiskComponent/removePairingId</TokenIdentifier>
+			<Abstract type="html">remove risk pairing id.</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>- (void)removePairingId</Declaration>
+			
+			
+			<Anchor>//api/name/removePairingId</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PPRiskComponent/generatePairingId:</TokenIdentifier>
+			<Abstract type="html">generate a new risk pairing id. Also, an asynchronous PPRiskComponent payload will be sent.</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)generatePairingId:(NSString *)pairingId</Declaration>
+			
+			
+			<Anchor>//api/name/generatePairingId:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PPRiskComponent/generatePairingId:withAdditionalData:</TokenIdentifier>
+			<Abstract type="html">generate a new risk pairing id. Also, an asynchronous PPRiskComponent payload with additionalData will be sent.
+    old additionalData will get purged everytime.</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)generatePairingId:(NSString *)pairingId withAdditionalData:(NSDictionary *)additionalData</Declaration>
+			
+			
+			<Anchor>//api/name/generatePairingId:withAdditionalData:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PPRiskComponent/setAdditionalData:forKey:</TokenIdentifier>
+			<Abstract type="html">pass in additional data, any followed async/sync dyson payload will come with additional data.</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>- (void)setAdditionalData:(id)data forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setAdditionalData:forKey:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PPRiskComponent/uniqueID</TokenIdentifier>
+			<Abstract type="html">UUID of lenth 36</Abstract>
+			<DeclaredIn>PPRiskComponent.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)uniqueID</Declaration>
+			
+			
+			<Anchor>//api/name/uniqueID</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

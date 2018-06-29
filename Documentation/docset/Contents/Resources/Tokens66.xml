@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/RegExPattern.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/RegExPattern</TokenIdentifier>
+			<Abstract type="html">Is used to validate payment methon param values.</Abstract>
+			<DeclaredIn>CMPPaymentParam.h</DeclaredIn>
+            
+			
+			<NodeRef refid="66"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/alphanumericEx</TokenIdentifier>
+            <Abstract type="html">alpha numeric</Abstract>
+            <Declaration>alphanumericEx</Declaration>
+            
+            <DeclaredIn>CMPPaymentParam.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/numericEx</TokenIdentifier>
+            <Abstract type="html">numeric</Abstract>
+            <Declaration>numericEx</Declaration>
+            
+            <DeclaredIn>CMPPaymentParam.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/textEx</TokenIdentifier>
+            <Abstract type="html">string</Abstract>
+            <Declaration>textEx</Declaration>
+            
+            <DeclaredIn>CMPPaymentParam.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/non</TokenIdentifier>
+            <Abstract type="html">non</Abstract>
+            <Declaration>non</Declaration>
+            
+            <DeclaredIn>CMPPaymentParam.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

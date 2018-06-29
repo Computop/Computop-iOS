@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PayResp.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PayResp</TokenIdentifier>
+			<Abstract type="html">微信终端返回给第三方的关于支付结果的结构体
+
+微信终端返回给第三方的关于支付结果的结构体</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="36"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayResp/setReturnKey:</TokenIdentifier>
+			<Abstract type="html">财付通返回给商家的信息</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnKey</Declaration>
+			
+			
+			<Anchor>//api/name/returnKey</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayResp/returnKey</TokenIdentifier>
+			<Abstract type="html">财付通返回给商家的信息</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnKey</Declaration>
+			
+			
+			<Anchor>//api/name/returnKey</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PayResp/returnKey</TokenIdentifier>
+			<Abstract type="html">财付通返回给商家的信息</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *returnKey</Declaration>
+			
+			
+			<Anchor>//api/name/returnKey</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

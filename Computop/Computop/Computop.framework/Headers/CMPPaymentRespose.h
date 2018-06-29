@@ -21,8 +21,10 @@
 @property (nonatomic, strong) NSString *refnr;
 @property (nonatomic, strong) NSString *MAC;
 @property (nonatomic, strong) NSString *type;
-
-
+@property (nonatomic, strong) NSString *paypalurl;
+@property (nonatomic, strong) NSString *token;
+ @property (nonatomic, strong) NSString *useraction;
+    
 - (instancetype)initWithDictionary:(NSDictionary*)dictionary;
 
 @end

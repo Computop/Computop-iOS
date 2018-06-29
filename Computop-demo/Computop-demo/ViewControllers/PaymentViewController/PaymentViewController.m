@@ -392,7 +392,7 @@
 {
     CMPPaymentMethod *paymentMethod = [[self paymentMethods] objectAtIndex:indexPath.row];
 
-    if((indexPath.row < [self numberOfPaymentMethods]-2))
+    if((indexPath.row < [self numberOfPaymentMethods]-3))
     {
         
         [self.checkout instantiateCheckoutViewControllerWithPaymentMethod:paymentMethod
@@ -414,15 +414,23 @@
     }
     
     
+    else if ((indexPath.row == [self numberOfPaymentMethods] - 3)){
+        CMPayPal *payPal = [[CMPayPal alloc] init];
+        [payPal startPaypalPay:paymentMethod
+                       success:^(NSData *data) {
+                       } failure:^(NSError *error) {
+                       }];
+    }
+    
     else if ((indexPath.row == [self numberOfPaymentMethods] - 2)){
         CMPWeChat *weChat = [[CMPWeChat alloc] init];
         [weChat startPaymentWithPaymentData:paymentMethod
                                     success:^(NSData *data) {
+                                        //Handle the success
                                     } failure:^(NSError *error) {
-                                        
+                                        //Handle the error
                                     }];
     }
-    
     else{
         
     }

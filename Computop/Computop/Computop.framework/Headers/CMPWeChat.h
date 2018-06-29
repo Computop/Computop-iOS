@@ -2,7 +2,7 @@
 //  CMPWeChat.h
 //  Computop
 //
-//  Created by Thomas Segkoulis on 03/03/17.
+//  Created by Gerald Colllaku on 03/03/18.
 //  Copyright © 2017 Computop GmbH. All rights reserved.
 
 // hey Gerald

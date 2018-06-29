@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/WXEmoticonObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/WXEmoticonObject</TokenIdentifier>
+			<Abstract type="html">多媒体消息中包含的表情数据对象
+
+微信终端和第三方程序之间传递消息中包含的表情数据对象。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/WXMediaMessage</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="47"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/WXEmoticonObject/object</TokenIdentifier>
+			<Abstract type="html">返回一个WXEmoticonObject对象</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>+ (WXEmoticonObject *)object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXEmoticonObject/setEmoticonData:</TokenIdentifier>
+			<Abstract type="html">表情真实数据内容</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSData *emoticonData</Declaration>
+			
+			
+			<Anchor>//api/name/emoticonData</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WXEmoticonObject/emoticonData</TokenIdentifier>
+			<Abstract type="html">表情真实数据内容</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSData *emoticonData</Declaration>
+			
+			
+			<Anchor>//api/name/emoticonData</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WXEmoticonObject/emoticonData</TokenIdentifier>
+			<Abstract type="html">表情真实数据内容</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSData *emoticonData</Declaration>
+			
+			
+			<Anchor>//api/name/emoticonData</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
