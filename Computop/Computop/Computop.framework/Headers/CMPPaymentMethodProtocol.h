@@ -21,22 +21,22 @@
 /**
  Payment method id.
  */
-@property (nonatomic, strong) NSString *pmID;
+@property (nonatomic, strong, readonly) NSString *pmID;
 
 /**
  Payment method url.
  */
-@property (nonatomic, strong) NSString *url;
+@property (nonatomic, strong, readonly) NSString *url;
 
 /**
  Payment method image.
  */
-@property (nonatomic, strong) UIImage *image;
+@property (nonatomic, strong, readonly) UIImage *image;
 
 /**
  Payment method template string.
  */
-@property (nonatomic, strong) NSString *templateStr;
+@property (nonatomic, strong, readonly) NSString *templateStr;
 
 
 - (instancetype)initWithDictionary:(NSDictionary*)dictionary;
