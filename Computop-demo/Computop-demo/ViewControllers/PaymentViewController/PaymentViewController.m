@@ -144,9 +144,21 @@
                  [method.paymentData setParamWithKey:@"Amount" withValue:[[ItemsController sharedManager] totalItemsAmount]];
                  [method.paymentData setParamWithKey:@"Channel" withValue:@"YOUR_CHANNEL"];
                  [method.paymentData setParamWithKey:@"Currency" withValue:@"YOUR_CURRENCY"];
-                 [method.paymentData setParamWithKey:@"URLSuccess" withValue:@"YOUR_URL_SUCCESS"];
                  [method.paymentData setParamWithKey:@"URLNotify" withValue:@"YOUR_URL_NOTIFY"];
-                 [method.paymentData setParamWithKey:@"URLFailure" withValue:@"YOUR_URL_FAILURE"];
+                 
+                 if ([method.pmID isEqualToString:@"pm_cc"]) {
+                     [method.paymentData setParamWithKey: @"MsgVer" withValue: @"YOUR_MSGVER"];
+                 }
+                 
+                 // Url sucess, failure of paypal may be different from other payments
+                 if([method.pmID isEqualToString:@"pm_paypal"]) {
+                     [method.paymentData setParamWithKey:@"URLSuccess" withValue:@"YOUR_URL_SUCCESS_PAYPAL"];
+                     [method.paymentData setParamWithKey:@"URLFailure" withValue:@"YOUR_URL_FAILURE_PAYPAL"];
+                 }
+                 else {
+                     [method.paymentData setParamWithKey:@"URLSuccess" withValue:@"YOUR_URL_SUCCESS"];
+                     [method.paymentData setParamWithKey:@"URLFailure" withValue:@"YOUR_URL_FAILURE"];
+                 }
                  
                  // Optional params
                  [method.paymentData setParamWithKey:@"RefNr" withValue:@"YOUR_REF_NR"];

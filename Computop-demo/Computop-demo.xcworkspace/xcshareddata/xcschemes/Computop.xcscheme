@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AB6C633A376989B9ED1E853DC475530C"
-               BuildableName = "libComputop.a"
+               BlueprintIdentifier = "ED358D8617846FC5C2FD106EA456BBEC"
+               BuildableName = "Computop"
                BlueprintName = "Computop"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
@@ -26,18 +26,14 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,14 +43,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AB6C633A376989B9ED1E853DC475530C"
-            BuildableName = "libComputop.a"
+            BlueprintIdentifier = "ED358D8617846FC5C2FD106EA456BBEC"
+            BuildableName = "Computop"
             BlueprintName = "Computop"
             ReferencedContainer = "container:Pods/Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -65,8 +59,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AB6C633A376989B9ED1E853DC475530C"
-            BuildableName = "libComputop.a"
+            BlueprintIdentifier = "ED358D8617846FC5C2FD106EA456BBEC"
+            BuildableName = "Computop"
             BlueprintName = "Computop"
             ReferencedContainer = "container:Pods/Pods.xcodeproj">
          </BuildableReference>

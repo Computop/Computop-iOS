@@ -1,1 +1,0 @@
-../../../../../../Computop/Computop/Computop.framework/Headers/CMPPaymentMethod.h

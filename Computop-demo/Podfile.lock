@@ -1,16 +1,16 @@
 PODS:
-  - Computop (0.2.1)
+  - Computop (1.2.2)
 
 DEPENDENCIES:
   - Computop (from `../Computop`)
 
 EXTERNAL SOURCES:
   Computop:
-    :path: ../Computop
+    :path: "../Computop"
 
 SPEC CHECKSUMS:
-  Computop: 5b892b5f63eb42b4fee6465843fdc89c69c19d12
+  Computop: c0e5278acc0a72c01106df4e40ed48f9b34ac756
 
 PODFILE CHECKSUM: d87cb390f29a861f06d2b4d687bd32df96654eb1
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.8.4
