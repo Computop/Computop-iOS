@@ -1,9 +1,42 @@
 重要!
+SDK1.8.4
+1. 调整分享图片大小限制
+2. 新增openBusinessView接口
+
+SDK1.8.3
+1. SDK增加调起微信刷卡支付接口
+2. SDK增加小程序订阅消息接口
+3. 修复小程序订阅消息接口没有resp的问题
+
+SDK1.8.2
+1. SDK增加开发票授权 WXInvoiceAuthInsert
+2. SDK增加非税接口   WXNontaxPay
+3. SDK增加医保接口   WXPayInsurance
+4. 更换MTA库
+
+SDK1.8.1
+1. SDK打开小程序支持指定版本（体验，开发，正式版）
+2. SDK分享小程序支持指定版本（体验，开发，正式版）
+3. SDK支持输出log日志
+
+SDK1.8.0
+1. SDK支持打开小程序
+2. SDK分享小程序支持shareTicket
+
+SDK1.7.9
+1. SDK订阅一次性消息
+
+SDK1.7.8
+1 SDK分享小程序支持大图
+
+SDK1.7.7
+1 增加SDK分享小程序
+2 增加选择发票接口
 
 SDK1.7.6
 1. 提高稳定性
-2 修复mta崩溃
-3  新增接口支持开发者关闭mta数据统计上报
+1 修复mta崩溃
+2  新增接口支持开发者关闭mta数据统计上报
 
 SDK1.7.5
 1. 提高稳定性

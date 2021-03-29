@@ -1,6 +1,6 @@
 {
   "name": "Computop",
-  "version": "1.2.2",
+  "version": "1.2.4",
   "summary": "Computop SDK for iOS",
   "homepage": "https://github.com/computop/Computop-iOS.git",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/Computop/Computop-iOS.git",
-    "tag": "1.2.2"
+    "tag": "1.2.4"
   },
   "platforms": {
     "ios": "10.0"
