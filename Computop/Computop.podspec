@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name                  = 'Computop'
-  s.version               = '1.2.4'
+  s.version               = '1.2.5'
   s.summary               = 'Computop SDK for iOS'
   # s.description         = 'Computop SDK for iOS'
   s.homepage              = 'https://github.com/computop/Computop-iOS.git'

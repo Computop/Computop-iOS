@@ -27,6 +27,7 @@
     CMPConfiguration.WeChat->key = @"YOUR_WECHAT_KEY";
     CMPConfiguration.WeChat->mchID = @"YOUR_WECHAT_MERCHANTID";
     CMPConfiguration.WeChat->subMchID = @"YOUR_WECHAT_SUBMERCHANTID";
+    CMPConfiguration.WeChat->universalLink = @"YOUR_WECHAT_UNIVERSAL_LINK";
     
     return YES;
 }

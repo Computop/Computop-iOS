@@ -19,6 +19,7 @@ typedef struct {
     __unsafe_unretained NSString* key;
     __unsafe_unretained NSString* mchID;
     __unsafe_unretained NSString* subMchID;
+    __unsafe_unretained NSString* universalLink;
 } WeChatParamStructure;
 
 @interface CMPConfiguration : NSObject
